@@ -1,0 +1,31 @@
+<div class="modal-header">
+  <h3 class="modal-title">Define Custom Amino Acid Modification</h3>
+</div>
+
+<div class="modal-body">
+  <div class="row">
+		<div class="col-md-6">
+		  <label>Modification Name</label>
+		  <input type="text" placeholder="Amino Acid Mod 1" class="form-control" ng-model="potentialUserMod.name">
+		</div>
+		<div class="col-md-4">
+		  <label>Target Site</label>
+		  <input type="text" class="form-control" placeholder="K...N-term...ect" ng-model="potentialUserMod.site" maxlength="10">
+		</div>
+  </div>
+  <br/>
+  <div class="row">
+	<div class="col-md-4">
+	  <label>Mass Shift (Exact)</label>
+	  <input type="number" placeholder="123.4567" class="form-control" ng-model="potentialUserMod.deltaMass">
+	</div>
+  </div>
+</div>
+
+<div class="modal-footer">
+		<button class="btn btn-danger pull-left" type="button" ng-click="clearMods()">
+			Clear User Mods
+		</button>
+		<button class="btn btn-primary" type="button" ng-click="ok()">Add Modification</button>
+  	<button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

@@ -1,0 +1,40 @@
+<div class="modal-header">
+  <h3 class="modal-title">Define Custom Amino Acid Modification</h3>
+</div>
+
+<div class="modal-body">
+  <div class="row">
+		<div class="col-md-6">
+		  <label>Modification Name</label>
+		  <div class="input-group-md">
+		  	<input type="text" placeholder="Peptide Modification" class="form-control" ng-model="potentialUserMod.name">
+			</div>
+		</div>
+		<div class="col-md-6">
+		  <label>Modification Site(s)</label>
+		  <div class="form-group-md">
+		    <ui-select multiple ng-model="userModSites.selected" search-enabled="true">
+		      <ui-select-match placeholder="Select peptide modifications..."> <span ng-bind="$item"></span> </ui-select-match>
+		      <ui-select-choices repeat="site in userModSites.sites | filter: $select.search"> <span ng-bind="site"></span> </ui-select-choices>
+		    </ui-select>
+	    </div>
+		</div>
+  </div>
+  <br/>
+  <div class="row">
+	<div class="col-md-4">
+	  <label>Modification Mass Shift (Exact)</label>
+	  <div class="input-group-md">
+	  	<input type="number" placeholder="123.4567" class="form-control" ng-model="potentialUserMod.deltaMass">
+		</div>
+	</div>
+  </div>
+</div>
+
+<div class="modal-footer">
+		<button class="btn btn-danger pull-left" type="button" ng-click="clearMods()">
+			Clear User Mods
+		</button>
+		<button class="btn btn-primary" type="button" ng-click="ok()">Add Modification</button>
+  	<button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

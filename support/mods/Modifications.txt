@@ -1,0 +1,122 @@
+Acetyl;K;C2 H2 O1
+Acetyl;N-terminus;C2 H2 O1
+Amidated;C-terminus;H1 N1 O-1
+Arg10;R;c6 n4 C-6 N-4
+Arg6;R;c6 C-6
+Carbamidomethyl;C;C2 H3 N1 O1
+Carbamyl;N-terminus;C1 H1 N1 O1
+Cation:Na;D; H-1 Na1
+Cation:Na;E; H-1 Na1
+Cys-Cys;C;H-1
+Cysteinyl - carbamidomethyl;C;H2 O1 C1 S1
+Cysteinyl;C;H5 O2 C3 N1 S1
+Deamidation;N;H-1 N-1 O1
+Deamidation;Q;H-1 N-1 O1
+Deamidation 18O;N;H-1 N-1 o1
+Dehydrated;S;H-2 O-1
+Dehydrated;T;H-2 O-1
+Delta:H(2)C(2);N-terminus;C2 H2
+Dethiomethyl;M;H-4 C-1 S-1
+DimethLys0;K;H4 C2
+DimethLys2;K;H2 h2 C2
+DimethLys4;K;h4 C2
+DimethLys6;K;h6 C2 H-2
+DimethLys8;K;h6 H-2 c2
+DimethNter0;N-terminus;H4 C2
+DimethNter2;N-terminus;H2 h2 C2
+DimethNter4;N-terminus;h4 C2
+DimethNter6;N-terminus;h6 C2 H-2
+DimethNter8;N-terminus;h6 H-2 c2
+Dimethyl;K;H4 C2
+Dimethyl;K,R;H4 C2
+Dioxidation;M;O2
+Dioxidation;W;O2
+Gln->pyro-Glu;Q;H-3 N-1
+Glu->pyro-Glu;E;H-2 O-1
+GlyGly;K;H6 C4 N2 O2
+Hex;K;H10 O5 C6
+Hex(1)HexNAc(1);S;C14 H23 O10 N1
+Hex(1)HexNAc(1);T;C14 H23 O10 N1
+Hex(5) HexNAc(4) NeuAc(2);N;C84 H136 O61 N6
+Hex(5) HexNAc(4) NeuAc(2) Sodium;N;C84 H135 O61 N6 Na1
+HexNAc;S;H13 C8 N1 O5
+HexNAc;T;H13 C8 N1 O5
+Hydroxyproline;P;O1
+ICAT-0;C;H17 C10 N3 O3
+ICAT-9;C;H17 c9 N3 O3 C1
+ICPL-Lys0;K;H3 C6 N1 O1
+ICPL-Lys10;K;H-1 h4 c6 N1 O1
+ICPL-Lys4;K;H-1 h4 C6 N1 O1
+ICPL-Lys6;K;H3 c6 N1 O1
+ICPL-Nter0;N-terminus;H3 C6 N1 O1
+ICPL-Nter10;N-terminus;H-1 h4 c6 N1 O1
+ICPL-Nter4;N-terminus;H-1 h4 C6 N1 O1
+ICPL-Nter6;N-terminus;H3 c6 N1 O1
+Ile7;I;C-6 c6 N-1 n1
+iodoTMT6plex-Cys126;K;H28 C12 c4 N3 n1 O3
+iTRAQ4plex-Lys114;K;H12 C5 c2 N2 o1
+iTRAQ4plex-Lys115;K;H12 C6 c1 N1 o1 n1
+iTRAQ4plex-Lys116;K;H12 C4 c3 N1 n1 O1
+iTRAQ4plex-Lys117;K;H12 C4 c3 N1 n1 O1
+iTRAQ4plex-Nter114;N-terminus;H12 C5 c2 N2 o1
+iTRAQ4plex-Nter115;N-terminus;H12 C6 c1 N1 o1 n1
+iTRAQ4plex-Nter116;N-terminus;H12 C4 c3 N1 n1 O1
+iTRAQ4plex-Nter117;N-terminus;H12 C4 c3 N1 n1 O1
+iTRAQ8plex-Lys113;K;H24 C7 c7 N3 n1 O3
+iTRAQ8plex-Lys114;K;H24 C7 c7 N3 n1 O3
+iTRAQ8plex-Lys115;K;H24 C8 c6 N2 n2 O3
+iTRAQ8plex-Lys116;K;H24 C7 c7 N3 n1 O3
+iTRAQ8plex-Lys117;K;H24 C7 c7 N3 n1 O3
+iTRAQ8plex-Lys118;K;H24 C8 c6 N2 n2 O3
+iTRAQ8plex-Lys119;K;H24 C8 c6 N2 n2 O3
+iTRAQ8plex-Lys121;K;H24 C8 c6 N2 n2 O3
+iTRAQ8plex-Nter113;N-terminus;H24 C7 c7 N3 n1 O3
+iTRAQ8plex-Nter114;N-terminus;H24 C7 c7 N3 n1 O3
+iTRAQ8plex-Nter115;N-terminus;H24 C8 c6 N2 n2 O3
+iTRAQ8plex-Nter116;N-terminus;H24 C7 c7 N3 n1 O3
+iTRAQ8plex-Nter117;N-terminus;H24 C7 c7 N3 n1 O3
+iTRAQ8plex-Nter118;N-terminus;H24 C8 c6 N2 n2 O3
+iTRAQ8plex-Nter119;N-terminus;H24 C8 c6 N2 n2 O3
+iTRAQ8plex-Nter121;N-terminus;H24 C8 c6 N2 n2 O3
+Leu7;L;C-6 c6 N-1 n1
+Lys4;K;h4 H-4
+Lys6;K;c6 C-6
+Lys8;K;c6 n2 C-6 N-2
+Methyl;E;C1 H2
+Methyl;K;C1 H2
+Methyl;R;C1 H2
+mTRAQ-Lys0;K;H12 C7 N2 O1
+mTRAQ-Lys4;K;H12 C4 c3 N1 n1 O1
+mTRAQ-Lys8;K;H12 C1 c6 n2 O1
+mTRAQ-Nter0;N-terminus;H12 C7 N2 O1
+mTRAQ-Nter4;N-terminus;H12 C4 c3 N1 n1 O1
+mTRAQ-Nter8;N-terminus;H12 C1 c6 n2 O1
+Neucode-0400;K;h4 H-4
+Neucode-0800;K;h8 H-8
+Neucode-1920;K;c1 C-1 h9 H-9 n2 N-2
+Neucode-2020;K;c2 C-2 n2 N-2
+Neucode-3410;K;c3 C-3 h4 H-4 n1 N-1
+Neucode-3900;K;c3 C-3 h9 H-9
+Neucode-4400;K;c4 C-4 h4 H-4
+Neucode-5210;K;c5 C-5 h2 H-2 n1 N-1
+Neucode-6020;K;c6 C-6 n2 N-2
+Neucode-6420;K;c6 C-6 h4 H-4 n2 N-2
+Oxidation;M;O1
+Oxidation;P;O1
+Phospho;S;H1 O3 P1
+Phospho;T;H1 O3 P1
+Phospho;Y;H1 O3 P1
+Pro5;P;c5 C-5
+Pro6;P;c5 n1 C-5 N-1
+QQTGG;K;H29 C18 N7 O8
+Sulfation;Y;S1 O3
+Sulfo;S;S1
+Sulfo;T;S1
+Sulfo;Y;S1
+Thioacyl (DSP);K;C3 H4 O1 S1
+TMT(2)plex;K;H20 C11 c1 N2 O2
+TMT(2)plex;N-terminus;H20 C11 c1 N2 O2
+TMT(6+);K;H20 C8 c4 N1 O2 n1
+TMT(6+)plex;N-terminus;H20 C8 c4 N1 O2 n1
+Trimethyl;K;C3 H6
+Trioxidation;C;O3

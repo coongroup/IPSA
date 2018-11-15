@@ -1,0 +1,265 @@
+<!doctype html>
+<html ng-app="IPSA">
+  <head>
+  	<meta charset="utf-8"/>
+    <script src="support/js/external/jquery.min.js"></script>
+    <script src="support/js/external/angular.min.js"></script>
+    <script src="support/js/external/angular-animate.min.js"></script>
+    <script src="support/js/external/angular-sanitize.min.js"></script>
+    <script src="support/js/external/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <script src="support/js/external/select.min.js"></script>
+    <script src="support/js/external/handsontable.full.min.js"></script>
+    <script src="support/js/external/ngHandsontable.min.js"></script>
+    <script src="support/js/external/d3.v3.min.js" charset="utf-8"></script>
+    <script src="support/js/external/d3-ease.v1.min.js"></script>
+    <script src="support/js/external/lodash.min.js" charset="utf-8"></script>
+    <script src="support/js/external/jquery.minicolors.min.js"></script>
+    <script src="support/js/external/angular-minicolors.min.js"></script>
+    <script src="support/js/external/angular-downloadsvg-directive.js"></script>
+    <script src="support/js/external/ngStorage.js"></script>
+    <script src="support/js/internal/PeptideAnnotator.js"></script>
+    <script src="support/js/internal/controllers.js"></script>
+    <script src="support/js/internal/IPSA.js"></script>
+    <script src="support/js/external/d3-tip.js"></script>
+    <link href="support/css/external/bootstrap.min.css" rel="stylesheet">
+    <link href="support/css/external/select.min.css" rel="stylesheet">
+    <link href="support/css/external/handsontable.full.min.css" rel="stylesheet">
+    <link href="support/css/external/jquery.minicolors.min.css" rel="stylesheet">
+    <link href="support/css/external/Montserrat.css" rel="stylesheet">
+    <link href="support/css/external/Open+Sans.css" rel="stylesheet">
+    <link href="support/css/external/Inconsolata.css" rel="stylesheet">
+    <link href="support/css/internal/PeptideAnnotator.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navbar-header"> 
+        <a class="navbar-brand">
+          IPSA
+        </a> 
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="divider-vertical"></li>
+        <li class="active"><a href="PeptideAnnotator.html">Single Spectrum Annotator</a></li>
+        <li class="divider-vertical"></li>
+        <li><a href="BulkDataUpload.html">Bulk Data Upload</a></li>
+        <li class="divider-vertical"></li>
+        <li><a href="VisualizeUploadedData.html">Visualize Uploaded Data</a></li>
+        <li class="divider-vertical"></li>
+        <li><a href="support/css/external/woff2/Fonts.zip">Download Used Fonts</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <ul><a href="http://coonlabs.com"><img src="support/images/CoonLogo.png"></a></ul>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+      <div ng-controller="MasterCtrl">
+        <div class="row">
+          <div ng-controller="PeptideCtrl">
+            <div ng-controller="GraphCtrl">
+              <div class="col-md-5">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Annotation Options</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <label>Peptide Sequence</label>
+                          <div class="input-group-md">
+                            <input type="text" class="form-control" placeholder="Enter sequence here..." ng-model="peptide.sequence" ng-blur="validateSequence()"> 
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <label for="sequence">Precursor Charge</label>
+                          <div class="input-group-md">
+                            <input type="number" class="form-control" placeholder="2" ng-model="peptide.precursorCharge" ng-blur="validateCharge()"> 
+                          </div>
+                        </div>
+                      </div>
+                      <br/>
+                      <div ng-controller="DataCtrl">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <label for="charge">Max Fragment Charge</label>
+                            <div class="input-group-md">
+                              <input type="number" class="form-control" id="charge" placeholder=1 min="{{peptide.fragmentMin}}" max="{{peptide.fragmentMax}}" ng-model="peptide.charge" ng-blur="validateFragmentCharge()"> 
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <label for="dataFormat">Data Format</label>
+                            <div class="form-group">
+                              <ui-select ng-model="selectedFormat" ng-change="handleFormat($select.selected)" search-enabled="false">
+                                <ui-select-match> <span ng-bind="$select.selected.name"></span> </ui-select-match>
+                                <ui-select-choices repeat="item in (tableColumns | filter: $select.search) track by item.name"> <span ng-bind="item.name"></span> </ui-select-choices>
+                              </ui-select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <label for="handsonTable">Enter Spectral Data Here</label>
+                            <div handsontabletest></div>
+                          </div>
+                          <div class="col-md-12">
+                            <button class="btn btn-primary pull-right" type="button" ng-click="reset()">Clear table</button>
+                          </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <label>N-terminal</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="btn-group">
+                                  <label class="btn btn-fragment" ng-model="checkModel.a.selected" uib-btn-checkbox>{{checkModel.a.label}}</label>
+                                  <label class="btn btn-fragment" ng-model="checkModel.b.selected" uib-btn-checkbox>{{checkModel.b.label}}</label>
+                                  <label class="btn btn-fragment" ng-model="checkModel.c.selected" uib-btn-checkbox>{{checkModel.c.label}}</label>
+                                  <!--<label class="btn btn-fragment" ng-model="checkModel.C.selected" uib-btn-checkbox>{{checkModel.C.label}}</label>-->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <label>C-terminal</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="btn-group">
+                                  <label class="btn btn-fragment" ng-model="checkModel.x.selected" uib-btn-checkbox>{{checkModel.x.label}}</label>
+                                  <label class="btn btn-fragment" ng-model="checkModel.y.selected" uib-btn-checkbox>{{checkModel.y.label}}</label>
+                                  <label class="btn btn-fragment" ng-model="checkModel.z.selected" uib-btn-checkbox>{{checkModel.z.label}}</label>
+                                  <!--<label class="btn btn-fragment" ng-model="checkModel.Z.selected" uib-btn-checkbox>{{checkModel.Z.label}}</label>-->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <label>Neutral Losses</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="btn-group">
+                                  <label class="btn btn-fragment" ng-model="checkModel.H2O.selected" uib-btn-checkbox>-H<sub>2</sub>O</label>
+                                  <label class="btn btn-fragment" ng-model="checkModel.NH3.selected" uib-btn-checkbox>-NH<sub>3</sub></label>
+                                  <label class="btn btn-fragment" ng-model="checkModel.CO2.selected" uib-btn-checkbox>-CO<sub>2</sub></label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <label for="dataFormat">Select Peptide Modifications</label>
+                          </div>
+                          <div class="col-md-9">
+                            <div ng-controller="ModCtrl">
+                              <div class="form-group-lg">
+                                <ui-select multiple ng-model="modObject.selectedMods" search-enabled="true">
+                                  <ui-select-match placeholder="Select peptide modifications..."> <span ng-bind="modSelectOption($item)"></span> </ui-select-match>
+                                  <ui-select-choices repeat="mod in mods | filter: $select.search"> <span ng-bind="modSelectOption(mod)"></span> </ui-select-choices>
+                                </ui-select>
+                              </div>
+                            </div>
+                          </div>
+                          <button type="button" class="btn btn-primary" ng-click="openModal()">Define Mods</button>
+                        </div>
+                        <br/>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label>Fragment Tolerance (+/-)</label>
+                            <div class="input-group">
+                              <input type="number" class="form-control" ng-model="cutoffs.tolerance" min="0" /> <span class="input-group-btn"> <button class="btn btn-primary" type="button" ng-click="swapToleranceType()">{{cutoffs.toleranceType}}</button> </span> 
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>Matching Threshold</label>
+                            <div class="input-group">
+                              <input type="number" class="form-control" ng-model="cutoffs.matchingCutoff" min="0" /> <span class="input-group-btn"> <button class="btn btn-primary" type="button" ng-click="swapMatchingType()">{{cutoffs.matchingType}}</button> </span> 
+                            </div>
+                          </div>
+                        </div>
+                        <br/>
+                        <div ng-controller="ColorCtrl">
+                          <div class="row">
+                            <div class="col-md-3" ng-hide="!checkModel.a.selected">
+                              <label for="wheel-demo">{{checkModel.a.label}}</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.a.color"> 
+                            </div>
+                            <div class="col-md-3" ng-hide="!checkModel.b.selected">
+                              <label for="wheel-demo">{{checkModel.b.label}}</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.b.color"> 
+                            </div>
+                            <div class="col-md-3" ng-hide="!checkModel.c.selected">
+                              <label for="wheel-demo">{{checkModel.c.label}}</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.c.color"> 
+                            </div>
+                            <!--
+                            <div class="col-md-3" ng-hide="!checkModel.C.selected">
+                              <label for="wheel-demo">{{checkModel.C.label}}</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.C.color"> 
+                            </div>
+                            -->
+                            <div class="col-md-3" ng-hide="!checkModel.x.selected">
+                              <label for="wheel-demo">{{checkModel.x.label}}</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.x.color"> 
+                            </div>
+                            <div class="col-md-3" ng-hide="!checkModel.y.selected">
+                              <label for="wheel-demo">{{checkModel.y.label}}</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.y.color"> 
+                            </div>
+                            <div class="col-md-3" ng-hide="!checkModel.z.selected">
+                              <label for="wheel-demo">{{checkModel.z.label}}</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.z.color"> 
+                            </div>
+                            <!--
+                            <div class="col-md-3" ng-hide="!checkModel.Z.selected">
+                              <label for="wheel-demo">{{checkModel.Z.label}}</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.Z.color"> 
+                            </div>
+                            -->
+                            <div class="col-md-3">
+                              <label for="wheel-demo">Precursor</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.precursor.color"> 
+                            </div>
+                            <div class="col-md-3">
+                              <label for="wheel-demo">Unassigned</label>
+                              <input minicolors="wheelsettings" id="wheel-demo" class="form-control" type="text" ng-model="checkModel.unassigned.color"> 
+                            </div>
+                          </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <button type="submit" class="btn btn-success" ng-click="processData()">Generate Chart</button>
+                            <button class="btn btn-primary" ng-click="downloadData()">Export Data</button>
+                            <button svg-download title="{{peptide.sequence}}" class="btn btn-primary">Download as SVG</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7">
+	                <div annotated-spectrum plotdata="set.plotData" peptide="set.peptide" settings="set.settings" class="content"></div>
+	                <form role="form" ng-init="randomize()"></form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,249 @@
+<!doctype html>
+<html ng-app="IPSA.upload">
+  <head>
+    <!-- jQuery -->
+    <script src="support/js/external/jquery.min.js"></script>
+    <!-- angularJS scripts -->
+    <script src="support/js/external/angular.min.js"></script>
+    <script src="support/js/external/angular-animate.min.js"></script>
+    <script src="support/js/external/angular-sanitize.min.js"></script>
+    <!-- Various angular wrappers -->
+    <!-- Bootstrap -->
+    <script src="support/js/external/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <!-- D3 -->
+    <script src="support/js/external/d3.v3.min.js" charset="utf-8"></script>
+    <script src="support/js/external/d3-ease.v1.min.js"></script>
+    <!-- ngStorage -->
+    <script src="support/js/external/ngStorage.js"></script>
+    <!-- ngFileUploader -->
+    <script src="support/js/external/ng-file-upload-shim.min.js"></script>
+    <script src="support/js/external/ng-file-upload.min.js"></script>
+    <!-- Dain Scripts -->
+    <script src="support/js/internal/BulkDataUpload.js"></script>
+    <!-- D3-Tip -->
+    <script src="support/js/external/d3-tip.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/a0270f0d36.js"></script>
+    <!-- css links here -->
+    <link href="support/css/external/bootstrap.min.css" rel="stylesheet">
+    <link href="support/css/internal/PeptideAnnotator.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand">IPSA</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="divider-vertical"></li>
+        <li><a href="PeptideAnnotator.html">Single Spectrum Annotator</a></li>
+        <li class="divider-vertical"></li>
+        <li class="active"><a href="BulkDataUpload.html">Bulk Data Upload</a></li>
+        <li class="divider-vertical"></li>
+        <li><a href="VisualizeUploadedData.html">Visualize Uploaded Data</a></li>
+        <li class="divider-vertical"></li>
+        <li><a href="support/css/external/woff2/Fonts.zip">Download Used Fonts</a></li>
+      </div>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <ul><a href="http://coonlabs.com"><img src="support/images/CoonLogo.png"></a></ul>
+      </ul>
+    </nav>
+    <div class="container-fluid" ng-controller="MyCtrl">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Upload Data Here! &nbsp;&nbsp;<a href="support\examples\ExampleData.zip" download="ExampleData.zip">(See Examples)</a></h3>
+        </div>
+        <div class="panel-body">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4">
+                <h4>Upload Identifications (.csv, 10MB max size)</h4>
+                <button class="btn btn-primary" type="file" ngf-select="uploadIdentifications($file, $invalidFiles)" ngf-pattern="'.csv'" accept=".csv" ngf-max-size="10MB" ng-disabled="files.identifications.isProcessing || files.peakList.isProcessing || files.modifications.isProcessing">
+                  <Span ng-hide="files.identifications.isProcessing">Select File</Span>
+                  <div ng-show="files.identifications.isProcessing">
+                    <i class="fa fa-superpowers fa-spin" aria-hidden="true"></i>
+                  </div>
+                </button>
+                <br><br>
+                <div>
+                  <label class="filelabel">
+                  {{files.identifications.file.name}}
+                  </label>
+                  <div ng-style="{'visibility':files.identifications.file.progress >= 0?'visible':'hidden'}">
+                    <span class="progress" >
+                      <uib-progressbar class="{{files.identifications.classType}}" value="files.identifications.file.progress" type="success" max="100">
+                        {{files.identifications.file.progress  + " %"}}
+                      </uib-progressbar>
+                    </span>
+                    {{files.identifications.file.loaded}}
+                  </div>
+                </div>
+                <br>
+                <div class="valid-data" ng-hide="files.identifications.isValid">
+                  <h4>
+                    <i class="fa fa-square-o fa-3x" vertical-align="middle" style="color:#ff4d4d"></i>
+                    <text>{{files.identifications.errorMsg}}</text>
+                  </h4>
+                </div>
+                <div class="valid-data" ng-show="files.identifications.isValid">
+                  <h4>
+                    <i class="fa fa-check-square-o fa-3x" vertical-align="middle" style="color:#47d147"></i>
+                    <text>{{files.identifications.confirmMsg}}</text>
+                  </h4>
+                  <h4>
+                    {{files.identifications.exampleEntry.insertCount}} Identification(s) Loaded
+                  </h4>
+                  <div class="well well-sm">
+                    <h3 style="margin-top: 5px;">Sample Identification</h3>
+                    <div class="table-responsive">
+                      <table class="table table-hover">
+                        <tbody>
+                          <tr>
+                            <th scope="row">Scan Number</th>
+                            <td>{{files.identifications.exampleEntry.scanNumber}}</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Sequence</th>
+                            <td>{{files.identifications.exampleEntry.sequence}}</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Precursor Charge</th>
+                            <td>{{files.identifications.exampleEntry.charge}}</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Modifications</th>
+                            <td>{{files.identifications.exampleEntry.mods}}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4" ng-show="files.identifications.isValid" ng-cloak>
+                <h4>Upload Peak List (.mgf/.mzML, 6GB max size)</h4>
+                <button class="btn btn-primary" type="file" ngf-select="uploadPeakList($file, $invalidFiles)" ngf-pattern="'.mgf,.mzML'" accept=".mgf,.mzML" ngf-max-size="6GB" data-loading-text="Processing..." ng-disabled="files.identifications.isProcessing || files.peakList.isProcessing || files.modifications.isProcessing">
+                  <Span ng-hide="files.peakList.isProcessing">Select File</Span>
+                  <div ng-show="files.peakList.isProcessing">
+                    <i class="fa fa-superpowers fa-spin"></i>
+                  </div>
+                </button>
+                <br><br>
+                <div>
+                  <label class="filelabel">
+                  {{files.peakList.file.name}} 
+                  </label>
+                  <div ng-style="{'visibility':files.peakList.file.progress >= 0?'visible':'hidden'}">
+                    <span class="progress-lg">
+                      <uib-progressbar class="{{files.peakList.classType}}" value="files.peakList.file.progress" type="success" max="100">
+                        {{files.peakList.file.progress + " %"}}
+                      </uib-progressbar>
+                    </span>
+                    {{files.peakList.file.loaded}}
+                  </div>
+                </div>
+                <br>
+                <div class="valid-data" ng-hide="files.peakList.isValid && files.identifications.isValid">
+                  <h4>
+                    <i class="fa fa-square-o fa-3x" vertical-align="middle" style="color:#ff4d4d"></i>
+                    <text>{{files.peakList.errorMsg}}</text>
+                  </h4>
+                </div>
+                <div class="valid-data" ng-show="files.peakList.isValid && files.identifications.isValid">
+                  <h4>
+                    <i class="fa fa-check-square-o fa-3x" vertical-align="middle" style="color:#47d147"></i>
+                    <text>{{files.peakList.confirmMsg}}</text>
+                  </h4>
+                  <h4>{{files.peakList.exampleEntry.insertCount}} Spectra Loaded</h4>
+                  <div class="well well-sm">
+                    <h3 style="margin-top: 5px;">Sample Spectrum</h3>
+                    <div class="table-responsive">
+                      <table class="table table-hover">
+                        <tbody>
+                          <tr>
+                            <th scope="row">Scan Number</th>
+                            <td>{{files.peakList.exampleEntry.scanNumber}}</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">First m/z</th>
+                            <td>{{files.peakList.exampleEntry.mz}}</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">First Intensity</th>
+                            <td>{{files.peakList.exampleEntry.intensity}}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4" ng-show="files.peakList.isValid && files.identifications.isValid" ng-cloak>
+                <h4>Upload Modification File (.csv, 10MB max size)</h4>
+                <button class="btn btn-primary" type="file" ngf-select="uploadMods($file, $invalidFiles)" ngf-pattern="'.csv'" accept=".csv" ngf-max-size="10MB" ng-disabled="files.identifications.isProcessing || files.peakList.isProcessing || files.modifications.isProcessing">
+                  <Span ng-hide="files.modifications.isProcessing">Select File</Span>
+                  <div ng-show="files.modifications.isProcessing">
+                    <i class="fa fa-superpowers fa-spin"></i>
+                  </div>
+                </button>
+                <br><br>
+                <div>
+                  <label class="filelabel">
+                  {{files.modifications.file.name}}
+                  </label>
+                  <div ng-style="{'visibility':files.modifications.file.progress >= 0?'visible':'hidden'}">
+                    <span class="progress">
+                      <uib-progressbar class="{{files.modifications.classType}}" value="files.modifications.file.progress" type="success" max="100">
+                        {{files.modifications.file.progress  + " %"}}
+                      </uib-progressbar>
+                    </span>
+                    {{files.modifications.file.loaded}}
+                  </div>
+                </div>
+                <br>
+                <div class="valid-data" ng-hide="files.peakList.isValid && files.identifications.isValid && files.modifications.isValid">
+                  <h4>
+                    <i class="fa fa-square-o fa-3x" vertical-align="middle" style="color:#ff4d4d"></i>
+                    <text>{{files.modifications.errorMsg}}</text>
+                  </h4>
+                </div>
+                <div class="valid-data" ng-show="files.peakList.isValid && files.identifications.isValid && files.modifications.isValid">
+                  <h4>
+                    <i class="fa fa-check-square-o fa-3x" style="color:#47d147" vertical-align="middle"></i>
+                    <text>{{files.modifications.confirmMsg}}</text>
+                  </h4>
+                  <h4>{{files.modifications.exampleEntry.insertCount}} Modification(s) Loaded</h4>
+                  <div class="well well-sm">
+                    <h3 style="margin-top: 5px;">Sample Modification</h3>
+                    <div class="table-responsive">
+                      <table class="table table-hover">
+                        <tbody>
+                          <tr>
+                            <th scope="row">Name</th>
+                            <td>{{files.modifications.exampleEntry.name}}</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Mass Change</th>
+                            <td>{{files.modifications.exampleEntry.mass}}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center" ng-show="files.peakList.isValid && files.identifications.isValid" ng-cloak>
+        <a href="VisualizeUploadedData.html">
+          <h1 class="text-center">
+            Ready to annotate!
+            <i class="fa fa-thumbs-up fa-2x"></i>
+          </h1>
+        </a>       
+      </div>
+    </div>
+  </body>
+</html>
