@@ -12,4 +12,4 @@ The wiki links below contain instructions on how to use IPSA to:
 * [Local Server Implementation](https://github.com/coongroup/IPSA/wiki/Private-Hosting)
 * [IPSA Directive](https://github.com/coongroup/IPSA/wiki/IPSA-Directive)
 
-Please select one of the above links or refer to the sidebar to select your desired guide.
+Please select one of the above links or refer to the Wiki tab to select your desired guide.
