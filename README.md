@@ -11,7 +11,9 @@ The wiki links below contain instructions on how to use IPSA to:
 * [Annotate individual peptide spectra](https://github.com/coongroup/IPSA/wiki/Single-Spectrum-Annotation)
 * [Upload multiple peptide identifications and spectra](https://github.com/coongroup/IPSA/wiki/Data-Upload)
 * [Analyze previously uploaded identifications](https://github.com/coongroup/IPSA/wiki/Analyze-Uploaded-Identifications)
-* [Local Server Implementation](https://github.com/coongroup/IPSA/wiki/Private-Hosting)
-* [IPSA Directive](https://github.com/coongroup/IPSA/wiki/IPSA-Directive)
+----
+* [Local install using Docker](https://github.com/coongroup/IPSA/wiki/Docker)
+* [Local server implementation](https://github.com/coongroup/IPSA/wiki/Private-Hosting)
+* [IPSA directive](https://github.com/coongroup/IPSA/wiki/IPSA-Directive)
 
 Please select one of the above links or refer to the Wiki tab to select your desired guide.
