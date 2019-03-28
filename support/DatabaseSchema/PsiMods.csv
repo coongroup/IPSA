@@ -1,0 +1,1841 @@
+Accession Number, Name, Mass Shift
+0,"protein modification",0
+1,"alkylated residue",0
+2,"O-glycosyl-L-serine",0
+3,"UniMod",0
+4,"artifact",0
+5,"O-glycosyl-L-threonine",0
+6,"N-glycosylated residue",0
+7,"selenium substitution for sulfur",47.94445
+8,"common",0
+9,"natural residue",0
+10,"L-alanine residue",0
+11,"L-arginine residue",0
+12,"L-asparagine residue",0
+13,"L-aspartic acid residue",0
+14,"L-cysteine residue",0
+15,"L-glutamic acid residue",0
+16,"L-glutamine residue",0
+17,"glycine residue",0
+18,"L-histidine residue",0
+19,"L-isoleucine residue",0
+20,"L-leucine residue",0
+21,"L-lysine residue",0
+22,"L-methionine residue",0
+23,"L-phenylalanine residue",0
+24,"L-proline residue",0
+25,"L-serine residue",0
+26,"L-threonine residue",0
+27,"L-tryptophan residue",0
+28,"L-tyrosine residue",0
+29,"L-valine residue",0
+30,"N-formyl-L-methionine residue",0
+31,"L-selenocysteine residue",0
+32,"uncategorized protein modification",0
+33,"crosslinked residues",0
+34,"L-cystine (cross-link)",-2.01565
+35,"(2S,3R)-3-hydroxyasparagine",15.994915
+36,"(2S,3R)-3-hydroxyaspartic acid",15.994915
+37,"5-hydroxy-L-lysine",15.994915
+38,"3-hydroxy-L-proline",15.994915
+39,"4-hydroxy-L-proline",15.994915
+40,"2-pyrrolidone-5-carboxylic acid (Gln)",-17.026549
+41,"L-gamma-carboxyglutamic acid",43.989829
+42,"L-aspartic 4-phosphoric anhydride",79.966331
+43,"S-phospho-L-cysteine",79.966331
+44,"1'-phospho-L-histidine",79.966331
+45,"3'-phospho-L-histidine",79.966331
+46,"O-phospho-L-serine",79.966331
+47,"O-phospho-L-threonine",79.966331
+48,"O4'-phospho-L-tyrosine",79.966331
+49,"2'-[3-carboxamido-3-(trimethylammonio)propyl]-L-histidine",143.11789
+50,"N-acetyl-L-alanine",42.010565
+51,"N-acetyl-L-aspartic acid",42.010565
+52,"N-acetyl-L-cysteine",42.010565
+53,"N-acetyl-L-glutamic acid",42.010565
+54,"N-acetyl-L-glutamine",42.010565
+55,"N-acetylglycine",42.010565
+56,"N-acetyl-L-isoleucine",42.010565
+57,"N2-acetyl-L-lysine",42.010565
+58,"N-acetyl-L-methionine",42.010565
+59,"N-acetyl-L-proline",42.010565
+60,"N-acetyl-L-serine",42.010565
+61,"N-acetyl-L-threonine",42.010565
+62,"N-acetyl-L-tyrosine",42.010565
+63,"N-acetyl-L-valine",42.010565
+64,"N6-acetyl-L-lysine",42.010565
+65,"S-acetyl-L-cysteine",42.010565
+66,"N-formylglycine",27.994915
+67,"N-D-glucuronoylglycine",176.032088
+68,"N-myristoylglycine",210.198365
+69,"N-palmitoyl-L-cysteine",238.229666
+70,"N-methyl-L-alanine",14.01565
+71,"N,N,N-trimethyl-L-alanine",43.054227
+72,"N-methylglycine",14.01565
+73,"N-methyl-L-methionine",14.01565
+74,"N-methyl-L-phenylalanine",14.01565
+75,"N,N-dimethyl-L-proline",29.038577
+76,"symmetric dimethyl-L-arginine",28.0313
+77,"asymmetric dimethyl-L-arginine",28.0313
+78,"omega-N-methyl-L-arginine",14.01565
+79,"N4-methyl-L-asparagine",14.01565
+80,"N5-methyl-L-glutamine",14.01565
+81,"L-glutamic acid 5-methyl ester (Glu)",14.01565
+82,"3'-methyl-L-histidine",14.01565
+83,"N6,N6,N6-trimethyl-L-lysine",43.054227
+84,"N6,N6-dimethyl-L-lysine",28.0313
+85,"N6-methyl-L-lysine",14.01565
+86,"N6-palmitoyl-L-lysine",238.229666
+87,"N6-myristoyl-L-lysine",210.198365
+88,"O-palmitoyl-L-threonine",238.229666
+89,"O-palmitoyl-L-serine",238.229666
+90,"L-alanine amide",-0.984016
+91,"L-arginine amide",-0.984016
+92,"L-asparagine amide",-0.984016
+93,"L-aspartic acid 1-amide",-0.984016
+94,"L-cysteine amide",-0.984016
+95,"L-glutamine amide",-0.984016
+96,"L-glutamic acid 1-amide",-0.984016
+97,"glycine amide",-0.984016
+98,"L-histidine amide",-0.984016
+99,"L-isoleucine amide",-0.984016
+100,"L-leucine amide",-0.984016
+101,"L-lysine amide",-0.984016
+102,"L-methionine amide",-0.984016
+103,"L-phenylalanine amide",-0.984016
+104,"L-proline amide",-0.984016
+105,"L-serine amide",-0.984016
+106,"L-threonine amide",-0.984016
+107,"L-tryptophan amide",-0.984016
+108,"L-tyrosine amide",-0.984016
+109,"L-valine amide",-0.984016
+110,"L-cysteine methyl disulfide",45.987721
+111,"S-farnesyl-L-cysteine",204.187801
+112,"S-12-hydroxyfarnesyl-L-cysteine",220.182715
+113,"S-geranylgeranyl-L-cysteine",272.250401
+114,"L-cysteine methyl ester",14.01565
+115,"S-palmitoyl-L-cysteine",238.229666
+116,"S-diacylglycerol-L-cysteine",0
+117,"S-(L-isoglutamyl)-L-cysteine",-17.026549
+118,"2'-(S-L-cysteinyl)-L-histidine",-2.01565
+119,"L-lanthionine (Cys-Ser)",-18.010565
+120,"meso-lanthionine",-18.010565
+121,"(2S,3S,2'R)-3-methyllanthionine",-18.010565
+122,"3'-(S-L-cysteinyl)-L-tyrosine",-2.01565
+123,"N6-carboxy-L-lysine",43.989829
+124,"N6-1-carboxyethyl-L-lysine",72.021129
+125,"hypusine",87.068414
+126,"N6-biotinyl-L-lysine",226.077599
+127,"N6-lipoyl-L-lysine",188.032957
+128,"N6-pyridoxal phosphate-L-lysine",229.014009
+129,"N6-retinylidene-L-lysine",266.203451
+130,"L-allysine",-1.031634
+131,"L-2-aminoadipic acid",14.96328
+132,"L-lysinoalanine (Lys-Ser)",-18.010565
+133,"N6-(L-isoglutamyl)-L-lysine (Gln)",-17.026549
+134,"N6-glycyl-L-lysine",-18.010565
+135,"N-(L-isoaspartyl)-glycine (Asn)",-17.026549
+136,"pyruvic acid (Cys)",-33.003705
+137,"L-3-phenyllactic acid",0.984016
+138,"2-oxobutanoic acid",-17.026549
+139,"N2-succinyl-L-tryptophan",100.016044
+140,"S-phycocyanobilin-L-cysteine",586.279135
+141,"S-phycoerythrobilin-L-cysteine",588.294785
+142,"S-phytochromobilin-L-cysteine",584.263485
+143,"heme-bis-L-cysteine",616.177293
+144,"heme-L-cysteine",616.177293
+145,"tetrakis-L-cysteinyl iron",51.904735
+146,"tetrakis-L-cysteinyl diiron disulfide",171.783814
+147,"hexakis-L-cysteinyl triiron trisulfide",257.675721
+148,"tris-L-cysteinyl triiron tetrasulfide",292.671267
+149,"tetrakis-L-cysteinyl tetrairon tetrasulfide",347.597831
+150,"L-cysteinyl-L-histidino-homocitryl molybdenum heptairon nonasulfide",993.213036
+151,"L-cysteinyl molybdopterin",521.884074
+152,"S-(8alpha-FAD)-L-cysteine",783.141485
+153,"3'-(8alpha-FAD)-L-histidine",783.141485
+154,"O4'-(8alpha-FAD)-L-tyrosine",783.141485
+155,"3'-hydroxylation of L-tyrosine to L-3',4'-dihydroxyphenylalanine",15.994915
+156,"oxidation of tyrosine to L-2',4',5'-topaquinone",29.974179
+157,"oxidation of tryptophan to L-tryptophyl quinone",29.974179
+158,"4'-(L-tryptophan)-L-tryptophyl quinone",27.958529
+159,"O-phosphopantetheine-L-serine",340.085794
+160,"N4-glycosyl-L-asparagine",0
+161,"S-glucosyl-L-cysteine",162.052823
+162,"O5-glucosylgalactosyl-L-hydroxylysine",340.100561
+163,"O-(N-acetylamino)galactosyl-L-serine",203.079373
+164,"O-(N-acetylamino)galactosyl-L-threonine",203.079373
+165,"1'-mannosyl-L-tryptophan",162.052823
+166,"O4'-glucosyl-L-tyrosine",162.052823
+167,"N-asparaginyl-glycosylphosphatidylinositolethanolamine",123.00853
+168,"N-aspartyl-glycosylphosphatidylinositolethanolamine",123.00853
+169,"N-cysteinyl-glycosylphosphatidylinositolethanolamine",123.00853
+170,"N-glycyl-glycosylphosphatidylinositolethanolamine",123.00853
+171,"N-seryl-glycosylphosphatidylinositolethanolamine",123.00853
+172,"N-alanyl-glycosylphosphatidylinositolethanolamine",123.00853
+173,"N-threonyl-glycosylphosphatidylinositolethanolamine",123.00853
+174,"N-glycyl-glycosylsphingolipidinositolethanolamine",123.00853
+175,"N-seryl-glycosylsphingolipidinositolethanolamine",123.00853
+176,"O-(phosphoribosyl dephospho-coenzyme A)-L-serine",881.146903
+177,"omega-N-(ADP-ribosyl)-L-arginine",541.061109
+178,"S-(ADP-ribosyl)-L-cysteine",541.061109
+179,"L-glutamyl 5-glycerylphosphorylethanolamine",197.045309
+180,"S-sulfo-L-cysteine",79.956815
+181,"O4'-sulfo-L-tyrosine",79.956815
+182,"L-bromohistidine",77.910512
+183,"L-2'-bromophenylalanine",77.910512
+184,"L-3'-bromophenylalanine",77.910512
+185,"L-4'-bromophenylalanine",77.910512
+186,"3',3'',5'-triiodo-L-thyronine",469.716158
+187,"L-thyroxine",595.612805
+188,"6'-bromo-L-tryptophan",77.910512
+189,"dehydroalanine (Ser)",-18.010565
+190,"dehydrobutyrine (Thr)",-18.010565
+191,"(Z)-2,3-didehydrotyrosine",-2.01565
+192,"L-serine 5-imidazolinone glycine",-18.010565
+193,"L-3-oxoalanine (Cys)",-17.992806
+194,"lactic acid",-15.010899
+195,"L-alanine 5-imidazolinone glycine",-18.010565
+196,"L-cysteine 5-imidazolinone glycine",-18.010565
+197,"2-imino-glutamine 5-imidazolinone glycine",-20.026215
+198,"D-alanine (Ala)",0
+199,"D-allo-isoleucine",0
+200,"D-methionine",0
+201,"D-phenylalanine",0
+202,"D-serine (Ser)",0
+203,"D-asparagine",0
+204,"D-leucine",0
+205,"D-tryptophan",0
+206,"L-isoglutamyl-polyglycine",57.021464
+207,"L-isoglutamyl-polyglutamic acid",129.042593
+208,"O4'-(phospho-5'-adenosine)-L-tyrosine",329.05252
+209,"S-(2-aminovinyl)-D-cysteine (Cys-Ser)",-64.016044
+210,"L-cysteine sulfenic acid",15.994915
+211,"S-(glycyl)-L-cysteine (Cys-Gly)",-18.010565
+212,"S-4-hydroxycinnamyl-L-cysteine",146.036779
+213,"chondroitin sulfate D-glucuronosyl-D-galactosyl-D-galactosyl-D-xylosyl-L-serine",-1.007825
+214,"dermatan 4-sulfate D-glucuronosyl-D-galactosyl-D-galactosyl-D-xylosyl-L-serine",-1.007825
+215,"heparan sulfate D-glucuronosyl-D-galactosyl-D-galactosyl-D-xylosyl-L-serine",-1.007825
+216,"N6-formyl-L-lysine",27.994915
+217,"O4-arabinosyl-L-hydroxyproline",148.037173
+218,"O-(phospho-5'-RNA)-L-serine",78.958505
+219,"L-citrulline",0.984016
+220,"4-hydroxy-L-arginine",15.994915
+221,"N-(L-isoaspartyl)-L-cysteine",-17.026549
+222,"2'-alpha-mannosyl-L-tryptophan",162.052823
+223,"N6-mureinyl-L-lysine",-1.007825
+224,"1-chondroitin sulfate-L-aspartic acid ester",441.057711
+225,"S-(6-FMN)-L-cysteine",454.088965
+226,"1'-(8alpha-FAD)-L-histidine",783.141485
+227,"omega-N-phospho-L-arginine",79.966331
+228,"S-diphytanylglycerol diether-L-cysteine",634.662782
+229,"alpha-1-microglobulin-Ig alpha complex chromophore",-2.01565
+230,"bis-L-cysteinyl bis-L-histidino diiron disulfide",171.783814
+231,"hexakis-L-cysteinyl hexairon hexasulfide",521.395649
+232,"N6-(phospho-5'-adenosine)-L-lysine",329.05252
+233,"N6-(phospho-5'-guanosine)-L-lysine",345.047434
+234,"L-cysteine glutathione disulfide",305.068156
+235,"S-nitrosyl-L-cysteine",28.990164
+236,"N4-(ADP-ribosyl)-L-asparagine",541.061109
+237,"L-beta-methylthioaspartic acid",45.987721
+238,"5'-(N6-L-lysine)-L-topaquinone",11.963614
+239,"S-methyl-L-cysteine",14.01565
+240,"4-hydroxy-L-lysine",15.994915
+241,"N4-hydroxymethyl-L-asparagine",30.010565
+242,"O-(ADP-ribosyl)-L-serine",541.061109
+243,"L-cysteine oxazole-4-carboxylic acid",-20.026215
+244,"L-cysteine oxazoline-4-carboxylic acid",-18.010565
+245,"glycine oxazole-4-carboxylic acid",-20.026215
+246,"glycine thiazole-4-carboxylic acid",-20.026215
+247,"L-serine thiazole-4-carboxylic acid",-20.026215
+248,"L-phenylalanine thiazole-4-carboxylic acid",-20.026215
+249,"L-cysteine thiazole-4-carboxylic acid",-20.026215
+250,"L-lysine thiazole-4-carboxylic acid",-20.026215
+251,"O-(phospho-5'-DNA)-L-serine",78.958505
+252,"keratan sulfate D-glucuronosyl-D-galactosyl-D-galactosyl-D-xylosyl-L-threonine",-1.007825
+253,"L-selenocysteinyl molybdenum bis(molybdopterin guanine dinucleotide) (Sec)",1572.985775
+254,"O4'-(phospho-5'-RNA)-L-tyrosine",79.966331
+255,"3-(3'-L-histidyl)-L-tyrosine",-2.01565
+256,"L-methionine sulfone",31.989829
+257,"dipyrrolylmethanemethyl-L-cysteine",418.137616
+258,"S-(2-aminovinyl)-3-methyl-D-cysteine",-64.016044
+259,"O4'-(phospho-5'-DNA)-L-tyrosine",79.966331
+260,"O-(phospho-5'-DNA)-L-threonine",78.958505
+261,"O4'-(phospho-5'-uridine)-L-tyrosine",306.025302
+262,"N-(L-glutamyl)-L-tyrosine",-17.00274
+263,"S-phycoviolobilin-L-cysteine",586.279135
+264,"phycoerythrobilin-bis-L-cysteine",586.279135
+265,"phycourobilin-bis-L-cysteine",586.279135
+266,"N-L-glutamyl-poly-L-glutamic acid",0
+267,"L-cysteine sulfinic acid",31.989829
+268,"L-3',4',5'-trihydroxyphenylalanine",31.989829
+269,"O-(sn-1-glycerophosphoryl)-L-serine",154.00311
+270,"1-thioglycine (internal)",15.977156
+271,"heme P460-bis-L-cysteine-L-tyrosine",614.161643
+272,"O-(phospho-5'-adenosine)-L-threonine",329.05252
+273,"tris-L-cysteinyl L-cysteine persulfido bis-L-glutamato L-histidino tetrairon disulfide trioxide",360.585932
+274,"L-cysteine persulfide",31.972071
+275,"3'-(1'-L-histidyl)-L-tyrosine",-2.01565
+276,"heme P460-bis-L-cysteine-L-lysine",614.161643
+277,"5-methyl-L-arginine",14.01565
+278,"2-methyl-L-glutamine",14.01565
+279,"N-pyruvic acid 2-iminyl-L-cysteine",70.005479
+280,"N-pyruvic acid 2-iminyl-L-valine",70.005479
+281,"3'-heme-L-histidine",616.177293
+282,"S-selenyl-L-cysteine",79.916521
+283,"N6-propylamino-poly(propylmethylamino)-propyldimethylamine-L-lysine",426.440996
+284,"dihydroxyheme-L-aspartate ester-L-glutamate ester",612.145993
+285,"dihydroxyheme-L-aspartate ester-L-glutamate ester-L-methionine sulfonium",613.153269
+286,"L-cysteinyl molybdenum bis(molybdopterin guanine dinucleotide)",1572.985775
+287,"(2S,3R,4S)-3,4-dihydroxyproline",31.989829
+288,"pyrroloquinoline quinone",37.906494
+289,"tris-L-cysteinyl L-N1'-histidino tetrairon tetrasulfide",347.597831
+290,"tris-L-cysteinyl L-N3'-histidino tetrairon tetrasulfide",347.597831
+291,"tris-L-cysteinyl L-aspartato tetrairon tetrasulfide",347.597831
+292,"N6-pyruvic acid 2-iminyl-L-lysine",70.005479
+293,"tris-L-cysteinyl L-serinyl tetrairon tetrasulfide",347.597831
+294,"bis-L-cysteinyl L-N3'-histidino L-serinyl tetrairon tetrasulfide",347.597831
+295,"O-octanoyl-L-serine",126.104465
+296,"O-D-glucuronosyl-L-serine",176.032088
+297,"tris-L-cysteinyl L-cysteine persulfido bis-L-glutamato L-histidino nickel triiron disulfide trioxide",362.586337
+298,"tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide",362.586337
+299,"N6-(L-isoaspartyl)-L-lysine (Asn)",-17.026549
+300,"L-glutamyl-5-poly(ADP-ribose)",541.061109
+301,"O-(N-acetylglucosamine-1-phosphoryl)-L-serine",283.045703
+302,"O-(phosphoglycosyl-D-mannose-1-phosphoryl)-L-serine",242.019154
+303,"heptakis-L-histidino tetracopper mu4-sulfide hydroxide",293.638425
+304,"L-leucine methyl ester",14.01565
+305,"hexakis-L-cysteinyl L-serinyl octairon heptasulfide",663.223042
+306,"residues isobaric at 113.084064 Da",0
+307,"L-aspartimide",-18.010565
+308,"L-glutamimide",-18.010565
+309,"L-beta-carboxyaspartic acid",43.989829
+310,"N5-methyl-L-arginine",14.01565
+311,"L-cysteine coenzyme A disulfide",765.099559
+312,"S-myristoyl-L-cysteine",210.198365
+313,"S-palmitoleyl-L-cysteine",236.214016
+314,"glycine cholesterol ester",368.344301
+315,"pentakis-L-cysteinyl L-histidino nickel tetrairon pentasulfide",435.488498
+316,"N4,N4-dimethyl-L-asparagine",28.0313
+317,"N6-3,4-didehydroretinylidene-L-lysine",264.187801
+318,"4'-(S-L-cysteinyl)-L-tryptophyl quinone",27.958529
+319,"3-(S-L-cysteinyl)-L-aspartic acid",-2.01565
+320,"4-(S-L-cysteinyl)-L-glutamic acid",-2.01565
+321,"cis-14-hydroxy-10,13-dioxo-7-heptadecenoic acid L-aspartate ester",294.183109
+322,"1'-methyl-L-histidine",14.01565
+323,"L-lysine methyl ester",14.01565
+324,"L-serinyl molybdenum bis(molybdopterin guanine dinucleotide)",1588.98069
+325,"L-beta-methylthioasparagine",45.987721
+326,"L-pyrrolysine (Lys)",109.052764
+327,"3-hydroxy-L-tryptophan",15.994915
+328,"O4'-(phospho-3'-DNA)-L-tyrosine",79.966331
+329,"hydroxyheme-L-glutamate ester",614.161643
+330,"(phospho-5'-guanosine)-L-histidine",345.047434
+331,"tetrakis-L-cysteinyl triiron tetrasulfide",291.663442
+332,"omega-N-glucosyl-L-arginine",162.052823
+333,"(3-aminopropyl)(L-aspartyl-1-amino)phosphoryl-5'-adenosine",386.110369
+334,"1'-heme-L-histidine",616.177293
+335,"(2S,3S,2'R)-3-methyllanthionine sulfoxide",-2.01565
+336,"tris-L-cysteinyl L-aspartato diiron disulfide",171.783814
+337,"S-carbamoyl-L-cysteine",43.005814
+338,"S-cyano-L-cysteine",24.995249
+339,"L-cysteinyl hydrogenase diiron subcluster",342.786913
+340,"S-amidino-L-cysteine",42.021798
+341,"N-methyl-L-isoleucine",14.01565
+342,"N-methyl-L-leucine",14.01565
+343,"N-methyl-L-tyrosine",14.01565
+344,"N-palmitoylglycine",238.229666
+345,"2-(S-L-cysteinyl)-L-phenylalanine",-2.01565
+346,"2-(S-L-cysteinyl)-D-phenylalanine",-2.01565
+347,"2-(S-L-cysteinyl)-D-allo-threonine",-2.01565
+348,"N-carbamoyl-L-alanine",43.005814
+349,"4-amino-3-isothiazolidinone-L-serine",-2.01565
+350,"L-threonyl-pentaglycyl-murein peptidoglycan",268.104579
+351,"N-glycyl-1-(phosphatidyl)ethanolamine",699.52029
+352,"L-glutamyl 5-omega-hydroxyceramide ester",760.730862
+353,"S-[5'-(L-tryptoph-6'-yl)-L-tyrosin-3'-yl]-L-methionin-S-ium",-3.024024
+354,"O-(riboflavin phosphoryl)-L-threonine",438.09405
+355,"O-(riboflavin phosphoryl)-L-serine",438.09405
+356,"S-(4a-FMN)-L-cysteine",456.104615
+357,"1'-(8alpha-FMN)-L-histidine",454.088965
+358,"3'-(8alpha-FMN)-L-histidine",454.088965
+359,"N2-acetyl-L-arginine",42.010565
+360,"L-cysteinyl copper sulfido molybdopterin cytosine dinuncleotide",922.834854
+361,"tris-L-cysteinyl S-adenosylmethion-N,O-diyl tetrairon tetrasulfide",746.742346
+362,"tris-L-cysteinyl L-arginyl diiron disulfide",172.791639
+363,"L-cysteinyl-L-selenocysteine (Cys-Sec)",-2.01565
+364,"5-hydroxy-N6,N6,N6-trimethyl-L-lysine",59.049141
+365,"N-(L-isoglutamyl)-glycine",-18.010565
+366,"O-sulfo-L-serine",79.956815
+367,"O-sulfo-L-threonine",79.956815
+368,"N-carboxy-L-methionine",43.989829
+369,"O-acetyl-L-serine",42.010565
+370,"(E)-2,3-didehydrotyrosine",-2.01565
+371,"bis-L-aspartato tris-L-glutamato L-histidino calcium tetramanganese tetroxide",317.64748
+372,"3'-(3'-L-tyrosinyl)-L-tyrosine",-2.01565
+373,"3'-(O4'-L-tyrosinyl)-L-tyrosine",-2.01565
+374,"3,4-dihydroxy-L-arginine",31.989829
+375,"4,5-dihydroxy-L-lysine",31.989829
+376,"1'-(phospho-5'-adenosine)-L-histidine",329.05252
+377,"1'-(phospho-5'-uridine)-L-histidine",306.025302
+378,"L-aspartyl semialdehyde",-15.994915
+379,"L-serine microcin E492 siderophore ester",831.197041
+380,"L-aspartyl molybdenum bis(molybdopterin guanine dinucleotide)",1572.985775
+381,"L-selenocysteinyl tungsten bis(molybdopterin guanine dinucleotide) (Sec)",1691.003369
+382,"3-(2-methylthio)ethyl-6-(4-hydroxybenzylidene)-5-iminopiperazin-2-one",-20.026215
+383,"2-imino-glutamic acid 5-imidazolinone glycine",-20.026215
+384,"2-imino-methionine 5-imidazolinone glycine",-20.026215
+385,"L-asparagine 5-imidazolinone glycine",-18.010565
+386,"L-lysine 5-imidazolinone glycine",-18.010565
+387,"2-tetrahydropyridinyl-5-imidazolinone glycine",-37.052764
+388,"L-alanyl-pentaglycyl-murein peptidoglycan",268.104579
+389,"N-formyl-L-proline",27.994915
+390,"O-decanoyl-L-serine",154.135765
+391,"O-octanoyl-L-threonine",126.104465
+392,"O-decanoyl-L-threonine",154.135765
+393,"O-methylated residue",0
+394,"acetylated residue",42.010565
+395,"thioester crosslinked residues",0
+396,"O-glycosylated residue",0
+397,"iodoacetamide derivatized residue",57.021464
+398,"carbamoylated residue",43.005814
+399,"iodoacetic acid derivatized residue",58.005479
+400,"deamidated residue",0.984016
+401,"Gygi ICAT(TM) d0 modified cysteine",486.251206
+402,"Gygi ICAT(TM) d8 modified cysteine",494.30142
+403,"homoserine",-29.992806
+404,"homoserine lactone",-48.003371
+405,"Applied Biosystems original ICAT(TM) d8 modified cysteine",450.275205
+406,"Applied Biosystems original ICAT(TM) d0 modified cysteine",442.224991
+407,"residue methyl ester",14.01565
+408,"N-acetylated residue",42.010565
+409,"N-formylated residue",27.994915
+410,"S-(N-isopropylcarboxamidomethyl)-L-cysteine",99.068414
+411,"O18 label",2.004246
+412,"oxidation",15.994915
+413,"biotinyl-iodoacetamidyl-3,6-dioxaoctanediamine derivatized cysteine",414.193691
+414,"monomethylated L-arginine",14.01565
+415,"phosphorylation without neutral loss",79.966331
+416,"phosphorylation of an hydroxyl amino acid with prompt loss of phosphate",-18.010565
+417,"S-carboxamidoethyl-L-cysteine",71.037114
+418,"pyridylacetylated residue",119.037114
+419,"(R)-5-oxo-1,4-tetrahydrothiazine-3-carboxylic acid",39.994915
+420,"2-pyrrolidone-5-carboxylic acid (Glu)",-18.010565
+421,"C-glycosylated residue",0
+422,"alpha-amino morpholine-2-acetylated residue",127.063329
+423,"monosodium salt",21.981944
+424,"S-pyridylethyl-L-cysteine",105.057849
+425,"monohydroxylated residue",15.994915
+426,"S-glycosylated residue",0
+427,"methylated residue",0
+428,"dihydroxylated residue",31.989829
+429,"dimethylated residue",28.0313
+430,"trimethylated residue",42.04695
+431,"modified residue with a secondary neutral loss",0
+432,"modified residue with neutral loss of phosphate",0
+433,"glucosylated residue",162.052823
+435,"O-phospho-L-serine with neutral loss of phosphate",-97.976895
+436,"N-acetylhexosaminylated",203.079373
+437,"farnesylated residue",204.187801
+438,"myristoylated residue",210.198365
+439,"O-phospho-L-threonine with neutral loss of phosphate",-97.976895
+440,"palmitoylated residue",238.229666
+441,"geranylgeranylated residue",272.250401
+442,"protonated omega-N,omega-N'-dimethylated L-arginine with secondary neutral loss of N,N'-carbodiimide",42.021798
+443,"protonated omega-N,omega-N-dimethlyated L-arginine with secondary neutral loss of N,N-dimethylamine",59.060923
+444,"N-palmitoyl-S-(sn-1-2,3-dipalmitoyl-glycerol)cysteine",788.725776
+445,"L-homoarginine",42.021798
+446,"4-hydroxynonenal adduct",156.11503
+447,"N-glucuronylated residue",176.032088
+448,"N-acetylaminoglucosylated residue",203.079373
+449,"acetate labeling reagent (N-term) (heavy form, +3amu)",45.029395
+450,"acetate labeling reagent light form (K)",42.010565
+451,"alpha-amino propanoylated residue",56.026215
+452,"alpha-amino 3x(13)C-labeled propanoylated residue",59.036279
+453,"quaternary amine labeling reagent light form (N-term & K)",127.099714
+454,"quaternary amine labeling reagent heavy form (+3amu) (N-term & K)",130.118544
+455,"quaternary amine labeling reagent heavy form (+6amu) (N-term & K)",133.137375
+456,"quaternary amine labeling reagent heavy form (+9amu) (N-term & K)",136.156205
+457,"alpha-amino succinylated residue",100.016044
+458,"4x(2)H labeled alpha-amino succinylated residue",104.041151
+459,"4x(13)C labeled alpha-amino succinylated residue",104.029463
+460,"L-cysteic acid (L-cysteine sulfonic acid)",47.984744
+461,"nitrosylation",44.985078
+462,"L-kynurenine",3.994915
+463,"3'-hydroxy-L-kynurenine",19.989829
+464,"N'-formyl-L-kynurenine",31.989829
+465,"dihydroxyphenylalanine (Phe)",31.989829
+466,"glycosylsphingolipidinositolated residue",0
+467,"iminobiotinyl modified residue",225.093583
+468,"ESP-Tag light d0",338.177647
+469,"ESP-Tag heavy d10",348.240415
+470,"NHS-LC-Biotin",339.161663
+471,"EDT-maleimide-PEO-biotin",601.206247
+472,"IMID d0",68.037448
+473,"IMID d4",72.062555
+474,"S-([1,1,2-(2)H3]-carboxamidoethyl)-L-cysteine",74.055944
+475,"tyrosine oxidation to 2-aminotyrosine",15.010899
+476,"galactosylated residue",0
+477,"2-pyrrolidone",-13.007825
+478,"glutamyl semialdehyde (Pro)",15.994915
+479,"glutamyl semialdehyde (Arg)",-43.053433
+480,"Applied Biosystems cleavable ICAT(TM) light",227.126991
+481,"Applied Biosystems cleavable ICAT(TM) heavy",236.157185
+482,"N-formyl-L-methionine (Met)",27.994915
+483,"N-ethylmaleimide derivatized cysteine",125.047678
+484,"oxidized lysine biotinylated with biotin-LC-hydrazide, reduced",354.172562
+485,"oxidized lysine biotinylated with biotin-LC-hydrazide",352.156912
+486,"oxidized proline biotinylated with biotin-LC-hydrazide, reduced",371.199111
+487,"oxidized proline biotinylated with biotin-LC-hydrazide",369.183461
+488,"oxidized arginine biotinylated with biotin-LC-hydrazide",310.135114
+489,"oxidized arginine biotinylated with biotin-LC-hydrazide, reduced",312.150764
+490,"EDT-iodo-PEO-biotin",490.174219
+491,"thio ether formation - BTP Adduct",316.138087
+492,"ubiquitination signature dipeptidyl lysine",114.042927
+493,"formylated residue",27.994915
+494,"N-iodoacetyl, p-chlorobenzyl-12C6-glucamine",345.097915
+495,"N-iodoacetyl, p-chlorobenzyl-13C6-glucamine",351.118044
+496,"reductive amination-D",32.056407
+497,"3-sulfanylpropanoyl (N-term and Lys)",87.998286
+498,"fluorinated residue",0
+499,"5-iodoacetamidofluorescein",388.082112
+500,"monoiodinated residue",125.896648
+501,"diiodinated residue",251.793295
+502,"triiodinated residue",377.689943
+503,"N-(cis-delta 5)-tetradecaenoylglycine",208.182715
+504,"N-(cis,cis-delta 5,delta 8)-tetradecadienoylglycine",206.167065
+505,"benzoyl labeling reagent light form (N-term and K)",104.026215
+506,"N-linked glycan core",1216.422862
+507,"5-dimethylaminonaphthalene-1-sulfonyl",233.05105
+508,"ISD a-series (C-Term)",-29.00274
+509,"amidination of lysines or N-terminal amines with methyl acetimidate",41.026549
+510,"HexNAc1dHex1",349.137281
+511,"HexNAc2",406.158745
+512,"Hex3",486.15847
+513,"HexNAc1dHex2",495.19519
+514,"Hex1HexNAc1dHex1",511.190105
+515,"HexNAc2dHex1",552.216654
+516,"Hex1HexNAc2",568.211568
+517,"Hex1HexNAc1NeuAc1 glycosylated residue",657.235437
+518,"HexNAc2dHex2",698.274563
+519,"Hex1HexNAc2Pent1",700.253827
+520,"Hex1HexNAc2dHex1",714.269477
+521,"Hex2HexNAc2",730.264392
+522,"Hex3HexNAc1Pent1",821.280102
+523,"Hex1HexNAc2dHex1Pent1",846.311736
+524,"Hex1HexNAc2dHex2",860.327386
+525,"Hex2HexNAc2Pent1",862.306651
+526,"Hex2HexNAc2dHex1",876.322301
+527,"Hex3HexNAc2",892.317215
+528,"Hex1HexNAc1NeuAc2 glycosylated residue",947.323029
+529,"Hex3HexNAc2P1",972.283546
+530,"L-selenomethionine",47.94445
+531,"(18)O labeled deglycosylated asparagine",2.988262
+532,"Shimadzu 13CNBS",159.008578
+533,"Shimadzu 12CNBS",152.988449
+534,"Michael addition of BHT quinone methide to cysteine and lysine",218.167065
+535,"phosphorylation to amine thiol",87.050656
+536,"L-serine to L-alanine replacement",-15.994915
+537,"L-alanine residue (Thr)",-30.010565
+538,"protein modification categorized by isobaric sets",0
+539,"threonine reduced to aminobutynate",-17.00274
+540,"9x(13)C labeled residue",9.030194
+541,"9x(13)C labeled L-phosphotyrosine",88.996524
+542,"hydroxyphenylglyoxal arginine",132.021129
+543,"bis(hydroxyphenylglyoxal) arginine",282.052823
+544,"6x(13)C labeled residue",6.020129
+545,"deuterated dimethyl labeling (D)",34.068961
+546,"(18)O label at both C-terminal oxygens",4.008493
+547,"6-aminoquinolyl-N-hydroxysuccinimidyl carbamate",170.048013
+548,"APTA-d0",171.149738
+549,"APTA d3",174.168568
+550,"EAPTA d0",184.157563
+551,"EAPTA d5",189.188947
+552,"4x(2)H labeled dimethylated residue",32.056407
+553,"1,2-ethanedithiol modified residue",75.980528
+554,"APTA-d0 with no neutral loss",170.141913
+555,"APTA-d0 with quaternary amine loss",170.141913
+556,"acrolein addition +94",94.041865
+557,"acrolein addition +56",56.026215
+558,"acrolein addition +38",38.01565
+559,"acrolein addition +76",76.0313
+560,"acrolein addition +112",112.052429
+561,"N-ethyl iodoacetamide-d0",85.052764
+562,"N-ethyl iodoacetamide-d5",90.084148
+563,"N-acetylaminogalactosylated residue",203.079373
+564,"Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry",144.102062
+565,"deglycosylated asparagine",0.984016
+566,"label cysteine with IGBP reagent",296.01604
+567,"histidine oxidation to asparagine",-23.015984
+568,"histidine oxidation to aspartic acid",-22.031969
+569,"residues isobaric at a resolution below 0.000001 Da",0
+570,"residues isobaric at 71.037114 Da",0
+571,"2-pyrrolidone-5-carboxylic acid (Pro)",13.979265
+572,"oxidized arginine biotinylated with biotin hydrazide",199.0667
+573,"oxidized lysine biotinylated with biotin hydrazide",241.088498
+574,"oxidized proline biotinylated with biotin hydrazide",258.115047
+575,"oxidized threonine biotinylated with biotin hydrazide",240.104482
+576,"crotonaldehyde",70.041865
+577,"acetaldehyde +26",26.01565
+578,"acetaldehyde +28",28.0313
+579,"propionaldehyde +40",40.0313
+580,"propionaldehyde +42",42.04695
+581,"(18)O monosubstituted residue",2.004246
+582,"6x(13)C,2x(15)N labeled L-lysine",8.014199
+583,"thiophosphorylated residue",95.943487
+584,"4-sulfophenyl isothiocyanate derivatized residue",214.971085
+585,"deuterium trisubstituted residue",3.01883
+586,"phosphorylation to pyridyl thiol",121.035006
+587,"6x(13)C,4x(15)N labeled L-arginine",10.008269
+588,"5x(13)C,1x(15)N labeled L-valine",6.013809
+589,"1x(13)C,1x(15)N labeled L-phenylalanine",10.027228
+590,"nucleophilic addtion to cytopiloyne",362.136553
+591,"nucleophilic addition to cytopiloyne+H2O",380.147118
+592,"sulfonation of N-terminal",135.98303
+593,"covalent modification of lysine by omega-maleimido alkanoyl N-hydroxysuccinimido esters",253.095023
+594,"residues isobaric at 113.047678 Da",0
+595,"mannosylated residue",162.052823
+596,"4-(2-aminoethyl)benzenesulfonyl fluoride derivatized residue",183.0354
+597,"methyl methanethiosulfonate",45.987721
+598,"S-(2-hydroxyethyl)cysteine",44.026215
+599,"monomethylated residue",14.01565
+600,"L-glutamic acid 5-ethyl ester",28.0313
+601,"cyclized residue",0
+602,"N-methylated residue",0
+603,"N-ethylation",28.0313
+604,"2x(2)H monomethylated L-lysine",16.028204
+605,"Sulfanilic Acid (SA), light C12",155.004099
+606,"Sulfanilic Acid (SA), heavy C13",161.024228
+607,"dioxoindolealanine lactone",30.982004
+608,"biotin polyethyleneoxide amine",356.188212
+609,"Pierce EZ-Link Biotin-HPDP",428.191583
+610,"cysteinyl mercury",201.970643
+611,"iodouridine monophosphate derivatized residue",322.020217
+612,"3-(carboxamidomethylthio)propanoylated residue",145.019749
+613,"biotinoyl-iodoacetyl-ethylenediamine",326.141262
+614,"fucosylated",146.057909
+615,"4-sulfophenyl isothiocyante modification to N-term R",214.971085
+616,"residues isobaric at a resolution below 0.1 Da",0
+617,"3x(2)H residue methyl ester",17.03448
+618,"tryptophan carboxylation",43.989829
+619,"hydroxylethanone",58.005479
+620,"cysteine monobromobimane derivative",190.074228
+621,"menadione quinone derivative",170.036779
+622,"cysteine mercaptoethanol",75.998286
+623,"fucosylated biantennary (-2 galactose)",1442.518219
+624,"residues isobaric at 113.0-113.1 Da",0
+625,"N-methylmaleimide derivatized residue",111.032028
+626,"fluorescein-5-thiosemicarbazide",421.073242
+627,"2,5-dimethylpyrrole lysine from 2,5-hexanedione adduct",78.04695
+628,"Hex2",324.105647
+629,"MDA adduct +62",62.01565
+630,"C3-H2-O adduct (+54 amu) of malondialdehyde with lysine or methylglyoxal with arginine.",54.010565
+631,"hydrolyzed N-ethylmaleimide adduct",143.058243
+632,"N-succinimide",-17.00274
+633,"bis-N-I-sulfonerahodamine",713.093078
+634,"dimethyl 3,3'-dithiobispropionimidate",122.990948
+635,"10-fluoroethoxyphosphinyl-N-(biotinamidopentyl)decanamide",572.316128
+636,"S-ethylcysteine (Ser)",44.008457
+637,"1x(13)C,3x(2)H labeled monomethylated L-arginine",18.037835
+638,"2x(13)C,6x(2)H labeled dimethylated L-arginine",36.07567
+639,"thiophosphate labeled with biotin-HPDP",525.142895
+640,"6-N-biotinylaminohexyl isopropyl phosphorofluoridate",467.201907
+641,"CAMthiopropanoyl of Lys",146.027574
+642,"reduced 4-hydroxynonenal adduct",158.13068
+643,"methylamine Michael addition derivatized residue",13.031634
+644,"O-acetylated residue",42.010565
+645,"S-acetylated residue",42.010565
+646,"acetylated L-cysteine",42.010565
+647,"acetylated L-serine",42.010565
+648,"N,O-diacetylated L-serine",84.021129
+649,"acylated residue",0
+650,"N-myristoylated residue",210.198365
+651,"N-palmitoylated residue",238.229666
+652,"O-palmitoylated residue",238.229666
+653,"S-palmitoylated residue",238.229666
+654,"S-methylated residue",0
+655,"S-myristoylated residue",210.198365
+656,"C-methylated residue",0
+657,"L-glutamic acid 5-methyl ester (Gln)",14.999666
+658,"methylated arginine",0
+659,"methylated glutamine",0
+660,"methylated cysteine",0
+661,"methylated histidine",0
+662,"methylated leucine",0
+663,"methylated lysine",0
+664,"stereoisomerized residue",0
+665,"methylated alanine",0
+666,"octanoylated residue",126.104465
+667,"decanoylated residue",154.135765
+668,"O-decanoylated residue",154.135765
+669,"O-octanoylated residue",126.104465
+670,"N-acylated residue",0
+671,"O-acylated residue",0
+672,"S-acylated residue",0
+673,"methylated asparagine",0
+674,"amidated residue",-0.984016
+675,"oxidized residue",0
+676,"oxygenated residue",0
+677,"hydroxylated residue",0
+678,"hydroxylated proline",0
+679,"carbon oxygenated residue",0
+680,"sulfur oxygenated residue",0
+681,"hydroxylated lysine",0
+682,"hydroxylated arginine",0
+683,"dehydrogenated residue",0
+684,"deamidated L-asparagine",0.984016
+685,"deamidated L-glutamine",0.984016
+686,"L-selenocysteine (Cys)",47.94445
+687,"thioether crosslinked residues",0
+688,"isopeptide crosslinked residues",0
+689,"disulfide crosslinked residues",0
+690,"oxazole/thiazole ring crosslinked residues",0
+691,"5-imidazolinone ring crosslinked residues",0
+692,"uncategorized crosslinked residues",0
+693,"glycosylated residue",0
+694,"halogen containing residue",0
+695,"sulfated residue",79.956815
+696,"phosphorylated residue",79.966331
+697,"flavin modified residue",783.141485
+698,"metal or metal cluster containing modified residue",0
+699,"porphyrin modified residue",0
+700,"tetrapyrrole modified residue",0
+701,"nucleotide or nucleic acid modified residue",0
+702,"isotope labeled residue",0
+703,"isoprenylated residue",0
+704,"dehydrated residue",-18.010565
+705,"D-valine",0
+706,"dehydrogenated tyrosine",-2.01565
+707,"hydroxylated tyrosine",0
+708,"sulfur oxygenated L-cysteine",0
+709,"sulfur oxygenated L-methionine",0
+710,"protonated-dimethylated residue",0
+711,"trimethylated protonated-residue",43.054227
+712,"methylated proline",0
+713,"methylated glutamic acid",0
+714,"methylated glycine",0
+715,"methylated isoleucine",0
+716,"methylated methionine",0
+717,"methylated phenylalanine",0
+718,"methylated tyrosine",0
+719,"L-methionine sulfoxide",15.994915
+720,"L-methionine (R)-sulfoxide",15.994915
+721,"L-methionine (S)-sulfoxide",15.994915
+722,"monomethylated L-glutamine",14.01565
+723,"N-acetylated L-lysine",42.010565
+724,"N-methylated L-histidine",14.01565
+725,"complex glycosylation",0
+726,"glucosylated",162.052823
+727,"mannosylated",162.052823
+728,"galactosylated",162.052823
+729,"pentosylated residue",132.042259
+730,"arabinosylated",132.042259
+731,"ribosylated",132.042259
+732,"xylosylated",132.042259
+733,"N-acetylaminoglucosylated",203.079373
+734,"N-acetylaminogalactosylated",203.079373
+735,"hexosuronylated",176.032088
+736,"deoxyhexosylated",146.057909
+737,"N-acetylneuraminylated",291.095417
+738,"iron containing modified residue",0
+739,"iron-sulfur cluster containing modification",0
+740,"manganese containing modified residue",0
+741,"nickel containing modified residue",0
+742,"copper containing modified residue",0
+743,"molybdenum containing modified residue",0
+744,"molybdenum pterin containing modification",0
+745,"selenium containing residue",0
+746,"tungsten containing modified residue",0
+747,"sodium containing modified residue",0
+748,"pterin modified residue",0
+749,"sulfur substitution for oxygen",0
+750,"deoxyribonucleic acid linked residue",0
+751,"ribonucleic acid linked residue",0
+752,"adenosine diphosphoribosyl (ADP-ribosyl) modified residue",541.061109
+753,"chlorinated residue",0
+754,"brominated residue",0
+755,"iodinated residue",0
+756,"4-hydroxy-D-valine",15.994915
+757,"O4-galactosyl-L-hydroxyproline",178.047738
+758,"O4-(N-acetylamino)glucosyl-L-hydroxyproline",219.074287
+759,"fucosylated biantennary (-1 galactose)",1606.586693
+760,"biantennary",1622.581607
+761,"monohexosylated (Hex1)",162.052823
+762,"biantennary (-2 galactose)",1298.47596
+763,"biantennary (-1 galactose)",1460.528784
+764,"glycoconjugated residue",0
+765,"cysteinylation (disulfide with free L-cysteine)",119.004099
+766,"C terminal -K from HC of MAb",-128.094963
+767,"glycated residue",0
+768,"methionine oxidation with neutral loss of 80 Da",-79.9932
+769,"residues isobaric at 71.0-71.1 Da",0
+770,"residues isobaric at a resolution below 0.01 Da",0
+771,"residues isobaric at 166.98-167.00 Da",0
+772,"vanadium containing modified residue",0
+773,"residues isobaric at 181.00-181.02 Da",0
+774,"residues isobaric at 243.02-243.03 Da",0
+775,"L-asparagine (His)",-23.015984
+776,"L-aspartic acid (His)",-22.031969
+777,"residues isobaric at 182.96-182.98 Da",0
+778,"residues isobaric at 182.9-183.0 Da",0
+779,"lysine oxidation to aminoadipic semialdehyde",-1.031634
+780,"N-acetyl-L-asparagine",42.010565
+781,"N2-acetyl-L-histidine",42.010565
+782,"N-acetyl-L-leucine",42.010565
+783,"dimethylated L-arginine",28.0313
+784,"N-acetyl-L-phenylalanine",42.010565
+785,"N2-acetyl-L-tryptophan",42.010565
+786,"deuterium substituted residue",0
+787,"diisopropylphosphoserine",164.060231
+788,"isopropylphosphotyrosine",122.013281
+789,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, heavy form",111.041593
+790,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, light form",105.021464
+791,"1x(18)O labeled deamidated L-glutamine",2.988262
+792,"deuterium monosubstituted residue",0
+793,"dehydroalanine (Cys)",-33.987721
+794,"pyrrolidone from proline",-27.994915
+795,"Michael addition of hydroxymethylvinyl ketone to cysteine",86.036779
+796,"L-ornithine (Arg)",-42.021798
+797,"2-(S-L-cysteinyl)pyruvic acid O-phosphothioketal",167.982375
+798,"half cystine",-1.007825
+799,"S-galactosyl-L-cysteine",162.052823
+800,"L-cysteinyl-L-histidino-homocitryl vanadium heptairon nonasulfide",932.248513
+801,"L-cysteinyl-L-histidino-homocitryl octairon nonasulfide",937.240588
+802,"L-histidino vanadium tetraoxide",116.939268
+803,"3-(S-L-cysteinyl)-L-tyrosine",-2.01565
+804,"O-glucosyl-L-serine",162.052823
+805,"O-(N-acetylamino)glucosyl-L-serine",203.079373
+806,"O-(N-acetylamino)glucosyl-L-threonine",203.079373
+807,"pyruvic acid (Ser)",-17.026549
+808,"O-galactosyl-L-serine",162.052823
+809,"O-galactosyl-L-threonine",162.052823
+810,"O-mannosyl-L-serine",162.052823
+811,"O-mannosyl-L-threonine",162.052823
+812,"O-fucosyl-L-serine",146.057909
+813,"O-fucosyl-L-threonine",146.057909
+814,"O-xylosyl-L-serine",132.042259
+815,"molybdopterin",521.884074
+816,"S-stearoyl-L-cysteine",266.260966
+817,"3'-geranyl-2',3'-dihydro-2',N2-cyclo-L-tryptophan",136.125201
+818,"glycosylphosphatidylinositolated residue",123.00853
+819,"L-2-aminobutanoic acid (Glu)",-43.989829
+820,"2-imino-alanine 5-imidazolinone glycine",-64.016044
+821,"S-(L-alanyl)-L-cysteine",-18.010565
+822,"S-(L-leucyl)-L-cysteine",-18.010565
+823,"S-(L-methionyl)-L-cysteine",-18.010565
+824,"dehydroalanine (Tyr)",-94.041865
+825,"S-(L-phenylalanyl)-L-cysteine",-18.010565
+826,"S-(L-threonyl)-L-cysteine",-18.010565
+827,"S-(L-tyrosyl)-L-cysteine",-18.010565
+828,"S-(L-tryptophanyl)-L-cysteine",-18.010565
+829,"O-(L-phenylalanyl)-L-serine",-18.010565
+830,"N-methyl-L-proline",14.01565
+831,"N4-(N-acetylamino)glucosyl-L-asparagine",203.079373
+832,"N4-(N-acetylamino)galactosyl-L-asparagine",203.079373
+833,"N4-glucosyl-L-asparagine",162.052823
+834,"O-(N-acetylamino)fucosyl-L-serine",187.084458
+835,"L-3-oxoalanine (Ser)",-2.01565
+836,"deuterium disubstituted residue",0
+837,"deuterium tetrasubstituted residue",0
+838,"3x(2)H labeled L-leucine",3.01883
+839,"(2)H deuterium labeled residue",0
+840,"isocyanate reagent derivatized residue",0
+841,"isothiocyanate reagent derivatized residue",0
+842,"(13)C labeled residue",0
+843,"(15)N labeled residue",0
+844,"(18)O labeled residue",0
+845,"(18)O substituted residue",0
+846,"levuglandinyl (prostaglandin H2) adduct",0
+847,"(18)O disubstituted residue",0
+848,"reagent derivatized residue",0
+849,"potassium containing modified residue",0
+850,"unnatural residue",0
+851,"(18)O labeled deamidated residue",0
+852,"1x(18)O labeled deamidated residue",2.988262
+853,"2x(18)O labeled deamidated residue",4.992508
+854,"protonated L-lysine (L-lysinium) residue",1.007276
+855,"N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)",42.046402
+856,"protonated L-alanine (L-alaninium) residue",1.007276
+857,"N,N,N-trimethyl-L-alanine (from L-alaninium)",42.046402
+858,"D-alanine (Ser)",-15.994915
+859,"modified residue that can arise from different natural residues",0
+860,"sulfur containing modified residue",0
+861,"phosphorus containing modified residue",0
+863,"D-allo-threonine",0
+864,"tris-L-cysteinyl L-histidino diiron disulfide",171.783814
+865,"N-aspartyl-glycosylsphingolipidinositolethanolamine",123.00853
+866,"dihydroxylated proline",31.989829
+867,"L-cysteinyl-L-selenocysteine (Cys-Cys)",45.9288
+868,"natural, non-standard encoded residue",0
+869,"L-alanine residue (Asp)",-43.989829
+870,"phenyl isocyanate derivatized residue",119.037114
+871,"(2)H5-phenyl isocyanate derivatized residue",124.068498
+872,"L-isoglutamyl monoglutamic acid",129.042593
+873,"L-isoglutamyl diglutamic acid",258.085186
+874,"L-isoglutamyl triglutamic acid",387.127779
+875,"L-isoglutamyl tetraglutamic acid",516.170372
+876,"hexosaminylated residue",161.068808
+877,"imidoester crosslink dimethyl pimelimidate singly attached",154.110613
+878,"imidoester crosslink dimethyl pimelimidate doubly attached",122.084398
+879,"naphthalene-2,3-dicarboxaldehyde",175.042199
+880,"6x(13)C labeled 4-sulfophenyl isothiocyanate derivatized residue",220.991214
+881,"N-reductive amination-D",32.056407
+882,"S-(2-aminoethyl)cysteine (Ser)",59.019356
+883,"C1-amidated residue",-0.984016
+884,"S-aminoethylcysteine (Cys)",43.042199
+885,"ester crosslinked residues",0
+886,"6'-chloro-L-tryptophan",33.961028
+887,"methylated aspartic acid",0
+888,"protonated L-proline (L-prolinium) residue",1.007276
+889,"N,N-dimethyl-L-proline (from L-prolinium)",28.030752
+890,"phosphorylated L-histidine",79.966331
+892,"D-serine (Cys)",-15.977156
+893,"residues isobaric at 128.0-128.1",0
+894,"residues isobaric at 128.058578 Da",0
+895,"FAD modified residue",0
+896,"FMN modified residue",0
+897,"N-acetyl-S-archeol-cysteine",676.673347
+898,"S-(sn-1-2-oleoyl-3-palmitoyl-glycerol)cysteine",576.511761
+899,"N-palmitoyl-S-diacylglycerol-L-cysteine",0
+900,"N-palmitoyl-S-(sn-1-2-oleoyl-3-palmitoyl-glycerol)cysteine",814.741426
+901,"modified L-alanine residue",0
+902,"modified L-arginine residue",0
+903,"modified L-asparagine residue",0
+904,"modified L-aspartic acid residue",0
+905,"modified L-cysteine residue",0
+906,"modified L-glutamic acid residue",0
+907,"modified L-glutamine residue",0
+908,"modified glycine residue",0
+909,"modified L-histidine residue",0
+910,"modified L-isoleucine residue",0
+911,"modified L-leucine residue",0
+912,"modified L-lysine residue",0
+913,"modified L-methionine residue",0
+914,"modified L-phenylalanine residue",0
+915,"modified L-proline residue",0
+916,"modified L-serine residue",0
+917,"modified L-threonine residue",0
+918,"modified L-tryptophan residue",0
+919,"modified L-tyrosine residue",0
+920,"modified L-valine residue",0
+921,"new uncategorized UniMod entries",0
+922,"Cy3 CyDye DIGE Fluor saturation dye",672.298156
+923,"Cy5 CyDye DIGE Fluor saturation dye",684.298156
+924,"N6-(L-threonyl)-L-lysine",-18.010565
+925,"heptosylated residue",192.063388
+926,"Bisphenol A diglycidyl ether derivative",340.167459
+927,"2x(13)C,4x(2)H labeled dimethylated residue",34.063117
+928,"[3-(2,5)-dioxopyrrolidin-1-yloxycarbonyl)-propyl]dimethyloctylammonium",227.224915
+929,"lactose glycated lysine",342.116212
+930,"propyl-NAG tyrosine adduct",232.064354
+931,"Michael addition of t-butyl hydroxylated BHT (BHTOH) to C, H or K",234.16198
+932,"IDBEST tag for quantitation",298.022749
+933,"methylglyoxal arginine adduct (+54 amu)",54.010565
+934,"Levuglandinyl - arginine hydroxylactam adduct",306.171876
+935,"methionine oxidation with neutral loss of 64 Da",-63.998286
+936,"Levuglandinyl - hydroxylactam adduct, K and N-term",348.193674
+937,"Levuglandinyl - arginine lactam adduct",290.176961
+938,"Levuglandinyl - lactam adduct, K and N-term",332.198759
+939,"hydrolyzed N-methylmaleimide cysteine adduct",129.042593
+940,"3-methyl-2-pyridyl isocyanate derivatized residue",134.048013
+941,"dehydropyrrolizidine alkaloid (dehydroretronecine) derivatized cysteine",118.065674
+942,"(4,4,5,5-(2)H4)-L-lysine",4.025107
+943,"4-trimethylammoniumbutanoyl derivatized residue",128.107539
+944,"d9-4-trimethylammoniumbutanoyl derivatized residue",137.16403
+945,"fluorescein-5-thiosemicarbazide adduct",421.073242
+946,"crosslinked residues with loss of ammonia",0
+947,"DeltaMass",0
+951,"L-gamma-carboxyglutamic acid with neutral loss of carbon dioxide",-43.989829
+952,"(2-aminosuccinimidyl)acetic acid (Asp)",-18.010565
+953,"O-(L-isoglutamyl)-L-serine (Glu-Ser)",-18.010565
+954,"crosslinked residues with loss of water",0
+955,"alaninohistidine (serine crosslinked to tele or pros nitrogen of histidine)",-18.010565
+956,"misincorporation of norleucine for methionine",-17.956421
+957,"modified residue with neutral loss of carbon dioxide",-43.989829
+960,"decarboxylated residue",-43.989829
+961,"reduction of disulfide crosslink in cystine to two cysteines",2.01565
+962,"2',3'-dihydrotryptophan",2.01565
+964,"lysine epsilon amino to imine + 12 amu",12
+965,"4-thiazolidinecarboxylic acid",12
+966,"1,2,3,4-tetrahydro-beta-carboline-3-carboxylic acid",12
+967,"syndesine",16.955121
+972,"monobrominated L-phenylalanine",77.910512
+974,"(35)Cl labeled 3'-chlorotyrosine",33.961028
+975,"(37)Cl labeled 3'-chlorotyrosine",35.958078
+976,"potassium salt",37.955882
+977,"disodium salt",43.963888
+981,"sodium and potassium salt",59.937826
+982,"L-selenocysteine (Ser)",63.921607
+984,"(35)Cl labeled 3',5'-dichlorotyrosine",67.922055
+985,"halogenated tyrosine",0
+986,"(35)Cl and (37)Cl labeled 3',5'-dichlorotyrosine",69.919105
+987,"chlorinated tyrosine",0
+988,"brominated tyrosine",0
+990,"(37)Cl labeled 3',5'-dichlorotyrosine",71.916155
+991,"S-(sn-1-glyceryl)-L-cysteine",74.036779
+992,"glutamate 5-glycerol ester",74.036779
+993,"phenyl ester",76.0313
+994,"(79)Br labeled 3'-bromotyrosine",77.910512
+995,"(81)Br labeled 2'-bromophenylalanine",79.908466
+996,"(81)Br labeled 3'-bromotyrosine",79.908466
+997,"cyclohexyl ester",82.07825
+998,"iodinated tyrosine",0
+1000,"monobrominated tyrosine",0
+1002,"gamma-aminobutyryl",85.052764
+1004,"diaminopropionyl",86.048013
+1006,"dibrominated tyrosine",155.821024
+1007,"anisyl modified residue",90.04695
+1008,"benzyl (Bzl) and benzyl ester (OBzl) modified residue",90.04695
+1009,"dehydrogenated proline",-2.01565
+1010,"trifluoroacetylated residue",95.982299
+1012,"oxidation of disulfide crosslink in cystine to two cysteic acids",97.985138
+1022,"2-piperidinecarboxylic acid",-17.026549
+1023,"3',5'-dibromo-L-tyrosine",155.821024
+1024,"monohydroxylated proline",15.994915
+1025,"3'-bromo-L-tyrosine",77.910512
+1028,"monochlorinated L-tyrosine",33.961028
+1029,"succinylated residue",100.016044
+1032,"benzyloxymethyl modified residue",120.057515
+1033,"p-methoxybenzyl modified residue",120.057515
+1034,"4-nitrophenyl modified residue",121.016378
+1037,"dichlorinated tyrosine",67.922055
+1041,"benzyloxycarbonyl modified residue",134.036779
+1042,"adamantyl modified residue",134.10955
+1043,"p-nitrobenzyl ester modified residue",135.032028
+1045,"3',5'-dichloro-L-tyrosine",67.922055
+1046,"3'-chloro-L-tyrosine",33.961028
+1047,"monohydroxylated lysine",15.994915
+1049,"halogenated histidine",0
+1056,"(79)Br labeled 3',5'-dibromotyrosine",155.821024
+1057,"(79)Br and (81)Br labeled 3',5'-dibromotyrosine",157.818978
+1059,"(81)Br labeled 3',5'-dibromotyrosine",159.816931
+1060,"S-carboxamidomethyl-L-cysteine",57.021464
+1061,"S-carboxymethyl-L-cysteine",58.005479
+1063,"monomethylated phenylalanine",14.01565
+1065,"hexose glycated N-terminal",162.052823
+1066,"halogenated phenylalanine",0
+1068,"halogenated tryptophan",0
+1069,"2,4-dinitrophenyl modified residue",166.001457
+1070,"pentafluorophenyl modified residue",165.984191
+1071,"diphenylmethyl modified residue",166.07825
+1072,"monopotassium salt",37.955882
+1073,"2-chlorobenzyloxycarbonyl modified residue",169.005632
+1074,"napthylacetyl modified residue",169.06534
+1075,"mercury containing modified residue",0
+1078,"S-(2-aminoethyl)-3-methylcysteine (Thr)",59.019356
+1079,"S-(acetylamino)methyl-L-cysteine",71.037114
+1081,"delta-glycosyloxy- (of lysine) or beta-glycosyloxy- (of phenylalanine or tyrosine)",178.047738
+1082,"4-glycosyloxy- (hexosyl, C6) (of proline)",178.047738
+1083,"O-benzyl-L-serine",90.04695
+1084,"iodoacetic acid derivatized amino-terminal residue",58.005479
+1087,"2,4,5-trichlorophenyl modified residue",177.914383
+1088,"2,4,6-trimethyloxybenzyl modified residue",180.078644
+1090,"iodoacetamide derivatized amino-terminal residue",57.021464
+1091,"monochlorinated L-phenylalanine",33.961028
+1094,"N6-carboxymethyl-L-lysine",58.005479
+1096,"O-benzyl-L-threonine",90.04695
+1097,"S-benzyl-L-cysteine",90.04695
+1099,"succinyl beta-aspartyl anhydride",82.005479
+1106,"N-formyl-L-tryptophan",27.994915
+1107,"O5-benzyl-L-glutamate",90.04695
+1108,"2-amino-5-(4-methoxyphenyl)-5-oxopentanoic acid (Glu)",90.04695
+1111,"dimethoxybenzhydryl modified residue",226.09938
+1112,"nicotinoyl lysine",105.021464
+1114,"triphenylmethyl",242.10955
+1116,"S-farnesyl-L-cysteine methyl ester",218.203451
+1119,"S-geranylgeranyl-L-cysteine methyl ester",286.266051
+1120,"2,2,5,7,8-pentamethylchroman-6-sulfonyl chloride derivatized residue",266.097665
+1124,"aldohexosyl lysyl",162.052823
+1133,"S-12-hydroxyfarnesyl-L-cysteine methyl ester",234.198365
+1137,"N6-(2,2,5,7,8-pentamethylchroman-6-sulfonyl)-L-lysine",266.097665
+1140,"diiodinated tyrosine",251.793295
+1141,"omega-N-(2,2,5,7,8-pentamethylchroman-6-sulfonyl)-L-arginine",266.097665
+1142,"S-15,16-dihydrobiliverdin-L-cysteine",584.263485
+1143,"15,16-dihydrobiliverdin-bis-L-cysteine",584.263485
+1144,"S-(sn-1-2,3-dipalmitoylglycerol)-L-cysteine",550.496111
+1145,"N-tau-(ADP-ribosyl)diphthamide",684.178999
+1146,"S-(6-FAD)-L-cysteine",783.141485
+1148,"ubiquitinylated lysine",0
+1149,"sumoylated lysine",0
+1150,"neddylated lysine",0
+1151,"phosphorylated residue with neutral loss of phosphate",-97.976895
+1152,"carboxylated residue",43.989829
+1153,"methylthiolated residue",45.987721
+1155,"lipoconjugated residue",0
+1156,"protein modification categorized by chemical process",0
+1157,"protein modification categorized by amino acid modified",0
+1158,"modified L-selenocysteine residue",0
+1159,"peptidoglycanated residue",0
+1160,"deaminated residue",-17.026549
+1161,"deoxygenated residue",-15.994915
+1162,"fucosylated biantennary",1768.639516
+1163,"guanylated residue",345.047434
+1164,"riboflavin-phosphoryl",438.09405
+1165,"adenylated residue",329.05252
+1166,"uridylated residue",306.025302
+1167,"molybdopterin guanine dinucleotide",1572.985775
+1170,"pyruvic acid iminylated residue",70.005479
+1171,"O-acetyl-L-threonine",42.010565
+1172,"N-alanyl-glycosylsphingolipidinositolethanolamine",123.00853
+1173,"N-asparaginyl-glycosylsphingolipidinositolethanolamine",123.00853
+1174,"S-(15-deoxy-Delta12,14-prostaglandin J2-9-yl)-L-cysteine",316.203845
+1175,"S-phycourobilin-L-cysteine",586.279135
+1176,"L-dehydrolysinonorleucine",-19.042199
+1177,"1'-(1,2,3-trihydroxyprop-2-yl)-L-histidine",90.031694
+1178,"S-(aspart-4-yloxy) thiocarbonate",75.9619
+1179,"N,N-dimethyl-L-alanine",28.0313
+1180,"2-hydroxyglycine observational artifact",15.994915
+1181,"L-aspartic acid 4-methyl ester",14.01565
+1182,"6-(S-L-cysteinyl)-8alpha-(-3'-L-histidino)-FAD",781.125835
+1183,"L-selenocystine (oxidized selenocysteine) (Sec-Sec)",-2.01565
+1184,"L-selenocystine (selenium disubstituted L-cystine)",93.87325
+1185,"4-amidated L-aspartic acid",-0.984016
+1186,"acetylated L-threonine",42.010565
+1187,"L-pyrrolysine residue",0
+1188,"N-ethyl iodoacetamide-d5 - site Y",90.084148
+1189,"N-ethyl iodoacetamide-d5 - site C",90.084148
+1190,"dibromo",155.821024
+1191,"N-ethyl iodoacetamide-d0 - site C",85.052764
+1192,"N-ethyl iodoacetamide-d0 - site Y",85.052764
+1193,"phosphorylation to pyridyl thiol - site T",121.035006
+1194,"phosphorylation to pyridyl thiol - site S",121.035006
+1195,"benzoyl labeling reagent light form - site K",104.026215
+1196,"5-dimethylaminonaphthalene-1-sulfonyl - site K",233.05105
+1197,"N-heptosyl-L-glutamine",192.063388
+1198,"O-heptosyl-L-serine",192.063388
+1199,"N-heptosyl-L-arginine",192.063388
+1200,"O-heptosyl-L-threonine",192.063388
+1201,"N6-heptosyl-L-lysine",192.063388
+1202,"N-heptosyl-L-asparagine",192.063388
+1203,"N6-(pyridylacetyl)lysine",119.037114
+1204,"prompt loss of methanethiol from oxidixed methionine",-48.003371
+1205,"Hex1HexNAc1NeuAc2 O-glycosylated serine",947.323029
+1206,"Hex1HexNAc1NeuAc2 O-glycosylated threonine",947.323029
+1207,"Hex1HexNAc1NeuAc2 N4-glycosylated asparagine",947.323029
+1208,"copper(1+) carboxylate C-terminal residue",61.921772
+1209,"copper(1+) L-aspartate",61.921772
+1210,"copper(1+) L-glutamate",61.921772
+1211,"N6-(morpholine-2-acetyl)-lysine",127.063329
+1212,"iodoacetamide N6-derivatized lysine",57.021464
+1213,"iodoacetamide derivatized histidine",57.021464
+1214,"iodoacetamide - site C",57.021464
+1215,"iodoacetamide derivatized aspartic acid",57.021464
+1216,"iodoacetamide derivatized glutamic acid",57.021464
+1217,"Sulfanilic Acid (SA), light C12 - site D",155.004099
+1218,"Sulfanilic Acid (SA), light C12 - site E",155.004099
+1219,"Sulfanilic Acid (SA), heavy C13 - site D",161.024228
+1220,"Sulfanilic Acid (SA), heavy C13 - site E",161.024228
+1221,"O-formyl-L-threonine",27.994915
+1222,"O-formyl-L-serine",27.994915
+1223,"thioacylation of primary amines - site N-term",87.998286
+1224,"thioacylation of primary amines - site K",87.998286
+1225,"monofluorinated L-tyrosine",17.990578
+1226,"monofluorinated L-tryptophan",17.990578
+1227,"monofluorinated L-phenylalanine",17.990578
+1228,"monoiodinated tyrosine",125.896648
+1229,"L-iodohistidine",125.896648
+1230,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, light form - site K",105.021464
+1231,"3x(13)C labeled N6-propanoyl-L-lysine",59.036279
+1232,"3x(12)C labeled N6-propanoyl-L-lysine",56.026215
+1233,"3x(2)H labeled N6-acetyl-L-lysine",45.029395
+1234,"(18)O monosubstituted L-serine",2.004246
+1235,"(18)O monosubstituted L-threonine",2.004246
+1236,"(18)O monosubstituted L-tyrosine",2.004246
+1237,"cysteine 4-hydroxynonenal adduct",156.11503
+1238,"lysine 4-hydroxynonenal adduct",156.11503
+1239,"histidine 4-hydroxynonenal adduct",156.11503
+1240,"ubiquitination signature tetrapeptidyl lysine",383.228102
+1241,"3x(2)H labeled L-aspartic acid 4-methyl ester",17.03448
+1242,"3x(2)H labeled L-glutamic acid 5-methyl ester",17.03448
+1243,"potassium carboxylate C-terminal residue",37.955882
+1244,"potassium L-glutamate",37.955882
+1245,"potassium L-aspartate",37.955882
+1246,"fucosylated -site S",147.065734
+1247,"fucosylated -site T",147.065734
+1248,"iodouridine monophosphate derivatized tyrosine",322.020217
+1249,"iodouridine monophosphate derivatized tryptophan",322.020217
+1250,"iodouridine monophosphate derivatized phenylalanine",322.020217
+1251,"N6-[3-(carboxamidomethylthio)propanoyl]lysine",145.019749
+1252,"5-hydro-5-methylimidazol-4-one, methylglyoxal arginine adduct (+54 amu)",54.010565
+1253,"malondialdehyde lysine adduct (+54 amu)",54.010565
+1254,"4x(2)H labeled dimethylated L-lysine",32.056407
+1255,"S-(2-sulfanylethyl)cysteine (Ser)",75.980528
+1256,"3-methyl-S-(2-sulfanylethyl)cysteine (Thr)",75.980528
+1257,"6-aminoquinolyl-N-hydroxysuccinimidyl carbamate - site K",170.048013
+1258,"N-methylmaleimide - site C",111.032028
+1259,"N-methylmaleimide - site K",111.032028
+1260,"nucleophilic addtion to cytopiloyne - site Y",362.136553
+1261,"nucleophilic addtion to cytopiloyne - site S",362.136553
+1262,"nucleophilic addtion to cytopiloyne - site R",362.136553
+1263,"nucleophilic addtion to cytopiloyne - site K",362.136553
+1264,"nucleophilic addtion to cytopiloyne - site C",362.136553
+1265,"nucleophilic addtion to cytopiloyne - site P",362.136553
+1266,"nucleophilic addition to cytopiloyne+H2O - site C",380.147118
+1267,"nucleophilic addition to cytopiloyne+H2O - site K",380.147118
+1268,"nucleophilic addition to cytopiloyne+H2O - site T",380.147118
+1269,"nucleophilic addition to cytopiloyne+H2O - site R",380.147118
+1270,"nucleophilic addition to cytopiloyne+H2O - site S",380.147118
+1271,"nucleophilic addition to cytopiloyne+H2O - site Y",380.147118
+1272,"iminobiotinylation - site K",225.093583
+1273,"O-[4-(2-aminoethyl)benzenesulfonyl] serine",183.0354
+1274,"N'-[4-(2-aminoethyl)benzenesulfonyl] derivatized histidine",183.0354
+1275,"N6-[4-(2-aminoethyl)benzenesulfonyl]lysine",183.0354
+1276,"O4'-[4-(2-aminoethyl)benzenesulfonyl]tyrosine",183.0354
+1277,"crotonaldehyde - site C",70.041865
+1278,"crotonaldehyde - site K",70.041865
+1279,"crotonaldehyde - site H",70.041865
+1280,"EDT-iodo-PEO-biotin - site T",490.174219
+1281,"EDT-iodo-PEO-biotin - site S",490.174219
+1282,"acrolein addition +56 - site H",56.026215
+1283,"acrolein addition +56 - site K",56.026215
+1284,"acrolein addition +56 - site C",56.026215
+1285,"6x(13)C,1x(15)N labeled L-leucine",7.017164
+1286,"6x(13)C,1x(15)N labeled L-isoleucine",7.017164
+1287,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, heavy form - site K",111.041593
+1288,"acetaldehyde +28 - site H",28.0313
+1289,"acetaldehyde +28 - site K",28.0313
+1290,"dihydroxylated residue - site F",31.989829
+1291,"dihydroxylated residue - site W",31.989829
+1292,"dimethylation of proline residue",29.039125
+1293,"1x(18)O labeled deamidated L-asparagine",2.988262
+1294,"deamidation in presence of O18 -site Q",2.988262
+1295,"monosodium L-aspartate",21.981944
+1296,"monosodium L-glutamate",21.981944
+1297,"5x(13)C labeled L-proline",5.016774
+1298,"reduced cysteine 4-hydroxynonenal adduct",158.13068
+1299,"reduced lysine 4-hydroxynonenal adduct",158.13068
+1300,"reduced histidine 4-hydroxynonenal adduct",158.13068
+1301,"methylamine Michael addition derivatized threonine",13.031634
+1302,"methylamine Michael addition derivatized serine",13.031634
+1303,"N4-hexosaminylated asparagine",161.068808
+1304,"N6-hexosaminylated lysine",161.068808
+1305,"N1'-hexosaminylated tryptophan",161.068808
+1306,"O-hexosaminylated threonine",161.068808
+1307,"thiophosphate labeled with biotin-HPDP -site S",525.142895
+1308,"thiophosphate labeled with biotin-HPDP -site T",525.142895
+1309,"thiophosphate labeled with biotin-HPDP - site Y",525.142895
+1310,"quaternary amine labeling reagent light form N6-L-lysine",59.073499
+1311,"quaternary amine labeling reagent heavy form (+3amu) N6-L-lysine",62.09233
+1312,"quaternary amine labeling reagent heavy form (+6amu) N6-L-lysine",65.11116
+1313,"quaternary amine labeling reagent heavy form (+9amu) N6-L-lysine",68.12999
+1314,"4x(1)H,4x(12)C-labeled N6-succinyl-L-lysine",100.016044
+1315,"4x(2)H labeled N6-succinyl-L-lysine",104.041151
+1316,"4x(13)C labeled N6-succinyl-L-lysine",104.029463
+1317,"phosphorylation to amine thiol - site T",87.050656
+1318,"phosphorylation to amine thiol - site S",87.050656
+1319,"Michael addition of BHT quinone methide to histidine",218.167065
+1320,"Michael addition of BHT quinone methide to lysine",218.167065
+1321,"Michael addition of BHT quinone methide to cysteine",218.167065
+1322,"propionaldehyde +40 - site K",40.0313
+1323,"propionaldehyde +40 - site H",40.0313
+1324,"acetaldehyde +26 - site H",26.01565
+1325,"acetaldehyde +26 - site K",26.01565
+1326,"9x(13)C labeled L-tyrosine",9.030194
+1327,"9x(13)C labeled L-phenylalanine",9.030194
+1328,"iodoacetic acid - site W",58.005479
+1329,"iodoacetic acid - site C",58.005479
+1330,"iodoacetic acid -site K",58.005479
+1331,"6x(13)C labeled L-arginine",6.020129
+1332,"6x(13)C labeled L-leucine",6.020129
+1333,"6x(13)C labeled L-isoleucine",6.020129
+1334,"6x(13)C labeled L-lysine",6.020129
+1335,"6x(13)C labeled 4-sulfophenyl isothiocyanate derivatized lysine",220.991214
+1336,"deamidation followed by a methylation -site Q",14.999666
+1337,"deamidated 4-methyl esterified asparagine",14.999666
+1338,"N6-ethyl-L-lysine",28.0313
+1339,"ethylated residue",28.0313
+1340,"ESP-Tag heavy d10 - site K",348.240415
+1341,"ESP-Tag light d0 - site K",338.177647
+1342,"selenium substitution for sulfur - site M",47.94445
+1343,"selenium substitution for sulfur - site C",47.94445
+1344,"dehydrogenated residue - site S",-2.01565
+1345,"2-amino-3-oxobutanoic acid",-2.01565
+1346,"N4-hexosylated asparagine",162.052823
+1347,"hexose glycated L-lysine",162.052823
+1348,"O-hexosylated threonine",162.052823
+1349,"hydrolyzed N-ethylmaleimide cysteine adduct",143.058243
+1350,"hydrolyzed N-ethylmaleimide lysine adduct",143.058243
+1351,"nitrated L-tryptophan",44.985078
+1352,"nitrated L-tyrosine",44.985078
+1353,"amidination of lysines or N-terminal amines with methyl acetimidate - site K",41.026549
+1354,"Hex1HexNAc1NeuAc1 N4-glycosylated asparagine",657.235437
+1355,"Hex1HexNAc1NeuAc1O-glycosylated threonine",657.235437
+1356,"Hex1HexNAc1NeuAc1 O-glycosylated serine",657.235437
+1357,"2x(13)C,4x(2)H labeled dimethylated L-lysine",34.063117
+1358,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, medium form - site N-term",109.046571
+1359,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, medium form - site K",109.046571
+1360,"4-sulfophenyl isothiocyanate N6-derivatized lysine",214.971085
+1361,"O-thiophospho-L-threonine",95.943487
+1362,"O-thiophospho-L-serine",95.943487
+1363,"O4'-thiophospho-L-tyrosine",95.943487
+1364,"fluorescein-5-thiosemicarbazide - site S",421.073242
+1365,"fluorescein-5-thiosemicarbazide - site C",421.073242
+1366,"fluorescein-5-thiosemicarbazide - site K",421.073242
+1367,"fluorescein-5-thiosemicarbazide - site P",421.073242
+1368,"fluorescein-5-thiosemicarbazide - site R",421.073242
+1369,"deamidated and methyl esterified residue",14.999666
+1370,"6x(13)C,1x(15)N labeled residue",7.017164
+1371,"deamidation in presence of O18",2.988262
+1372,"(2S)-4-hydroxyleucine",15.994915
+1373,"(2S,4R)-5-hydroxyleucine",15.994915
+1374,"(2S,4R)-5-oxoleucine",13.979265
+1375,"(2S,4R)-4,5-dihydroxyleucine",31.989829
+1376,"(2S,3S,4R)-3,4-dihydroxyisoleucine",31.989829
+1377,"(2S,3R,4S)-4-hydroxyisoleucine",15.994915
+1378,"(2S,3R,4R)-4,5-dihydroxyisoleucine",31.989829
+1379,"2'-methylsulfonyl-L-tryptophan",77.97755
+1380,"2'-(S-L-cysteinyl)-6'-hydroxy-L-tryptophan sulfoxide",29.974179
+1381,"O-palmitoleyl-L-serine",236.214016
+1382,"N,N,N-trimethyl-L-methionine",43.054227
+1383,"L-cystine S-oxide",13.979265
+1384,"aminomalonic acid (Ser)",13.979265
+1385,"3-hydroxy-L-phenylalanine",15.994915
+1386,"3-hydroxy-L-valine",15.994915
+1387,"O-methyl-L-threonine",14.01565
+1388,"1-amino-2-propanol",-43.989829
+1389,"L-isoleucine thiazole-4-carboxylic acid",-20.026215
+1390,"L-valine thiazole-4-carboxylic acid",-20.026215
+1391,"L-valine 5-(methoxymethyl)thiazole-4-carboxylic acid",24
+1392,"L-asparagine 5-methylthiazole-4-carboxylic acid",-6.010565
+1393,"L-cysteine pyridine-2,5-dicarboxylic acid",-70.050418
+1394,"L-cysteine 5-amino-3,4,5,6-tetrahydropyridine-2,5-dicarboxylic acid",-53.023869
+1395,"4-(1-hydroxyethyl)-7-isoleucino-2-(threonin-O3-ylcarbonyl)-7,8-dihydroquinolin-8-ol",215.058243
+1396,"5-hydroxy-3-methyl-L-proline (Pro)",30.010565
+1397,"L-serine 5-methyloxazole-4-carboxylic acid",-20.026215
+1398,"N6-propanoyl-L-lysine",56.026215
+1399,"N6-(ADP-ribosyl)-L-lysine",541.061109
+1400,"L-lysyl-poly(ADP-ribose)",541.061109
+1401,"(2S,3S)-3-hydroxyasparagine",15.994915
+1402,"(2S,3R,4R)-3,4-dihydroxyproline",31.989829
+1403,"(2S)-4,5,5'-trihydroxyleucine",47.984744
+1404,"L-asparagine thiazole-4-carboxylic acid",-20.026215
+1405,"L-proline thiazole-4-carboxylic acid",-20.026215
+1406,"L-threonine thiazole-4-carboxylic acid",-20.026215
+1407,"L-phenylalanine thiazoline-4-carboxylic acid",-18.010565
+1408,"L-threonine thiazoline-4-carboxylic acid",-18.010565
+1409,"trihydroxylated residue",47.984744
+1411,"monohydroxylated leucine",15.994915
+1412,"dihydroxylated leucine",31.989829
+1413,"trihydroxylated leucine",47.984744
+1415,"monohydroxylated isoleucine",15.994915
+1416,"dihydroxylated isoleucine",31.989829
+1417,"monomethylated proline",14.01565
+1419,"oxazole/oxazoline ring crosslinked residues",0
+1423,"palmitoleylated residue",236.214016
+1424,"quinaldate modified residue",0
+1426,"isotope tagged reagent derivatized residue",0
+1428,"(13)C isotope tagged reagent",0
+1429,"(15)N isotope tagged reagent",0
+1430,"(18)O isotope tagged reagent",0
+1431,"(2)H deuterium tagged reagent",0
+1432,"(2S,4S)-4,5-dihydroxyleucine",31.989829
+1433,"1-amino-2-propanone",-46.005479
+1434,"4-hydroxy-L-glutamic acid",15.994915
+1435,"2-(cystein-S-ylcarbonyl)-3-methyl-4-(glutam-5-yloxy)methylindole",169.052764
+1436,"cyclo[(prolylserin)-O-yl] cysteinate (Cys)",166.074228
+1437,"cyclo[(prolylserin)-O-yl] cysteinate (Cys-Pro-Ser cross-link)",-18.010565
+1438,"S-[2-(pyridin-2-yl)ethyl]-L-cysteine",105.057849
+1441,"natural, standard, encoded residue",0
+1442,"3-(O4'-L-tyrosyl)-L-valine",-2.01565
+1443,"tetrakis-L-glutamato bis-L-N1'-histidino lipid carboxylato manganese iron oxide",350.038251
+1444,"L-3,3-dihydroxyoalanine (Cys)",0.017758
+1445,"L-3,3-dihydroxyoalanine (Ser)",15.994915
+1446,"N-(dihydroxymethyl)-L-methionine (fMet)",18.010565
+1447,"N-(dihydroxymethyl)-L-methionine (Met)",46.005479
+1449,"L-3,3-dihydroxyoalanine (Oxoalanine)",18.010565
+1450,"modified N-formyl-L-methionine residue",0
+1451,"O-phospho-L-serine arising from O-phosphopantetheine-L-serine after neutral loss of pantetheine",79.966331
+1452,"O-phosphopantetheine-L-serine with neutral loss of pantetheine",-260.119464
+1454,"N-(DNA-1',2'-dideoxyribos-1'-ylidene)-L-prolinium",179.010386
+1455,"O-phosphorylated residue",79.966331
+1456,"N-phosphorylated residue",79.966331
+1457,"L-cysteine (Ser)",-15.977156
+1458,"alpha-amino acetylated residue",42.010565
+1459,"4x(2)H labeled alpha-dimethylamino N-terminal residue",32.056407
+1460,"alpha-amino methylated residue",0
+1461,"N-methylated alanine",0
+1462,"N-methylated proline",0
+1463,"N-methylated methionine",0
+1464,"protonated L-methionine (L-methioninium) residue",1.007276
+1465,"N,N,N-trimethyl-L-methionine (from L-methioninium)",42.046402
+1466,"menadione quinone derivative - site C",170.036779
+1467,"menadione quinone derivative - site K",170.036779
+1468,"L-selenocysteinyl molybdenum bis(molybdopterin guanine dinucleotide) (Cys)",1620.930226
+1469,"L-selenocysteinyl tungsten bis(molybdopterin guanine dinucleotide) (Cys)",1738.94782
+1470,"(E)-dehydrobutyrine (Thr)",-18.010565
+1471,"(Z)-dehydrobutyrine (Thr)",-18.010565
+1472,"reduced residue",0
+1473,"hydrogenated residue",0
+1474,"O-[S-(carboxymethyl)phosphopantetheine]-L-serine",398.091273
+1475,"O-[S-(carboxamidomethyl)phosphopantetheine]-L-serine",397.107258
+1476,"2'-fluoro-L-phenylalanine",17.990578
+1477,"3'-fluoro-L-phenylalanine",17.990578
+1478,"4'-fluoro-L-phenylalanine",17.990578
+1479,"4'-fluoro-L-tryptophan",17.990578
+1480,"5'-fluoro-L-tryptophan",17.990578
+1481,"6'-fluoro-L-tryptophan",17.990578
+1482,"calcium containing modified residue",0
+1483,"O-formylated residue",27.994915
+1484,"N6-(L-isoglutamyl)-L-lysine (Glu)",-18.010565
+1485,"iTRAQ4plex-114 reporter+balance reagent acylated residue",144.105919
+1486,"iTRAQ4plex-114 reporter+balance reagent acylated N-terminal",144.105919
+1487,"iTRAQ4plex-114 reporter+balance reagent N6-acylated lysine",144.105919
+1488,"iTRAQ4plex-114 reporter+balance reagent O4'-acylated tyrosine",144.105919
+1489,"iTRAQ4plex-114 reporter+balance reagent N'-acylated histidine",144.105919
+1490,"iTRAQ4plex-114 reporter+balance reagent O3-acylated serine",144.105919
+1491,"iTRAQ4plex-114 reporter+balance reagent O3-acylated threonine",144.105919
+1492,"iTRAQ4plex-115 reporter+balance reagent acylated residue",144.099599
+1493,"iTRAQ4plex-115 reporter+balance reagent acylated N-terminal",144.099599
+1494,"iTRAQ4plex-115 reporter+balance reagent N6-acylated lysine",144.099599
+1495,"iTRAQ4plex-115 reporter+balance reagent O4'-acylated tyrosine",144.099599
+1496,"iTRAQ4plex-115 reporter+balance reagent N'-acylated histidine",144.099599
+1497,"iTRAQ4plex-115 reporter+balance reagent O3-acylated serine",144.099599
+1498,"iTRAQ4plex-115 reporter+balance reagent O3-acylated threonine",144.099599
+1499,"iTRAQ4plex-116 reporter+balance reagent acylated residue",144.102062
+1500,"iTRAQ4plex-116 reporter+balance reagent acylated N-terminal",144.102062
+1501,"iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine",144.102062
+1502,"iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine",144.102062
+1503,"iTRAQ4plex-116 reporter+balance reagent N'-acylated histidine",144.102062
+1504,"iTRAQ4plex-116 reporter+balance reagent O3-acylated serine",144.102062
+1505,"iTRAQ4plex-116 reporter+balance reagent O3-acylated threonine",144.102062
+1506,"iTRAQ4plex-117, mTRAQ heavy, reporter+balance reagent acylated residue",144.102062
+1507,"iTRAQ4plex-117, mTRAQ heavy, reporter+balance reagent acylated N-terminal",144.102062
+1508,"iTRAQ4plex-117, mTRAQ heavy, reporter+balance reagent N6-acylated lysine",144.102062
+1509,"iTRAQ4plex-117, mTRAQ heavy, reporter+balance reagent O4'-acylated tyrosine",144.102062
+1510,"iTRAQ4plex-117 reporter+balance reagent N'-acylated histidine",144.102062
+1511,"iTRAQ4plex-117 reporter+balance reagent O3-acylated serine",144.102062
+1512,"iTRAQ4plex-117 reporter+balance reagent O3-acylated threonine",144.102062
+1513,"modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.1 Da",0
+1514,"modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.01 Da",0
+1515,"modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.000001 Da",0
+1516,"modifications with monoisotopic mass diferences that are nominally equal at 144.099-144.106 Da.",0
+1517,"modifications with monoisotopic mass differences that are nominally equal at 144.102062 Da",0
+1519,"reporter fragment",0
+1520,"modification reporter fragment",0
+1521,"iTRAQ4plex reporter fragment",0
+1527,"residue reporter fragment",0
+1528,"iTRAQ8plex-113 reporter+balance reagent acylated residue",304.205359
+1529,"iTRAQ8plex-113 reporter+balance reagent acylated N-terminal",304.205359
+1530,"iTRAQ8plex-113 reporter+balance reagent N6-acylated lysine",304.205359
+1531,"iTRAQ8plex-113 reporter+balance reagent O4'-acylated tyrosine",304.205359
+1532,"iTRAQ8plex-113 reporter+balance reagent N'-acylated histidine",304.205359
+1533,"iTRAQ8plex-113 reporter+balance reagent O3-acylated serine",304.205359
+1534,"iTRAQ8plex-113 reporter+balance reagent O3-acylated threonine",304.205359
+1535,"iTRAQ8plex-114 reporter+balance reagent acylated residue",304.205359
+1536,"iTRAQ8plex-114 reporter+balance reagent acylated N-terminal",304.205359
+1537,"iTRAQ8plex-114 reporter+balance reagent N6-acylated lysine",304.205359
+1538,"iTRAQ8plex-114 reporter+balance reagent O4'-acylated tyrosine",304.205359
+1539,"iTRAQ8plex-114 reporter+balance reagent N'-acylated histidine",304.205359
+1540,"iTRAQ8plex-114 reporter+balance reagent O3-acylated serine",304.205359
+1541,"iTRAQ8plex-114 reporter+balance reagent O3-acylated threonine",304.205359
+1542,"iTRAQ8plex-115 reporter+balance reagent acylated residue",304.199039
+1543,"iTRAQ8plex-115 reporter+balance reagent acylated N-terminal",304.199039
+1544,"iTRAQ8plex-115 reporter+balance reagent N6-acylated lysine",304.199039
+1545,"iTRAQ8plex-115 reporter+balance reagent O4'-acylated tyrosine",304.199039
+1546,"iTRAQ8plex-115 reporter+balance reagent N'-derivatized histidine",304.199039
+1547,"iTRAQ8plex-115 reporter+balance reagent O3-acylated serine",304.199039
+1548,"iTRAQ8plex-115 reporter+balance reagent O3-acylated threonine",304.199039
+1549,"iTRAQ8plex-116 reporter+balance reagent acylated residue",304.205359
+1550,"iTRAQ8plex-116 reporter+balance reagent acylated N-terminal",304.205359
+1551,"iTRAQ8plex-116 reporter+balance reagent N6-acylated lysine",304.205359
+1552,"iTRAQ8plex-116 reporter+balance reagent O4'-acylated tyrosine",304.205359
+1553,"iTRAQ8plex-116 reporter+balance reagent N'-acylated histidine",304.205359
+1554,"iTRAQ8plex-116 reporter+balance reagent O3-acylated serine",304.205359
+1555,"iTRAQ8plex-116 reporter+balance reagent O3-acylated threonine",304.205359
+1556,"iTRAQ8plex-117 reporter+balance reagent acylated residue",304.205359
+1557,"iTRAQ8plex-117 reporter+balance reagent acylated N-terminal",304.205359
+1558,"iTRAQ8plex-117 reporter+balance reagent N6-acylated lysine",304.205359
+1559,"iTRAQ8plex-117 reporter+balance reagent O4'-acylated tyrosine",304.205359
+1560,"iTRAQ8plex-117 reporter+balance reagent N'-acylated histidine",304.205359
+1561,"iTRAQ8plex-117 reporter+balance reagent O3-acylated serine",304.205359
+1562,"iTRAQ8plex-117 reporter+balance reagent O3-acylated threonine",304.205359
+1563,"iTRAQ8plex-118 reporter+balance reagent acylated residue",304.199039
+1564,"iTRAQ8plex-118 reporter+balance reagent acylated N-terminal",304.199039
+1565,"iTRAQ8plex-118 reporter+balance reagent N6-acylated lysine",304.199039
+1566,"iTRAQ8plex-118 reporter+balance reagent O4'-acylated tyrosine",304.199039
+1567,"iTRAQ8plex-118 reporter+balance reagent N'-acylated histidine",304.199039
+1568,"iTRAQ8plex-118 reporter+balance reagent O3-acylated serine",304.199039
+1569,"iTRAQ8plex-118 reporter+balance reagent O3-acylated threonine",304.199039
+1570,"iTRAQ8plex-119 reporter+balance reagent acylated residue",304.199039
+1571,"iTRAQ8plex-119 reporter+balance reagent acylated N-terminal",304.199039
+1572,"iTRAQ8plex-119 reporter+balance reagent N6-acylated lysine",304.199039
+1573,"iTRAQ8plex-119 reporter+balance reagent O4'-acylated tyrosine",304.199039
+1574,"iTRAQ8plex-119 reporter+balance reagent N'-acylated histidine",304.199039
+1575,"iTRAQ8plex-119 reporter+balance reagent O3-acylated serine",304.199039
+1576,"iTRAQ8plex-119 reporter+balance reagent O3-acylated threonine",304.199039
+1577,"iTRAQ8plex-121 reporter+balance reagent acylated residue",304.199039
+1578,"iTRAQ8plex-121 reporter+balance reagent acylated N-terminal",304.199039
+1579,"iTRAQ8plex-121 reporter+balance reagent N6-acylated lysine",304.199039
+1580,"iTRAQ8plex-121 reporter+balance reagent O4'-acylated tyrosine",304.199039
+1581,"iTRAQ8plex-121 reporter+balance reagent N'-acylated histidine",304.199039
+1582,"iTRAQ8plex-121 reporter+balance reagent O3-acylated serine",304.199039
+1583,"iTRAQ8plex-121 reporter+balance reagent O3-acylated threonine",304.199039
+1584,"modifications with monoisotopic mass differences that are nominally equal at 304.199039 Da",0
+1585,"O-glycyl-L-serine",-18.010565
+1586,"O-glycyl-L-threonine",-18.010565
+1587,"O-(2-aminoethylphosphoryl)-L-serine",123.00853
+1588,"O-cholinephosphoryl-L-serine",166.062756
+1589,"O-(2,4-diacetamido-2,4-dideoxyglucosyl)-L-serine",244.105922
+1590,"3'-farnesyl-2',3'-dihydro-2',N2-cyclo-L-tryptophan",204.187801
+1591,"modifications with monoisotopic mass differences that are nominally equal at 304.205359 Da",0
+1592,"modifications with monoisotopic mass differences that are nominally equal at 304.199-304.206 Da",0
+1593,"iTRAQ8plex reporter fragment",0
+1602,"S-(L-lysyl)-L-methionine sulfilimine",-2.01565
+1603,"2x(15)N labeled L-lysine",1.99407
+1604,"4x(15)N labeled L-arginine",3.98814
+1605,"5-glutamyl 2-aminoadipic acid",143.058243
+1606,"5-glutamyl 2-aminoadipic 6-phosphoric anhydride",223.024574
+1607,"5-glutamyl allysine",127.063329
+1608,"N2-(L-isoglutamyl)-L-lysine",128.094963
+1609,"7'-hydroxy-2'-alpha-mannosyl-L-tryptophan",178.047738
+1610,"L-threonine methyl ester",14.01565
+1611,"6-(S-L-cysteinyl)-8alpha-(-3'-L-histidino)-FMN",452.073315
+1612,"3'-iodo-L-tyrosine",125.896648
+1613,"3',5'-diiodo-L-tyrosine",251.793295
+1614,"glycyl phospho-5'-adenosine",329.05252
+1615,"glycyl cysteine dithioester",13.961506
+1616,"trithiocystine",93.900563
+1617,"O-(6-phosphomannosyl)-L-threonine",242.019154
+1618,"L-alanyl-L-isoaspartyl cyclopeptide",-17.026549
+1619,"multisulfide crosslinked residues",0
+1620,"polysulfide crosslinked residues",0
+1621,"flavin crosslinked residues",0
+1622,"monohydroxylated tryptophan",15.994915
+1623,"1-thioglycine (C-terminal)",15.977156
+1624,"(2-aminosuccinimidyl)acetic acid (Asn)",-17.026549
+1625,"1-thioglycine",15.977156
+1626,"L-cystine",-2.01565
+1631,"L-alanine removal",-71.037114
+1632,"L-arginine removal",-156.101111
+1633,"L-asparagine removal",-114.042927
+1634,"L-aspartic acid removal",-115.026943
+1635,"L-cysteine removal",-103.009185
+1636,"L-glutamic acid removal",-129.042593
+1637,"L-glutamine removal",-128.058578
+1638,"glycine removal",-57.021464
+1639,"L-histidine removal",-137.058912
+1640,"L-isoleucine removal",-113.084064
+1641,"L-leucine removal",-113.084064
+1642,"L-lysine removal",-128.094963
+1643,"L-methionine removal",-131.040485
+1644,"L-phenylalanine removal",-147.068414
+1645,"L-proline removal",-97.052764
+1646,"L-serine removal",-87.032028
+1647,"L-threonine removal",-101.047678
+1648,"L-tryptophan removal",-186.079313
+1649,"L-tyrosine removal",-163.063329
+1650,"L-valine removal",-99.068414
+1651,"natural, standard, encoded residue removal",0
+1652,"sulfonyl halide reagent derivatized residue",0
+1653,"dansyl chloride derivatized residue",233.05105
+1654,"N6-Dansyl derivatized lysine",233.05105
+1655,"alpha-amino-Dansyl derivatized residue",233.05105
+1656,"Dabsyl chloride derivatized residue",287.072848
+1657,"N6-Dabsyl derivatized lysine",287.072848
+1658,"alpha-amino-Dabsyl derivatized residue",287.072848
+1659,"Uniblue A derivatized residue",484.039893
+1660,"Uniblue A derivatized cysteine",484.039893
+1661,"pyruvic acid (Tyr)",-93.057849
+1662,"N5-(ADP-ribosyl)-L-glutamine",541.061109
+1663,"O-(ADP-ribosyl)-L-threonine",541.061109
+1664,"7'-hydroxy-L-tryptophan",15.994915
+1665,"N-(DNA-1',2'-dideoxyribos-1'-ylidene)-L-valine",178.00311
+1666,"epicocconone derivatized residue",410.136553
+1667,"N6-epicoccononyl lysine adduct",410.136553
+1668,"O4-(8alpha-FAD)-L-aspartate",783.141485
+1669,"trimethyl-L-arginine",42.04695
+1670,"N6-chloro-L-lysine",33.961028
+1671,"O-(L-isoaspartyl)-L-threonine (active site intermediate)",115.026943
+1672,"halogenated lysine",0
+1673,"N-acetylaminohexosylated residue",203.079373
+1674,"N4-(N-acetylamino)hexosyl-L-asparagine",203.079373
+1675,"O-(N-acetylamino)hexosyl-L-serine",203.079373
+1676,"O-(N-acetylamino)hexosyl-L-threonine",203.079373
+1677,"O4-(N-acetylamino)hexosyl-L-hydroxyproline",219.074287
+1678,"N6-carbamoyl-L-lysine",43.005814
+1679,"alpha-aminocarbamoylated residue",43.005814
+1680,"alpha-amino monomethylated residue",14.01565
+1681,"monomethylated L-aspartic acid",14.01565
+1682,"monomethylated L-cysteine",14.01565
+1683,"monomethylated L-lysine",14.01565
+1684,"palmitoylated-L-cysteine",238.229666
+1685,"alpha-amino palmitoylated residue",238.229666
+1686,"alpha-amino dimethylated residue",28.0313
+1687,"alpha-amino trimethylated residue",42.046402
+1688,"3-hydroxy-L-asparagine",15.994915
+1689,"alpha-carboxyl methylated residue",14.01565
+1690,"N-[(12R)-12-hydroxymyristoyl]-L-cysteine",226.19328
+1691,"N-(12-ketomyristoyl)-L-cysteine",224.17763
+1692,"glutamyl semialdehyde (Glu)",-15.994915
+1693,"alpha-amino pyridylacetylated residue",119.037114
+1694,"S-(coelenterazin-3a-yl)-L-cysteine",421.142641
+1695,"alpha-amino 3-(carboxamidomethylthio)propanoylated residue",145.019749
+1696,"alpha-amino acylated residue",0
+1697,"alpha-amino 4-(2-aminoethyl)benzenesulfonylated residue",183.0354
+1698,"alpha-amino trimethylated protonated-residue",43.054227
+1699,"protonated residue",1.007276
+1700,"alpha-amino protonated residue",1.007276
+1701,"deprotonated residue",-1.007276
+1702,"alpha-carboxyl deprotonated residue",-1.007276
+1704,"dehydrobutyrine (Met)",-48.003371
+1705,"isotope tagged reagent acylated residue",0
+1706,"isotope tagged reagent N-acylated residue",0
+1707,"isotope tagged reagent O-acylated residue",0
+1708,"isotope tagged reagent alpha-amino acylated residue",0
+1715,"TMT6plex reporter+balance reagent acylated residue",229.162932
+1716,"TMT6plex reporter fragment",0
+1720,"TMT6plex-126 reporter+balance reagent acylated residue",229.162932
+1721,"TMT6plex-126 reporter+balance reagent acylated N-terminal",229.162932
+1722,"TMT6plex-126 reporter+balance reagent N6-acylated lysine",229.162932
+1723,"TMT6plex-126 reporter+balance reagent O4'-acylated tyrosine",229.162932
+1724,"TMT6plex-126 reporter+balance reagent N'-acylated histidine",229.162932
+1725,"TMT6plex-126 reporter+balance reagent O3-acylated serine",229.162932
+1726,"TMT6plex-126 reporter+balance reagent O3-acylated threonine",229.162932
+1728,"TMT6plex-127 reporter+balance reagent acylated residue",229.162932
+1729,"TMT6plex-127 reporter+balance reagent acylated N-terminal",229.162932
+1730,"TMT6plex-127 reporter+balance reagent N6-acylated lysine",229.162932
+1731,"TMT6plex-127 reporter+balance reagent O4'-acylated tyrosine",229.162932
+1732,"TMT6plex-127 reporter+balance reagent N'-acylated histidine",229.162932
+1733,"TMT6plex-127 reporter+balance reagent O3-acylated serine",229.162932
+1734,"TMT6plex-127 reporter+balance reagent O3-acylated threonine",229.162932
+1736,"TMT6plex-128 reporter+balance reagent acylated residue",229.162932
+1737,"TMT6plex-128 reporter+balance reagent acylated N-terminal",229.162932
+1738,"TMT6plex-128 reporter+balance reagent N6-acylated lysine",229.162932
+1739,"TMT6plex-128 reporter+balance reagent O4'-acylated tyrosine",229.162932
+1740,"TMT6plex-128 reporter+balance reagent N'-acylated histidine",229.162932
+1741,"TMT6plex-128 reporter+balance reagent O3-acylated serine",229.162932
+1742,"TMT6plex-128 reporter+balance reagent O3-acylated threonine",229.162932
+1744,"TMT6plex-129 reporter+balance reagent acylated residue",229.162932
+1745,"TMT6plex-129 reporter+balance reagent acylated N-terminal",229.162932
+1746,"TMT6plex-129 reporter+balance reagent N6-acylated lysine",229.162932
+1747,"TMT6plex-129 reporter+balance reagent O4'-acylated tyrosine",229.162932
+1748,"TMT6plex-129 reporter+balance reagent N'-acylated histidine",229.162932
+1749,"TMT6plex-129 reporter+balance reagent O3-acylated serine",229.162932
+1750,"TMT6plex-129 reporter+balance reagent O3-acylated threonine",229.162932
+1752,"TMT6plex-130 reporter+balance reagent acylated residue",229.162932
+1753,"TMT6plex-130 reporter+balance reagent acylated N-terminal",229.162932
+1754,"TMT6plex-130 reporter+balance reagent N6-acylated lysine",229.162932
+1755,"TMT6plex-130 reporter+balance reagent O4'-acylated tyrosine",229.162932
+1756,"TMT6plex-130 reporter+balance reagent N'-acylated histidine",229.162932
+1757,"TMT6plex-130 reporter+balance reagent O3-acylated serine",229.162932
+1758,"TMT6plex-130 reporter+balance reagent O3-acylated threonine",229.162932
+1760,"TMT6plex-131 reporter+balance reagent acylated residue",229.162932
+1761,"TMT6plex-131 reporter+balance reagent acylated N-terminal",229.162932
+1762,"TMT6plex-131 reporter+balance reagent N6-acylated lysine",229.162932
+1763,"TMT6plex-131 reporter+balance reagent O4'-acylated tyrosine",229.162932
+1764,"TMT6plex-131 reporter+balance reagent N'-acylated histidine",229.162932
+1765,"TMT6plex-131 reporter+balance reagent O3-acylated serine",229.162932
+1766,"TMT6plex-131 reporter+balance reagent O3-acylated threonine",229.162932
+1768,"O-palmitoleylated residue",236.214016
+1769,"O-palmitoleyl-L-threonine",236.214016
+1770,"O-palmitoyl-L-threonine amide",254.24839
+1773,"N6,N6,N6-trimethyl-L-lysine with neutral loss of trimethylamine",-59.074048
+1774,"N6-octanoyl-L-lysine",126.104465
+1775,"5-glutamyl serotonin",159.068414
+1776,"S-methylthiocarbonylaminoethylcysteine (Cys)",117.024835
+1777,"S-(glycyl)-L-cysteine (Gly)",103.009185
+1778,"N-(glycyl)-L-cysteine",103.009185
+1779,"N6-(L-lysyl)-L-lysine",128.094963
+1780,"N6-(beta-lysyl)-L-5-hydroxylysine",144.089878
+1781,"N6-butanoyl-L-lysine",70.041865
+1782,"N-methyl-L-serine",14.01565
+1783,"N,N-dimethyl-L-serine",28.0313
+1784,"N,N,N-trimethyl-L-serine",43.054227
+1785,"O-(L-isoglutamyl)-L-threonine (active site intermediate)",129.042593
+1786,"3'-nitro-L-tyrosine",44.985078
+1787,"5'-(L-tyros-5'-yl)amino-L-tyrosine",12.995249
+1788,"histidine immonium ion",-26.987638
+1789,"phenylalanine immonium ion",-26.987638
+1790,"tyrosine immonium ion",-26.987638
+1791,"phosphohistidine immonium ion",-26.987638
+1792,"phosphotyrosine immonium ion",-26.987638
+1793,"S-carboxamidomethyl-L-cysteine sulfoxide",73.016378
+1794,"1x(13)C,3x(2)H labeled monomethylated residue",18.037835
+1795,"1x(13)C,3x(2)H C(6)-labeled L-methionine",4.022185
+1796,"1x(13)C,3x(2)H C(6)-labeled L-methionine sulfoxide",20.0171
+1797,"1'-phosphohistidine immonium ion",-26.987638
+1798,"3'-phosphohistidine immonium ion",-26.987638
+1799,"methylated serine",0
+1800,"N-methylated serine",0
+1801,"protonated L-serine (L-serinium) residue",1.007276
+1802,"N,N,N-trimethyl-L-serine (from L-serinium)",42.046402
+1804,"glycosylphosphorylated residue",0
+1805,"N-(L-isoaspartyl)-glycine (Asp)",-18.010565
+1806,"N,N-dimethyl-L-leucine",28.0313
+1807,"N-formyl-L-glutamic acid",27.994915
+1808,"N-methylated leucine",0
+1809,"5x(13)C,1x(15)N labeled residue",6.013809
+1810,"5x(13)C,1x(15)N labeled L-proline",6.013809
+1811,"5x(13)C,1x(15)N labeled L-methionine",6.013809
+1812,"5x(13)C,1x(15)N labeled L-methionine sulfoxide",6.013809
+1813,"morpholine-2-acetylated residue",127.063329
+1814,"L-cysteine 3-hydroxy-2,5-pyridinedicarboxylic acid",-54.055504
+1815,"L-glutamate thiazole-4-carboxylic acid",-20.026215
+1816,"2'-hydroxy-L-tryptophan",15.994915
+1817,"oxidation of tryptophan to 2'-oxo-L-tryptophan",15.994915
+1818,"1'-(L-tryptophan-3'-yl)-L-tryptophan",-2.01565
+1819,"N6-succinyl-L-lysine",100.016044
+1820,"isotope tagged sufhydryl reagent modified cysteine",0
+1822,"cysTMT6plex-zero reporter+balance reagent cysteine disulfide",299.166748
+1823,"cysTMT6plex-126 reporter+balance reagent cysteine disulfide",304.177202
+1824,"cysTMT6plex-127 reporter+balance reagent cysteine disulfide",304.177202
+1825,"cysTMT6plex-128 reporter+balance reagent cysteine disulfide",304.177202
+1826,"cysTMT6plex-129 reporter+balance reagent cysteine disulfide",304.177202
+1827,"cysTMT6plex-130 reporter+balance reagent cysteine disulfide",304.177202
+1828,"cysTMT6plex-131 reporter+balance reagent cysteine disulfide",304.177202
+1829,"S-carboxymethyl-L-cysteine sulfoxide",58.005479
+1830,"S-carboxymethyl-L-cysteine sulfone",74.000394
+1831,"S-carboxamidomethyl-L-cysteine sulfone",89.011293
+1832,"5x(13)C-labeled residue",5.016774
+1833,"5x(13)C-labeled L-methionine",5.016774
+1834,"5x(13)C-labeled L-methionine sulfoxide",21.011689
+1835,"5x(13)C-labeled L-methionine sulfone",37.006603
+1836,"N6-[([1-(6-nitro-2H-1,3-benzodioxol-5-yl)ethoxy]carbonyl]lysine",237.027337
+1837,"L-lanthionine (Cys-Cys)",-33.987721
+1838,"L-lysinoalanine (Lys)",87.032028
+1839,"L-lanthionine",-18.010565
+1840,"L-allo-isoleucine",0
+1841,"lanthionine",-18.010565
+1842,"S-(2-aminovinyl)-L-cysteine",-79.9932
+1843,"5'-chloro-L-tryptophan",33.961028
+1844,"2-(3-methylbutanoyl)-5-hydroxyoxazole-4-carbothionic acid",-5.062935
+1845,"L-proline 5-hydroxyoxazole-4-carbothionic acid",-4.0313
+1846,"methanobactin OB3b copper complex",84.841176
+1847,"L-cysteine sulfinyl phosphate",111.95616
+1848,"S-(spermidinoglutathion-S-yl)-L-cysteine",432.215489
+1849,"S-(2-aminovinyl)-D-cysteine (Cys-Cys)",-79.9932
+1852,"L-lysinoalanine (Lys-Cys)",-33.987721
+1853,"L-lysinoalanine",0
+1854,"sulfur monooxygenated residue",0
+1855,"sulfur dioxygenated residue",0
+1856,"oxazole/oxazoline ring crosslinked residues (Cys)",0
+1857,"2-(L-cystein-S-yl)-methionine",-2.01565
+1858,"S-(N-acetylamino)glucosyl-L-cysteine",203.079373
+1859,"4-amino-3-isothiazolidinone-L-phenylalanine",-2.01565
+1860,"L-cysteine bacillithiol disulfide",396.083866
+1861,"isothiazolidinone ring crosslinked residues",0
+1862,"disulfide conjugated residue",0
+1864,"mTRAQ light reporter+balance reagent acylated residue",140.094963
+1865,"mTRAQ light reporter+balance reagent acylated N-terminal",140.094963
+1866,"mTRAQ light reporter+balance reagent N6-acylated lysine",140.094963
+1867,"mTRAQ light reporter+balance reagent O4'-acylated tyrosine",140.094963
+1868,"modifications with monoisotopic mass differences that are nominally equal at 140.094963 Da",0
+1870,"mTRAQ reporter fragment",0
+1871,"cyclized N-terminal S-carboxamidomethyl-L-cysteine",-17.026549
+1872,"cyclized N-terminal S-carboxymethyl-L-cysteine",-18.010565
+1873,"N-carboxy-L-alanine",43.989829
+1874,"N-carboxy-L-valine",43.989829
+1875,"N6-acylated L-lysine",0
+1876,"4x(1)H,4x(12)C-labeled alpha-amino succinylated residue",100.016044
+1877,"2-(4-guanidinobutanoyl)-5-hydroxyimidazole-4-carbothionic acid",-6.04695
+1878,"L-threonine 5-hydroxyoxazole-4-carbonthionic acid",-4.0313
+1879,"methanobactin SB2 copper complex",83.857161
+1880,"L-deoxyhypusine",71.073499
+1881,"3-(L-phenylalan-2'-yl)-L-valine",-2.01565
+1882,"5-imidazolinone ring crosslinked residues (Gly)",0
+1883,"5-imidazolinone ring crosslinked residues (Cys)",0
+1884,"4-aminobutylated residue",0
+1885,"biotinylated residue",226.077599
+1886,"thiolated residue",0
+1887,"Uniblue A derivatized lysine",484.039893
+1888,"didehydrogenated residue",-2.01565
+1889,"S-(2-succinyl)-L-cysteine",116.010959
+1890,"N-[(L-histidin-1'-yl)methyl]-L-methionine (fMet)",-15.994915
+1891,"N-[(L-histidin-1'-yl)methyl]-L-methionine (Met)",12
+1892,"N6-crotonyl-L-lysine",68.026215
+1893,"N6-malonyl-L-lysine",86.000394
+1894,"propanoylated residue",56.026215
+1895,"alpha-amino 3x(12)C-labeled propanoylated residue",56.026215
+1896,"trifluoroacetic acid adduct",113.992864
+1897,"5-hydroxy-3-methyl-L-proline (Ile)",13.979265
+1898,"N2,N2-dimethyl-L-arginine",28.0313
+1899,"L-arginine thiazole-4-carboxylic acid",-20.026215
+1900,"L-cysteine 5-methyloxazole-4-carboxylic acid",-20.026215
+1901,"L-threonine 5-methyloxazole-4-carboxylic acid",-20.026215
+1902,"L-isoleucine oxazole-4-carboxylic acid",-20.026215
+1903,"L-serine oxazole-4-carboxylic acid",-20.026215
+1904,"L-serine 5-methyloxazoline-4-carboxylic acid",-18.010565
+1906,"dehydromethionine",-1.008374
+1907,"dehydromethionine (from L-methioninium)",-2.016199
+1908,"4-sulfophenyl isothiocyanate alpha-amino derivatized residue",214.971085
+1909,"6x(13)C labeled 4-sulfophenyl isothiocyanate alpha-amino derivatized residue",220.991214
+1910,"monofluorinated residue",17.990578
+1911,"monochlorinated residue",33.961028
+1912,"monobrominated residue",77.910512
+1913,"monochlorinated L-tryptophan",33.961028
+1914,"O5-galactosyl-L-hydroxylysine",178.047738
+1915,"N-formyl-L-alanine",27.994915
+1916,"O4'-(N-acetylamino)galactosyl-L-tyrosine",203.079373
+1917,"N6-(L-isoaspartyl)-L-lysine (Asp)",-18.010565
+1918,"(2S,5S)-5-hydroxylysine",15.994915
+1919,"(2S,3S)-3-hydroxyaspartic acid",15.994915
+1920,"3-hydroxy-L-histidine",15.994915
+1921,"D-aspartic acid (Asp)",0
+1922,"3-methoxydehydroalanine",12
+1923,"N6-(L-aspartyl)-L-lysine",-18.010565
+1924,"S-octanoyl-L-cysteine",126.104465
+1925,"(2S,5R)-5-hydroxylysine",15.994915
+1926,"3-hydroxy-L-aspartic acid",15.994915
+1927,"O-glycosyl-L-tyrosine",0
+1930,"D-aspartic acid (Asn)",0.984016
+1931,"N6-phospho-L-lysine",79.966331
+1932,"L-lysinonorleucine",-17.026549
+1933,"desmosine",-58.134971
+1934,"isodesmosine",-58.134971
+1935,"O-glucosyl-L-hydroxylysine",178.047738
+1936,"N6-oleoyl-L-lysine",264.245316
+1937,"N-palmitoyl-L-methionine",238.229666
+1938,"2-(2-aminosuccinimidyl)-3-sulfanylpropanoic acid (Asn)",-17.026549
+1939,"2-(2-aminosuccinimidyl)-3-sulfanylpropanoic acid (Asp)",-18.010565
+1940,"2-(2-aminosuccinimidyl)pentanedioic acid (Asn)",-17.026549
+1941,"2-(2-aminosuccinimidyl)pentanedioic acid (Asp)",-18.010565
+1943,"pyrrolidione ring crosslinked residues",0
+1947,"O-(L-isoaspartyl)-L-threonine (cross-link)",-18.010565
+1948,"labionin",-36.021129
+1949,"coelenterazine",-50.036779
+1950,"L-isoglutamyl histamine",94.053098
+1951,"O-(L-isoglutamyl)-L-serine (Gln-Ser)",-17.026549
+1952,"O-(L-isoglutamyl)-L-threonine (cross-link)",-17.026549
+1953,"tetrakis-L-cysteinyl tetrairon octanitrosyl",459.692359
+1954,"dehydroalanine (Sec)",-81.932171
+1955,"L-alaninato bis-L-aspartato tris-L-glutamato L-histidino calcium tetramanganese pentoxide",333.642394
+1956,"(3R)-3-hydroxy-L-arginine",15.994915
+1957,"2-hydroxyproline",15.994915
+1958,"bis-L-cysteinyl bisglutathion-S-yl diiron disulfide",785.950329
+1959,"tris-L-cysteinyl L-glutamato tetrairon tetrasulfide",347.596734
+1960,"tris-L-cysteinyl L-glutamin-O6-yl tetrairon tetrasulfide",347.596734
+1961,"O-(L-isoglutamyl)-L-threonine (THR)",129.042593
+1962,"N4-(2,4-diacetamido-2,4,6-trideoxy-D-glucosyl)-L-asparagine",228.111007
+1963,"O-(2,4-diacetamido-2,4,6-trideoxy-D-glucosyl)-L-serine",228.111007
+1964,"O-(2-acetamido-4-glyceramido-2,4,6-trideoxy-D-glucosyl)-L-serine",274.116486
+1965,"2xC(13),3x(2)H labeled N6-acetyl-L-lysine",47.036105
+1966,"L-methionine (R)-sulfoxide",15.994915
+1967,"omega-N-(N-acetylamino)glucosyl-L-arginine",203.079373
+1968,"(2R,3R,2'R)-3-methyllanthionine",-18.010565
+1969,"S-(gamma-glutamyl-cysteinyl-glycyl)-cysteine",289.073242
+1970,"5-glutamyl glutamic acid",129.042593
+1971,"5-glutamyl N2-ornithine",114.079313
+1972,"5-glutamyl coenzyme A thioester",749.104644
+1973,"N6-(3-phosphoglyceryl)-L-lysine",167.982375
+1974,"S-methyl-L-methionine",15.022927
+1975,"S-poly(3-hydroxybutyrate)-L-cysteine",172.073559
+1976,"O3-(poly-3-hydroxybutyrate)-L-serine",172.073559
+1980,"omega-N-glycosyl-L-arginine",0
+1981,"3-methyllanthionine",-18.010565
+1982,"N,N,N-trimethylglycine",43.054775
+1983,"N,N-dimethylglycine",28.0313
+1984,"2-(L-cystein-S-yl)-L-alanine",-2.01565
+1985,"2-(L-cystein-S-yl)-D-asparagine",-2.01565
+1986,"2-(L-cystein-S-yl)-L-serine",-2.01565
+1987,"2-(L-cystein-S-yl)-D-serine",-2.01565
+1988,"2-(L-cystein-S-yl)-L-threonine",-2.01565
+1989,"2-(L-cystein-S-yl)-D-tyrosine",-2.01565
+1990,"protonated glycine (glycinium) residue",1.007276
+1991,"N,N,N-trimethylglycine (from glycinium)",42.046402
+1992,"alpha-carbon thioether crosslinked residues",0
+1993,"beta-carbon thioether crosslinked residues",0
+1994,"N1'-formyl-L-tryptophan",27.994915
+1995,"N2-formyl-L-tryptophan",27.994915
+1996,"butanoylated residue",70.041865
+1997,"N-butanoylated residue",70.041865
+1998,"alpha-amino butanoylated residue",70.041865
+1999,"N6-(11-cis)-retinylidene-L-lysine",266.203451

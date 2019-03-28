@@ -97,6 +97,11 @@ img {
   border-color: #000000;
 }
 
+.select2-results li > div:hover {
+color: #FFFFFF;
+background: #000000;
+}
+
 .panel {
   border-color: #000000;
 }
@@ -287,6 +292,15 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   padding-right: 40px;
+}
+
+.ui-select-toggle {
+  height: auto;
+}
+
+.ui-select-choices-row:hover {
+background-color: #3875d7;
+color: #fff;
 }
 
 div.valid-data i {

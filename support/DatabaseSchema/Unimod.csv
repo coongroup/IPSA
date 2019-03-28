@@ -1,0 +1,1491 @@
+Accession #,PSI-MS Name,Interim name,Description,Monoisotopic mass,Average mass,Composition
+1,Acetyl,Acetyl,Acetylation,42.010565,42.0367,H(2) C(2) O
+2,Amidated,Amide,Amidation,-0.984016,-0.9848,H N O(-1)
+3,Biotin,Biotin,Biotinylation,226.077598,226.2954,H(14) C(10) N(2) O(2) S
+4,Carbamidomethyl,Carbamidomethyl,Iodoacetamide derivative,57.021464,57.0513,H(3) C(2) N O
+5,Carbamyl,Carbamyl,Carbamylation,43.005814,43.0247,H C N O
+6,Carboxymethyl,Carboxymethyl,Iodoacetic acid derivative,58.005479,58.0361,H(2) C(2) O(2)
+7,Deamidated,Deamidation,Deamidation,0.984016,0.9848,H(-1) N(-1) O
+8,ICAT-G,Gygi_ICATd0,Gygi ICAT(TM) d0,486.251206,486.6253,H(38) C(22) N(4) O(6) S
+9,ICAT-G:2H(8),Gygi_ICATd8,Gygi ICAT(TM) d8,494.30142,494.6746,H(30) 2H(8) C(22) N(4) O(6) S
+10,Met->Hse,HSe,Homoserine,-29.992806,-30.0922,H(-2) C(-1) O S(-1)
+11,Met->Hsl,Hse_lact,Homoserine lactone,-48.003371,-48.1075,H(-4) C(-1) S(-1)
+12,ICAT-D:2H(8),AB_old_ICATd8,Applied Biosystems original ICAT(TM) d8,450.275205,450.6221,H(26) 2H(8) C(20) N(4) O(5) S
+13,ICAT-D,AB_old_ICATd0,Applied Biosystems original ICAT(TM) d0,442.224991,442.5728,H(34) C(20) N(4) O(5) S
+17,NIPCAM,NIPCAM,N-isopropylcarboxamidomethyl,99.068414,99.1311,H(9) C(5) N O
+20,PEO-Iodoacetyl-LC-Biotin,PEO-Biotin,"Biotinyl-iodoacetamidyl-3,6-dioxaoctanediamine",414.193691,414.5196,H(30) C(18) N(4) O(5) S
+21,Phospho,Phospho,Phosphorylation,79.966331,79.9799,H O(3) P
+23,Dehydrated,Phospho+PL,Dehydration,-18.010565,-18.0153,H(-2) O(-1)
+24,Propionamide,Propionamide,Acrylamide adduct,71.037114,71.0779,H(5) C(3) N O
+25,Pyridylacetyl,pyridylacetyl,pyridylacetyl,119.037114,119.1207,H(5) C(7) N O
+26,Pyro-carbamidomethyl,Pyro-cmC,S-carbamoylmethylcysteine cyclization (N-terminus),39.994915,40.0208,C(2) O
+27,Glu->pyro-Glu,Pyro_glu,Pyro-glu from E,-18.010565,-18.0153,H(-2) O(-1)
+28,Gln->pyro-Glu,Pyro-glu,Pyro-glu from Q,-17.026549,-17.0305,H(-3) N(-1)
+29,SMA,SMA,N-Succinimidyl-2-morpholine acetate,127.063329,127.1412,H(9) C(6) N O(2)
+30,Cation:Na,Sodiated,Sodium adduct,21.981943,21.9818,H(-1) Na
+31,Pyridylethyl,S-pyridylethyl,S-pyridylethylation,105.057849,105.1372,H(7) C(7) N
+34,Methyl,Methyl,Methylation,14.01565,14.0266,H(2) C
+35,Oxidation,Hydroxylation,Oxidation or Hydroxylation,15.994915,15.9994,O
+36,Dimethyl,di-Methylation,di-Methylation,28.0313,28.0532,H(4) C(2)
+37,Trimethyl,tri-Methylation,tri-Methylation,42.04695,42.0797,H(6) C(3)
+39,Methylthio,b-methylthiol,Beta-methylthiolation,45.987721,46.0916,H(2) C S
+40,Sulfo,Sulfation,O-Sulfonation,79.956815,80.0632,O(3) S
+41,Hex,Hex,Hexose,162.052824,162.1406,Hex
+42,Lipoyl,Lipoyl,Lipoyl,188.032956,188.3103,H(12) C(8) O S(2)
+43,HexNAc,HexNAc,N-Acetylhexosamine,203.079373,203.1925,HexNAc
+44,Farnesyl,Farnesylation,Farnesylation,204.187801,204.3511,H(24) C(15)
+45,Myristoyl,Myristoylation,Myristoylation,210.198366,210.3556,H(26) C(14) O
+46,PyridoxalPhosphate,Pyridoxal-phos,Pyridoxal phosphate,229.014009,229.1266,H(8) C(8) N O(5) P
+47,Palmitoyl,Palmitoylation,Palmitoylation,238.229666,238.4088,H(30) C(16) O
+48,GeranylGeranyl,Geranyl-geranyl,Geranyl-geranyl,272.250401,272.4681,H(32) C(20)
+49,Phosphopantetheine,p-pantetheine,Phosphopantetheine,340.085794,340.333,H(21) C(11) N(2) O(6) P S
+50,FAD,FAD,Flavin adenine dinucleotide,783.141486,783.5339,H(31) C(27) N(9) O(15) P(2)
+51,Tripalmitate,Tripalmitate,N-acyl diglyceride cysteine,788.725777,789.3049,H(96) C(51) O(5)
+52,Guanidinyl,Guanidination,Guanidination,42.021798,42.04,H(2) C N(2)
+53,HNE,HNE,4-hydroxynonenal (HNE),156.11503,156.2221,H(16) C(9) O(2)
+54,Glucuronyl,N-glucuronyl,hexuronic acid,176.032088,176.1241,HexA
+55,Glutathione,Glutathione,glutathione disulfide,305.068156,305.3076,H(15) C(10) N(3) O(6) S
+56,Acetyl:2H(3),Acetyl_heavy,"Acetate labeling reagent (N-term & K) (heavy form, +3amu)",45.029395,45.0552,H(-1) 2H(3) C(2) O
+58,Propionyl,Propionyl_light,Propionate labeling reagent light form (N-term & K),56.026215,56.0633,H(4) C(3) O
+59,Propionyl:13C(3),Propionyl_heavy,"Propionate labeling reagent heavy form (+3amu), N-term & K",59.036279,59.0412,H(4) 13C(3) O
+60,GIST-Quat,Quat_0,Quaternary amine labeling reagent light form (N-term & K),127.099714,127.1842,H(13) C(7) N O
+61,GIST-Quat:2H(3),Quat_3,"Quaternary amine labeling reagent heavy (+3amu) form, N-term & K",130.118544,130.2027,H(10) 2H(3) C(7) N O
+62,GIST-Quat:2H(6),Quat_6,"Quaternary amine labeling reagent heavy form (+6amu), N-term & K",133.137375,133.2212,H(7) 2H(6) C(7) N O
+63,GIST-Quat:2H(9),Quat_9,"Quaternary amine labeling reagent heavy form (+9amu), N-term & K",136.156205,136.2397,H(4) 2H(9) C(7) N O
+64,Succinyl,Suc_anh_light,Succinic anhydride labeling reagent light form (N-term & K),100.016044,100.0728,H(4) C(4) O(3)
+65,Succinyl:2H(4),Suc_anh+4H2,"Succinic anhydride labeling reagent, heavy form (+4amu, 4H2), N-term & K",104.041151,104.0974,2H(4) C(4) O(3)
+66,Succinyl:13C(4),Suc_anh+4C13,"Succinic anhydride labeling reagent, heavy form (+4amu, 4C13), N-term & K",104.029463,104.0434,H(4) 13C(4) O(3)
+89,Iminobiotin,Im_biotin,Iminobiotinylation,225.093583,225.3106,H(15) C(10) N(3) O S
+90,ESP,ESP-Tag_light,ESP-Tag light d0,338.177647,338.4682,H(26) C(16) N(4) O(2) S
+91,ESP:2H(10),ESP-Tag_heavy,ESP-Tag heavy d10,348.240414,348.5299,H(16) 2H(10) C(16) N(4) O(2) S
+92,NHS-LC-Biotin,Biot_LC,NHS-LC-Biotin,339.161662,339.453,H(25) C(16) N(3) O(3) S
+93,EDT-maleimide-PEO-biotin,EDT-m-biotin,EDT-maleimide-PEO-biotin,601.206246,601.8021,H(39) C(25) N(5) O(6) S(3)
+94,IMID,IMID_light,IMID d0,68.037448,68.0773,H(4) C(3) N(2)
+95,IMID:2H(4),IMID_heavy,IMID d4,72.062555,72.1019,2H(4) C(3) N(2)
+97,Propionamide:2H(3),Acrylamide_heavy,Acrylamide d3,74.055944,74.0964,H(2) 2H(3) C(3) N O
+105,ICAT-C,ICAT_light,Applied Biosystems cleavable ICAT(TM) light,227.126991,227.2603,H(17) C(10) N(3) O(3)
+106,ICAT-C:13C(9),ICAT_heavy,Applied Biosystems cleavable ICAT(TM) heavy,236.157185,236.1942,H(17) C 13C(9) N(3) O(3)
+107,FormylMet,+N-formyl-met,Addition of N-formyl met,159.035399,159.2062,H(9) C(6) N O(2) S
+108,Nethylmaleimide,NEM,N-ethylmaleimide on cysteines,125.047679,125.1253,H(7) C(6) N O(2)
+112,,OxLysBiotinRed,"Oxidized lysine biotinylated with biotin-LC-hydrazide, reduced",354.172562,354.4676,H(26) C(16) N(4) O(3) S
+113,,OxLysBiotin,Oxidized lysine biotinylated with biotin-LC-hydrazide,352.156911,352.4518,H(24) C(16) N(4) O(3) S
+114,,OxProBiotinRed,"Oxidized proline biotinylated with biotin-LC-hydrazide, reduced",371.199111,371.4982,H(29) C(16) N(5) O(3) S
+115,,OxProBiotin,Oxidized Proline biotinylated with biotin-LC-hydrazide,369.183461,369.4823,H(27) C(16) N(5) O(3) S
+116,,OxArgBiotin,Oxidized arginine biotinylated with biotin-LC-hydrazide,310.135113,310.4118,H(22) C(15) N(2) O(3) S
+117,,OxArgBiotinRed,"Oxidized arginine biotinylated with biotin-LC-hydrazide, reduced",312.150763,312.4277,H(24) C(15) N(2) O(3) S
+118,EDT-iodoacetyl-PEO-biotin,EDT-i-biotin,EDT-iodo-PEO-biotin,490.174218,490.7034,H(34) C(20) N(4) O(4) S(3)
+119,IBTP,IBTP,Thio Ether Formation - BTP Adduct,316.138088,316.3759,H(21) C(22) P
+121,GG,GlyGly,ubiquitinylation residue,114.042927,114.1026,H(6) C(4) N(2) O(2)
+122,Formyl,Formyl,Formylation,27.994915,28.0101,C O
+123,ICAT-H,Harbury_ICAT_C12,"N-iodoacetyl, p-chlorobenzyl-12C6-glucamine",345.097915,345.7754,H(20) C(15) N O(6) Cl
+124,ICAT-H:13C(6),Harbury_ICAT_C13,"N-iodoacetyl, p-chlorobenzyl-13C6-glucamine",351.118044,351.7313,H(20) C(9) 13C(6) N O(6) Cl
+126,Xlink:DTSSP[88],DSP,Cleaved and reduced DSP/DTSSP crosslinker,87.998285,88.1283,H(4) C(3) O S
+127,Fluoro,Fphe,fluorination,17.990578,17.9905,H(-1) F
+128,Fluorescein,Fluorescein,"5-Iodoacetamidofluorescein (Molecular Probe, Eugene, OR)",387.074287,387.3417,H(13) C(22) N O(6)
+129,Iodo,Iodination,Iodination,125.896648,125.8965,H(-1) I
+130,Diiodo,di-Iodination,di-Iodination,251.793296,251.7931,H(-2) I(2)
+131,Triiodo,tri-Iodination,tri-Iodination,377.689944,377.6896,H(-3) I(3)
+134,Myristoleyl,myristoleylation,(cis-delta 5)-tetradecaenoyl,208.182715,208.3398,H(24) C(14) O
+135,Myristoyl+Delta:H(-4),myristoyl-4H,"(cis,cis-delta 5, delta 8)-tetradecadienoyl",206.167065,206.3239,H(22) C(14) O
+136,Benzoyl,benzoyl,labeling reagent light form (N-term & K),104.026215,104.1061,H(4) C(7) O
+137,Hex(5)HexNAc(2),N-glycan,N-linked glycan core,1216.422863,1217.088,Hex(5) HexNAc(2)
+139,Dansyl,dansyl,5-dimethylaminonaphthalene-1-sulfonyl,233.051049,233.2862,H(11) C(12) N O(2) S
+140,a-type-ion,a-type_Ion,ISD a-series (C-Term),-46.005479,-46.0254,H(-2) C(-1) O(-2)
+141,Amidine,amidine,amidination of lysines or N-terminal amines with methyl acetimidate,41.026549,41.0519,H(3) C(2) N
+142,HexNAc(1)dHex(1),HexNAc1dHex1,HexNAc1dHex1,349.137281,349.3337,dHex HexNAc
+143,HexNAc(2),HexNAc2,HexNAc2,406.158745,406.385,HexNAc(2)
+144,Hex(3),Hex3,Hex3,486.158471,486.4218,Hex(3)
+145,HexNAc(1)dHex(2),HexNAc1dHex2,HexNAc1dHex2,495.19519,495.4749,dHex(2) HexNAc
+146,Hex(1)HexNAc(1)dHex(1),Hex1HexNAc1dHex1,Hex1HexNAc1dHex1,511.190105,511.4743,dHex Hex HexNAc
+147,HexNAc(2)dHex(1),HexNAc2dHex1,HexNAc2dHex1,552.216654,552.5262,dHex HexNAc(2)
+148,Hex(1)HexNAc(2),Hex1HexNAc2,Hex1HexNAc2,568.211569,568.5256,Hex HexNAc(2)
+149,Hex(1)HexNAc(1)NeuAc(1),Hex1HexNAc1NeuAc1,Hex1HexNAc1NeuAc1,656.227613,656.5877,Hex HexNAc NeuAc
+150,HexNAc(2)dHex(2),HexNAc2dHex2,HexNAc2dHex2,698.274563,698.6674,dHex(2) HexNAc(2)
+151,Hex(1)HexNAc(2)Pent(1),Hex1HexNAc2Pent1,Hex1HexNAc2Pent1,700.253828,700.6403,Pent Hex HexNAc(2)
+152,Hex(1)HexNAc(2)dHex(1),Hex1HexNAc2dHex1,Hex1HexNAc2dHex1,714.269478,714.6668,dHex Hex HexNAc(2)
+153,Hex(2)HexNAc(2),Hex2HexNAc2,Hex2HexNAc2,730.264392,730.6662,Hex(2) HexNAc(2)
+154,Hex(3)HexNAc(1)Pent(1),Hex3HexNAc1Pent1,Hex3HexNAc1Pent1,821.280102,821.7289,Pent Hex(3) HexNAc
+155,Hex(1)HexNAc(2)dHex(1)Pent(1),Hex1HexNAc2dHex1Pent1,Hex1HexNAc2dHex1Pent1,846.311736,846.7815,Pent dHex Hex HexNAc(2)
+156,Hex(1)HexNAc(2)dHex(2),Hex1HexNAc2dHex2,Hex1HexNAc2dHex2,860.327386,860.808,dHex(2) Hex HexNAc(2)
+157,Hex(2)HexNAc(2)Pent(1),Hex2HexNAc2Pent1,Hex2HexNAc2Pent1,862.306651,862.7809,Pent Hex(2) HexNAc(2)
+158,Hex(2)HexNAc(2)dHex(1),Hex2HexNAc2dHex1,Hex2HexNAc2dHex1,876.322301,876.8074,dHex Hex(2) HexNAc(2)
+159,Hex(3)HexNAc(2),Hex3HexNAc2,Hex3HexNAc2,892.317216,892.8068,Hex(3) HexNAc(2)
+160,Hex(1)HexNAc(1)NeuAc(2),Hex1HexNAc1NeuAc2,Hex HexNAc NeuAc(2) ---OR--- Hex HexNAc(3) HexA,947.323029,947.8423,Hex HexNAc NeuAc(2)
+161,Hex(3)HexNAc(2)Phos(1),Hex3HexNAc2Phos1,Hex(3) HexNAc(2) Phos,972.283547,972.7867,H O(3) P Hex(3) HexNAc(2)
+162,Delta:S(-1)Se(1),SeMet,Selenium replaces sulfur,47.944449,46.895,S(-1) Se
+170,Delta:H(1)N(-1)18O(1),GN18Olabeling,glycosylated asparagine 18O labeling,2.988261,2.9845,H(-1) N(-1) 18O
+171,NBS:13C(6),NBS-13C,Shimadzu NBS-13C,159.008578,159.1144,H(3) 13C(6) N O(2) S
+172,NBS,NBS-12C,Shimadzu NBS-12C,152.988449,153.1585,H(3) C(6) N O(2) S
+176,BHT,BHT,Michael addition of BHT quinone methide to Cysteine and Lysine,218.167065,218.3346,H(22) C(15) O
+178,DAET,ser_thr_DAET,phosphorylation to amine thiol,87.050655,87.1866,H(9) C(4) N O(-1) S
+184,Label:13C(9),13C9,13C(9) Silac label,9.030193,8.9339,C(-9) 13C(9)
+185,Label:13C(9)+Phospho,13C9_Phospho_Tyr,C13 label (Phosphotyrosine),88.996524,88.9138,H C(-9) 13C(9) O(3) P
+186,HPG,Arg1HPG,Hydroxyphenylglyoxal arginine,132.021129,132.1162,H(4) C(8) O(2)
+187,2HPG,Arg2HPG,bis(hydroxphenylglyoxal) arginine,282.052824,282.2476,H(10) C(16) O(5)
+188,Label:13C(6),13C6,13C(6) Silac label,6.020129,5.9559,C(-6) 13C(6)
+193,Label:18O(2),double_O18,O18 label at both C-terminal oxygens,4.008491,3.9995,O(-2) 18O(2)
+194,AccQTag,AccQTag,6-aminoquinolyl-N-hydroxysuccinimidyl carbamate,170.048013,170.1674,H(6) C(10) N(2) O
+195,QAT,QAT,APTA-d0,171.149738,171.26,H(19) C(9) N(2) O
+196,QAT:2H(3),QATd3,APTA d3,174.168569,174.2784,H(16) 2H(3) C(9) N(2) O
+197,EQAT,EQAT,EAPTA d0,184.157563,184.2786,H(20) C(10) N(2) O
+198,EQAT:2H(5),EQATd5,EAPTA d5,189.188947,189.3094,H(15) 2H(5) C(10) N(2) O
+199,Dimethyl:2H(4),CHD2,DiMethyl-CHD2,32.056407,32.0778,2H(4) C(2)
+200,Ethanedithiol,EDT,EDT,75.980527,76.1838,H(4) C(2) O(-1) S(2)
+205,Delta:H(6)C(6)O(1),Acrolein94,Acrolein addition +94,94.041865,94.1112,H(6) C(6) O
+206,Delta:H(4)C(3)O(1),Acrolein56,Acrolein addition +56,56.026215,56.0633,H(4) C(3) O
+207,Delta:H(2)C(3),Acrolein38,Acrolein addition +38,38.01565,38.048,H(2) C(3)
+208,Delta:H(4)C(6),Acrolein76,Acrolein addition +76,76.0313,76.096,H(4) C(6)
+209,Delta:H(8)C(6)O(2),Acrolein112,Acrolein addition +112,112.05243,112.1265,H(8) C(6) O(2)
+211,NEIAA,NEIAA-d0,N-ethyl iodoacetamide-d0,85.052764,85.1045,H(7) C(4) N O
+212,NEIAA:2H(5),NEIAA-d5,N-ethyl iodoacetamide-d5,90.084148,90.1353,H(2) 2H(5) C(4) N O
+213,ADP-Ribosyl,ADP-Ribose,ADP Ribose addition,541.06111,541.3005,H(13) C(10) N(5) O(9) P(2) Pent
+214,iTRAQ4plex,iTRAQ,Representative mass and accurate mass for 116 & 117,144.102063,144.1544,H(12) C(4) 13C(3) N 15N O
+243,IGBP,IGBP,Light IDBEST tag for quantitation,296.016039,297.1478,H(13) C(12) N(2) O(2) Br
+253,Crotonaldehyde,Croton,Crotonaldehyde,70.041865,70.0898,H(6) C(4) O
+254,Delta:H(2)C(2),Acetald+26,Acetaldehyde +26,26.01565,26.0373,H(2) C(2)
+255,Delta:H(4)C(2),Acetald+28,Acetaldehyde +28,28.0313,28.0532,H(4) C(2)
+256,Delta:H(4)C(3),Propionald+40,Propionaldehyde +40,40.0313,40.0639,H(4) C(3)
+258,Label:18O(1),O18_STY,O18 Labeling,2.004246,1.9998,O(-1) 18O
+259,Label:13C(6)15N(2),13C6-15N2,13C(6) 15N(2) Silac label,8.014199,7.9427,C(-6) 13C(6) N(-2) 15N(2)
+260,Thiophospho,Thio-phospho,Thiophosphorylation,95.943487,96.0455,H O(2) P S
+261,SPITC,SPITC,4-sulfophenyl isothiocyanate,214.971084,215.2495,H(5) C(7) N O(3) S(2)
+262,Label:2H(3),D3_Label,Trideuteration,3.01883,3.0185,H(-3) 2H(3)
+264,PET,PET,phosphorylation to pyridyl thiol,121.035005,121.2028,H(7) C(7) N O(-1) S
+267,Label:13C(6)15N(4),13C6-15N4,13C(6) 15N(4) Silac label,10.008269,9.9296,C(-6) 13C(6) N(-4) 15N(4)
+268,Label:13C(5)15N(1),13C5-15N1,13C(5) 15N(1) Silac label,6.013809,5.9567,C(-5) 13C(5) N(-1) 15N
+269,Label:13C(9)15N(1),13C9-15N1,13C(9) 15N(1) Silac label,10.027228,9.9273,C(-9) 13C(9) N(-1) 15N
+270,Cytopiloyne,cytopiloyne,nucleophilic addtion to cytopiloyne,362.136553,362.3738,H(22) C(19) O(7)
+271,Cytopiloyne+water,cytopiloyne+H2O,nucleophilic addition to cytopiloyne+H2O,380.147118,380.3891,H(24) C(19) O(8)
+272,CAF,CAF,sulfonation of N-terminus,135.983029,136.1265,H(4) C(3) O(4) S
+275,Nitrosyl,SNO,S-nitrosylation,28.990164,28.9982,H(-1) N O
+276,AEBS,AEBS,Aminoethylbenzenesulfonylation,183.035399,183.2276,H(9) C(8) N O(2) S
+278,Ethanolyl,EtOH,Ethanolation,44.026215,44.0526,H(4) C(2) O
+280,Ethyl,Ethyl,Ethylation,28.0313,28.0532,H(4) C(2)
+281,CoenzymeA,CysCoA,Cysteine modified Coenzyme A,765.09956,765.5182,H(34) C(21) N(7) O(16) P(3) S
+284,Methyl:2H(2),DeMet,Deuterium Methylation of Lysine,16.028204,16.0389,2H(2) C
+285,SulfanilicAcid,SA_light,Light Sulfanilic Acid (SA) C12,155.004099,155.1744,H(5) C(6) N O(2) S
+286,SulfanilicAcid:13C(6),SA_heavy,Heavy Sulfanilic Acid (SA) C13,161.024228,161.1303,H(5) 13C(6) N O(2) S
+288,Trp->Oxolactone,oxolactone,Tryptophan oxidation to oxolactone,13.979265,13.9835,H(-2) O
+289,Biotin-PEO-Amine,BiotinPEO-amine,Biotin polyethyleneoxide amine,356.188212,356.4835,H(28) C(16) N(4) O(3) S
+290,Biotin-HPDP,Biotin:Thermo-21341,Pierce EZ-Link Biotin-HPDP,428.191582,428.6124,H(32) C(19) N(4) O(3) S(2)
+291,Delta:Hg(1),Hg,Mercury Mercaptan,201.970617,200.59,Hg
+292,IodoU-AMP,IodoU-AMP,(Iodo)-uracil MP,322.020217,322.1654,H(11) C(9) N(2) O(9) P
+293,CAMthiopropanoyl,CAMthiopropanoyl,3-(carbamidomethylthio)propanoyl,145.019749,145.1796,H(7) C(5) N O(2) S
+294,IED-Biotin,ied-biotin,biotinoyl-iodoacetyl-ethylenediamine,326.141261,326.4145,H(22) C(14) N(4) O(3) S
+295,dHex,Fuc,Fucose,146.057909,146.1412,dHex
+298,Methyl:2H(3),D3-Me-ester,deuterated methyl ester,17.03448,17.0451,H(-1) 2H(3) C
+299,Carboxy,carboxyl,Carboxylation,43.989829,44.0095,C O(2)
+301,Bromobimane,Bromobimane,Monobromobimane derivative,190.074228,190.1986,H(10) C(10) N(2) O(2)
+302,Menadione,Menadione-Q,Menadione quinone derivative,170.036779,170.1641,H(6) C(11) O(2)
+303,DeStreak,DeStreak,Cysteine mercaptoethanol,75.998285,76.1176,H(4) C(2) O S
+305,dHex(1)Hex(3)HexNAc(4),G0F,Fucosylated biantennary (-2 galactose),1444.53387,1445.3331,dHex Hex(3) HexNAc(4)
+307,dHex(1)Hex(4)HexNAc(4),G1F,dHex Hex(4) HexNAc(4) ---OR--- Hex(4) HexNAc(4) Pent Me,1606.586693,1607.4737,dHex Hex(4) HexNAc(4)
+308,dHex(1)Hex(5)HexNAc(4),G2F,Fucosylated biantennary,1768.639517,1769.6143,dHex Hex(5) HexNAc(4)
+309,Hex(3)HexNAc(4),G0,Biantennary (-2 galactose),1298.475961,1299.1919,Hex(3) HexNAc(4)
+310,Hex(4)HexNAc(4),G1,Biantennary (-1 galactose),1460.528784,1461.3325,Hex(4) HexNAc(4)
+311,Hex(5)HexNAc(4),G2,Biantennary,1622.581608,1623.4731,Hex(5) HexNAc(4)
+312,Cysteinyl,Cysteinyl,Cysteinylation,119.004099,119.1423,H(5) C(3) N O(2) S
+313,Lys-loss,-K,Loss of C-terminal K from Heavy Chain of MAb,-128.094963,-128.1723,H(-12) C(-6) N(-2) O(-1)
+314,Nmethylmaleimide,NMM,Nmethylmaleimide,111.032028,111.0987,H(5) C(5) N O(2)
+316,DimethylpyrroleAdduct,pyrrole,"2,5-dimethypyrrole",78.04695,78.1118,H(6) C(6)
+318,Delta:H(2)C(5),MDA62,MDA adduct +62,62.01565,62.0694,H(2) C(5)
+319,Delta:H(2)C(3)O(1),MDA54,MDA adduct +54,54.010565,54.0474,H(2) C(3) O
+320,Nethylmaleimide+water,NEMhyd,Nethylmaleimidehydrolysis,143.058243,143.1406,H(9) C(6) N O(3)
+323,Xlink:B10621,bNis,bis-((N-iodoacetyl)piperazinyl)sulfonerhodamine,713.093079,713.5626,H(30) C(31) N(4) O(6) S I
+324,Xlink:DTBP[87],DTBP,Cleaved and reduced DTBP crosslinker,87.01427,87.1435,H(5) C(3) N S
+325,FP-Biotin,FP-Biotin,10-ethoxyphosphinyl-N-(biotinamidopentyl)decanamide,572.316129,572.7405,H(49) C(27) N(4) O(5) P S
+327,Delta:H(4)C(2)O(-1)S(1),S-Eth,S-Ethylcystine from Serine,44.008456,44.1188,H(4) C(2) O(-1) S
+329,Methyl:2H(3)13C(1),Methyl-Heavy,monomethylation,18.037835,18.0377,H(-1) 2H(3) 13C
+330,Dimethyl:2H(6)13C(2),Dimethyl-Heavy,dimethylation,36.07567,36.0754,H(-2) 2H(6) 13C(2)
+332,Thiophos-S-S-biotin,Thiophos-S-S-biotin,thiophosphate labeled with biotin-HPDP,525.142894,525.6658,H(34) C(19) N(4) O(5) P S(3)
+333,Can-FP-biotin,Biotin:TRC-B394885,6-N-biotinylaminohexyl isopropyl phosphate,447.195679,447.5291,H(34) C(19) N(3) O(5) P S
+335,HNE+Delta:H(2),redHNE,reduced 4-Hydroxynonenal,158.13068,158.238,H(18) C(9) O(2)
+337,Methylamine,MethylamineST,Michael addition with methylamine,13.031634,13.0418,H(3) C N O(-1)
+340,Bromo,bromo,bromination,77.910511,78.8961,H(-1) Br
+342,Amino,aminotyrosine,Tyrosine oxidation to 2-aminotyrosine,15.010899,15.0146,H N
+343,,Argbiotinhydrazide,oxidized Arginine biotinylated with biotin hydrazide,199.066699,199.27,H(13) C(9) N O(2) S
+344,Arg->GluSA,Argglutamicsealde,Arginine oxidation to glutamic semialdehyde,-43.053433,-43.0711,H(-5) C(-1) N(-3) O
+345,Trioxidation,Cysteic_acid,cysteine oxidation to cysteic acid,47.984744,47.9982,O(3)
+348,His->Asn,His2Asn,His->Asn substitution,-23.015984,-23.0366,H(-1) C(-2) N(-1) O
+349,His->Asp,His2Asp,His->Asp substitution,-22.031969,-22.0519,H(-2) C(-2) N(-2) O(2)
+350,Trp->Hydroxykynurenin,hydroxykynurenin,tryptophan oxidation to hydroxykynurenin,19.989829,19.9881,C(-1) O(2)
+351,Trp->Kynurenin,kynurenin,tryptophan oxidation to kynurenin,3.994915,3.9887,C(-1) O
+352,Lys->Allysine,Lysaminoadipicsealde,Lysine oxidation to aminoadipic semialdehyde,-1.031634,-1.0311,H(-3) N(-1) O
+353,,Lysbiotinhydrazide,oxidized Lysine biotinylated with biotin hydrazide,241.088497,241.31,H(15) C(10) N(3) O(2) S
+354,Nitro,Nitro,Oxidation to nitro,44.985078,44.9976,H(-1) N O(2)
+357,,probiotinhydrazide,oxidized proline biotinylated with biotin hydrazide,258.115047,258.3405,H(18) C(10) N(4) O(2) S
+359,Pro->pyro-Glu,Pyroglutamic,proline oxidation to pyroglutamic acid,13.979265,13.9835,H(-2) O
+360,Pro->Pyrrolidinone,Pyrrolidinone,Proline oxidation to pyrrolidinone,-30.010565,-30.026,H(-2) C(-1) O(-1)
+361,,Thrbiotinhydrazide,oxidized Threonine biotinylated with biotin hydrazide,240.104482,240.3252,H(16) C(10) N(4) O S
+362,Diisopropylphosphate,O-Diisopropylphosphate,O-Diisopropylphosphorylation,164.060231,164.1394,H(13) C(6) O(3) P
+363,Isopropylphospho,O-Isopropylphosphate,O-Isopropylphosphorylation,122.013281,122.0596,H(7) C(3) O(3) P
+364,ICPL:13C(6),ICPL_heavy,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, heavy form",111.041593,111.05,H(3) 13C(6) N O
+365,ICPL,ICPL_light,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, light form",105.021464,105.0941,H(3) C(6) N O
+366,Deamidated:18O(1),Deamidation_O18,Deamidation in presence of O18,2.988261,2.9845,H(-1) N(-1) 18O
+368,Cys->Dha,DehydroalaC,Dehydroalanine (from Cysteine),-33.987721,-34.0809,H(-2) S(-1)
+369,Pro->Pyrrolidone,OxPro,Pyrrolidone from Proline,-27.994915,-28.0101,C(-1) O(-1)
+371,HMVK,HMVK86,Michael addition of hydroxymethylvinyl ketone to cysteine,86.036779,86.0892,H(6) C(4) O(2)
+372,Arg->Orn,Arg2Orn,Ornithine from Arginine,-42.021798,-42.04,H(-2) C(-1) N(-2)
+374,Dehydro,Cystine,Half of a disulfide bridge,-1.007825,-1.0079,H(-1)
+375,Diphthamide,Diphthamide,Diphthamide,142.110613,142.1989,H(14) C(7) N(2) O
+376,Hydroxyfarnesyl,hydroxyfarnesyl,hydroxyfarnesyl,220.182715,220.3505,H(24) C(15) O
+377,Diacylglycerol,diacylglycerol,diacylglycerol,576.511761,576.9334,H(68) C(37) O(4)
+378,Carboxyethyl,carboxyethyl,carboxyethyl,72.021129,72.0627,H(4) C(3) O(2)
+379,Hypusine,hypusine,hypusine,87.068414,87.1204,H(9) C(4) N O
+380,Retinylidene,retinal,retinal,266.203451,266.4204,H(26) C(20)
+381,Lys->AminoadipicAcid,aminoadipic,alpha-amino adipic acid,14.96328,14.9683,H(-3) N(-1) O(2)
+382,Cys->PyruvicAcid,pyruvicC,pyruvic acid from N-term cys,-33.003705,-33.0961,H(-3) N(-1) O S(-1)
+385,Ammonia-loss,N-oxobutanoic,Loss of ammonia,-17.026549,-17.0305,H(-3) N(-1)
+387,Phycocyanobilin,phycocyanobilin,phycocyanobilin,586.279135,586.678,H(38) C(33) N(4) O(6)
+388,Phycoerythrobilin,phycoerythrobilin,phycoerythrobilin,588.294785,588.6939,H(40) C(33) N(4) O(6)
+389,Phytochromobilin,phytochromobilin,phytochromobilin,584.263485,584.6621,H(36) C(33) N(4) O(6)
+390,Heme,heme,heme,616.177295,616.4873,H(32) C(34) N(4) O(4) Fe
+391,Molybdopterin,molybdopterin,molybdopterin,521.884073,520.2668,H(11) C(10) N(5) O(8) P S(2) Mo
+392,Quinone,quinone,quinone,29.974179,29.9829,H(-2) O(2)
+393,Glucosylgalactosyl,glucosylgalactosyl,glucosylgalactosyl hydroxylysine,340.100562,340.2806,O Hex(2)
+394,GPIanchor,GPI-anchor,glycosylphosphatidylinositol,123.00853,123.0477,H(6) C(2) N O(3) P
+395,PhosphoribosyldephosphoCoA,pRibodePcoA,phosphoribosyl dephospho-coenzyme A,881.146904,881.6335,H(42) C(26) N(7) O(19) P(3) S
+396,GlycerylPE,glycerylPE,glycerylphosphorylethanolamine,197.04531,197.1262,H(12) C(5) N O(5) P
+397,Triiodothyronine,triiodo,triiodo,469.716159,469.785,H C(6) O I(3)
+398,Thyroxine,tetraiodo,tetraiodo,595.612807,595.6815,C(6) O I(4)
+400,Tyr->Dha,DehydroalaY,Dehydroalanine (from Tyrosine),-94.041865,-94.1112,H(-6) C(-6) O(-1)
+401,Didehydro,didehydro,2-amino-3-oxo-butanoic_acid,-2.01565,-2.0159,H(-2)
+402,Cys->Oxoalanine,oxoalanine,oxoalanine,-17.992806,-18.0815,H(-2) O S(-1)
+403,Ser->LacticAcid,lactic,lactic acid from N-term Ser,-15.010899,-15.0146,H(-1) N(-1)
+405,Phosphoadenosine,p-adenosine,AMP,329.05252,329.2059,H(12) C(10) N(5) O(6) P
+407,Hydroxycinnamyl,hydroxycinnamyl,hydroxycinnamyl,146.036779,146.1427,H(6) C(9) O(2)
+408,Glycosyl,glycosyl,glycosyl-L-hydroxyproline,148.037173,148.114,H(-2) C(-1) Hex
+409,FMNH,FMN,flavin mononucleotide,454.088965,454.3279,H(19) C(17) N(4) O(9) P
+410,Archaeol,S-archaeol,S-diphytanylglycerol diether,634.662782,635.1417,H(86) C(43) O(2)
+411,Phenylisocyanate,PIC,phenyl isocyanate,119.037114,119.1207,H(5) C(7) N O
+412,Phenylisocyanate:2H(5),d5-PIC,d5-phenyl isocyanate,124.068498,124.1515,2H(5) C(7) N O
+413,Phosphoguanosine,p-guanosine,phospho-guanosine,345.047435,345.2053,H(12) C(10) N(5) O(7) P
+414,Hydroxymethyl,hydroxymethyl,hydroxymethyl,30.010565,30.026,H(2) C O
+415,MolybdopterinGD+Delta:S(-1)Se(1),molybdopterin-se,L-selenocysteinyl molybdenum bis(molybdopterin guanine dinucleotide),1620.930224,1618.9096,H(47) C(40) N(20) O(26) P(4) S(3) Se Mo
+416,Dipyrrolylmethanemethyl,dipyrrole,dipyrrolylmethanemethyl,418.137616,418.3973,H(22) C(20) N(2) O(8)
+417,PhosphoUridine,p-uridine,uridine phosphodiester,306.025302,306.166,H(11) C(9) N(2) O(8) P
+419,Glycerophospho,glycerophospho,glycerophospho,154.00311,154.0584,H(7) C(3) O(5) P
+420,Carboxy->Thiocarboxy,thiocarboxy,thiocarboxylic acid,15.977156,16.0656,O(-1) S
+421,Sulfide,persulfide,persulfide,31.972071,32.065,S
+422,PyruvicAcidIminyl,pyruv-iminyl,N-pyruvic acid 2-iminyl,70.005479,70.0468,H(2) C(3) O(2)
+423,Delta:Se(1),selenyl,selenyl,79.91652,78.96,Se
+424,MolybdopterinGD,molybdopterin-gd,molybdenum bis(molybdopterin guanine dinucleotide),1572.985775,1572.0146,H(47) C(40) N(20) O(26) P(4) S(4) Mo
+425,Dioxidation,dihydroxy,dihydroxy,31.989829,31.9988,O(2)
+426,Octanoyl,octanoyl,octanoyl,126.104465,126.1962,H(14) C(8) O
+428,PhosphoHexNAc,p-GlcNAc,N-acetylglucosamine-1-phosphoryl,283.045704,283.1724,H O(3) P HexNAc
+429,PhosphoHex,p-Man,phosphoglycosyl-D-mannose-1-phosphoryl,242.019154,242.1205,H O(3) P Hex
+431,Palmitoleyl,palmitoleyl,palmitoleyl,236.214016,236.3929,H(28) C(16) O
+432,Cholesterol,C-cholesterol,cholesterol ester,368.344302,368.6383,H(44) C(27)
+433,Didehydroretinylidene,didehydroretinyl,"3,4-didehydroretinylidene",264.187801,264.4046,H(24) C(20)
+434,CHDH,LTP1-lipid,"cis-14-hydroxy-10,13-dioxo-7-heptadecenoic ester",294.183109,294.3859,H(26) C(17) O(4)
+435,Methylpyrroline,me-pyrroline,4-methyl-delta-1-pyrroline-5-carboxyl,109.052764,109.1259,H(7) C(6) N O
+436,Hydroxyheme,hydroxyheme,hydroxyheme,614.161645,614.4714,H(30) C(34) N(4) O(4) Fe
+437,MicrocinC7,C-Asn-deriv,(3-aminopropyl)(L-aspartyl-1-amino)phosphoryl-5-adenosine,386.110369,386.3003,H(19) C(13) N(6) O(6) P
+438,Cyano,cyano,cyano,24.995249,25.0095,H(-1) C N
+439,Diironsubcluster,Fe-cluster,hydrogenase diiron subcluster,342.786916,342.876,H(-1) C(5) N(2) O(5) S(2) Fe(2)
+440,Amidino,amidino,amidino,42.021798,42.04,H(2) C N(2)
+442,FMN,FMN2,O3-(riboflavin phosphoryl),438.094051,438.3285,H(19) C(17) N(4) O(8) P
+443,FMNC,FMN3,S-(4a-FMN),456.104615,456.3438,H(21) C(17) N(4) O(9) P
+444,CuSMo,CuSMo,copper sulfido molybdopterin cytosine dinuncleotide,922.834855,922.067,H(24) C(19) N(8) O(15) P(2) S(3) Cu Mo
+445,Hydroxytrimethyl,trimethyl-OH,"5-hydroxy-N6,N6,N6-trimethyl",59.04969,59.0871,H(7) C(3) O
+447,Deoxy,semialdehyde,reduction,-15.994915,-15.9994,O(-1)
+448,Microcin,microcin,microcin E492 siderophore ester from serine,831.197041,831.6871,H(37) C(36) N(3) O(20)
+449,Decanoyl,decanoyl,lipid,154.135765,154.2493,H(18) C(10) O
+450,Glu,-Glu-,monoglutamyl,129.042593,129.114,H(7) C(5) N O(3)
+451,GluGlu,-Glu-Glu-,diglutamyl,258.085186,258.228,H(14) C(10) N(2) O(6)
+452,GluGluGlu,-Glu-Glu-Glu-,triglutamyl,387.127779,387.3419,H(21) C(15) N(3) O(9)
+453,GluGluGluGlu,-Glu-Glu-Glu-Glu-,tetraglutamyl,516.170373,516.4559,H(28) C(20) N(4) O(12)
+454,HexN,HexN,Hexosamine,161.068808,161.1558,HexN
+455,Xlink:DMP[154],DMP-s,Free monolink of DMP crosslinker,154.110613,154.2096,H(14) C(8) N(2) O
+456,,Xlink:DMP,Dimethyl pimelimidate crosslink,122.084398,122.1677,H(10) C(7) N(2)
+457,NDA,NDA,"naphthalene-2,3-dicarboxaldehyde",175.042199,175.1855,H(5) C(13) N
+464,SPITC:13C(6),SPITC_Heavy,4-sulfophenyl isothiocyanate (Heavy C13),220.991213,221.2054,H(5) C 13C(6) N O(3) S(2)
+472,AEC-MAEC,AEC-MAEC,aminoethylcysteine,59.019355,59.1334,H(5) C(2) N O(-1) S
+476,TMAB,TMAB-d0,4-trimethyllammoniumbutyryl-,128.107539,128.1922,H(14) C(7) N O
+477,TMAB:2H(9),TMAB-d9,d9-4-trimethyllammoniumbutyryl-,137.16403,137.2476,H(5) 2H(9) C(7) N O
+478,FTC,FTC,fluorescein-5-thiosemicarbazide,421.073241,421.4259,H(15) C(21) N(3) O(5) S
+481,Label:2H(4),Lys4,"4,4,5,5-D4 Lysine",4.025107,4.0246,H(-4) 2H(4)
+488,DHP,DHP,Dehydropyrrolizidine alkaloid (dehydroretronecine) on cysteines,118.065674,118.1558,H(8) C(8) N
+490,Hep,Hep,Heptose,192.063388,192.1666,Hep
+493,BADGE,BADGE,Bisphenol A diglycidyl ether derivative,340.167459,340.4129,H(24) C(21) O(4)
+494,CyDye-Cy3,CyDye-Cy3,Cy3 CyDye DIGE Fluor saturation dye,672.298156,672.8335,H(44) C(37) N(4) O(6) S
+495,CyDye-Cy5,CyDye-Cy5,Cy5 CyDye DIGE Fluor saturation dye,684.298156,684.8442,H(44) C(38) N(4) O(6) S
+498,BHTOH,BHTOH,"Michael addition of t-butyl hydroxylated BHT (BHTOH) to C, H or K",234.16198,234.334,H(22) C(15) O(2)
+499,IGBP:13C(2),IGBP:13C(2),Heavy IDBEST tag for quantitation,298.022748,299.1331,H(13) C(10) 13C(2) N(2) O(2) Br
+500,Nmethylmaleimide+water,NMMhyd,Nmethylmaleimidehydrolysis,129.042593,129.114,H(7) C(5) N O(3)
+501,PyMIC,PyMIC,3-methyl-2-pyridyl isocyanate,134.048013,134.1353,H(6) C(7) N(2) O
+503,,LG-lactam-K,Levuglandinyl - lysine lactam adduct,332.19876,332.4339,H(28) C(20) O(4)
+504,,LG-Hlactam-K,Levuglandinyl - lysine hydroxylactam adduct,348.193674,348.4333,H(28) C(20) O(5)
+505,,LG-lactam-R,Levuglandinyl - arginine lactam adduct,290.176961,290.3939,H(26) C(19) N(-2) O(4)
+506,,LG-Hlactam-R,Levuglandinyl - arginine hydroxylactam adduct,306.171876,306.3933,H(26) C(19) N(-2) O(5)
+510,Dimethyl:2H(4)13C(2),C13HD2,DiMethyl-C13HD2,34.063117,34.0631,2H(4) 13C(2)
+512,Hex(2),Gal-Glu,Lactosylation,324.105647,324.2812,Hex(2)
+513,C8-QAT,C8-QAT,"[3-(2,5)-Dioxopyrrolidin-1-yloxycarbonyl)-propyl]dimethyloctylammonium",227.224915,227.3862,H(29) C(14) N O
+514,PropylNAGthiazoline,propyl-NAG-thiazoline,"propyl-1,2-dideoxy-2\'-methyl-alpha-D-glucopyranoso-[2,1-d]-Delta2\'-thiazoline",232.064354,232.2768,H(14) C(9) N O(4) S
+515,FNEM,F-NEM,fluorescein-5-maleimide,427.069202,427.3625,H(13) C(24) N O(7)
+518,Diethyl,Diethylation,"Diethylation, analogous to Dimethylation",56.0626,56.1063,H(8) C(4)
+519,BisANS,BisANS,"4,4\'-dianilino-1,1\'-binaphthyl-5,5\'-disulfonic acid",594.091928,594.6569,H(22) C(32) N(2) O(6) S(2)
+520,Piperidine,Piperidination,Piperidination,68.0626,68.117,H(8) C(5)
+522,Maleimide-PEO2-Biotin,Biotin:Thermo-21901,Maleimide-Biotin,525.225719,525.6183,H(35) C(23) N(5) O(7) S
+523,Sulfo-NHS-LC-LC-Biotin,Biotin:Thermo-21338,Biot_LC_LC,452.245726,452.6106,H(36) C(22) N(4) O(4) S
+525,,CLIP_TRAQ_2,CLIP_TRAQ_2,141.098318,141.1756,H(12) C(6) 13C N(2) O
+526,Dethiomethyl,Dethiomethyl,Prompt loss of side chain from oxidised Met,-48.003371,-48.1075,H(-4) C(-1) S(-1)
+528,Methyl+Deamidated,Methyl+Deamidated,Deamidation followed by a methylation,14.999666,15.0113,H C N(-1) O
+529,Delta:H(5)C(2),Delta:H(5)C(2),Dimethylation of proline residue,29.039125,29.0611,H(5) C(2)
+530,Cation:K,Cation:K,Replacement of proton by potassium,37.955882,38.0904,H(-1) K
+531,Cation:Cu[I],Cation:Cu,Replacement of proton by copper,61.921774,62.5381,H(-1) Cu
+532,iTRAQ4plex114,iTRAQ114,Accurate mass for 114,144.105918,144.168,H(12) C(5) 13C(2) N(2) 18O
+533,iTRAQ4plex115,iTRAQ115,Accurate mass for 115,144.099599,144.1688,H(12) C(6) 13C N 15N 18O
+534,Dibromo,Dibromo,Dibromo,155.821022,157.7921,H(-2) Br(2)
+535,LRGG,LeuArgGlyGly,Ubiquitination,383.228103,383.446,H(29) C(16) N(7) O(4)
+536,,CLIP_TRAQ_3,CLIP_TRAQ_3,271.148736,271.2976,H(20) C(11) 13C N(3) O(4)
+537,,CLIP_TRAQ_4,CLIP_TRAQ_4,244.101452,244.2292,H(15) C(9) 13C N(2) O(5)
+538,,Biotin:Cayman-10141,was 15dB-biotin,626.386577,626.8927,H(54) C(35) N(4) O(4) S
+539,,Biotin:Cayman-10013,was PGA1-biotin,660.428442,660.9504,H(60) C(36) N(4) O(5) S
+540,,Ala->Ser,Ala->Ser substitution,15.994915,15.9994,O
+541,,Ala->Thr,Ala->Thr substitution,30.010565,30.026,H(2) C O
+542,,Ala->Asp,Ala->Asp substitution,43.989829,44.0095,C O(2)
+543,,Ala->Pro,Ala->Pro substitution,26.01565,26.0373,H(2) C(2)
+544,,Ala->Gly,Ala->Gly substitution,-14.01565,-14.0266,H(-2) C(-1)
+545,,Ala->Glu,Ala->Glu substitution,58.005479,58.0361,H(2) C(2) O(2)
+546,,Ala->Val,Ala->Val substitution,28.0313,28.0532,H(4) C(2)
+547,,Cys->Phe,Cys->Phe substitution,44.059229,44.031,H(4) C(6) S(-1)
+548,,Cys->Ser,Cys->Ser substitution,-15.977156,-16.0656,O S(-1)
+549,,Cys->Trp,Cys->Trp substitution,83.070128,83.067,H(5) C(8) N S(-1)
+550,,Cys->Tyr,Cys->Tyr substitution,60.054144,60.0304,H(4) C(6) O S(-1)
+551,,Cys->Arg,Cys->Arg substitution,53.091927,53.0428,H(7) C(3) N(3) S(-1)
+552,,Cys->Gly,Cys->Gly substitution,-45.987721,-46.0916,H(-2) C(-1) S(-1)
+553,,Asp->Ala,Asp->Ala substitution,-43.989829,-44.0095,C(-1) O(-2)
+554,,Asp->His,Asp->His substitution,22.031969,22.0519,H(2) C(2) N(2) O(-2)
+555,,Asp->Asn,Asp->Asn substitution,-0.984016,-0.9848,H N O(-1)
+556,,Asp->Gly,Asp->Gly substitution,-58.005479,-58.0361,H(-2) C(-2) O(-2)
+557,,Asp->Tyr,Asp->Tyr substitution,48.036386,48.0859,H(4) C(5) O(-1)
+558,,Asp->Glu,Asp->Glu substitution,14.01565,14.0266,H(2) C
+559,,Asp->Val,Asp->Val substitution,-15.958529,-15.9563,H(4) C O(-2)
+560,,Glu->Ala,Glu->Ala substitution,-58.005479,-58.0361,H(-2) C(-2) O(-2)
+561,,Glu->Gln,Glu->Gln substitution,-0.984016,-0.9848,H N O(-1)
+562,,Glu->Asp,Glu->Asp substitution,-14.01565,-14.0266,H(-2) C(-1)
+563,,Glu->Lys,Glu->Lys substitution,-0.94763,-0.9417,H(5) C N O(-2)
+564,,Glu->Gly,Glu->Gly substitution,-72.021129,-72.0627,H(-4) C(-3) O(-2)
+565,,Glu->Val,Glu->Val substitution,-29.974179,-29.9829,H(2) O(-2)
+566,,Phe->Ser,Phe->Ser substitution,-60.036386,-60.0966,H(-4) C(-6) O
+567,,Phe->Cys,Phe->Cys substitution,-44.059229,-44.031,H(-4) C(-6) S
+568,,Phe->Xle,Phe->Leu/Ile substitution,-33.98435,-34.0162,H(2) C(-3)
+569,,Phe->Tyr,Phe->Tyr substitution,15.994915,15.9994,O
+570,,Phe->Val,Phe->Val substitution,-48,-48.0428,C(-4)
+571,,Gly->Ala,Gly->Ala substitution,14.01565,14.0266,H(2) C
+572,,Gly->Ser,Gly->Ser substitution,30.010565,30.026,H(2) C O
+573,,Gly->Trp,Gly->Trp substitution,129.057849,129.1586,H(7) C(9) N
+574,,Gly->Glu,Gly->Glu substitution,72.021129,72.0627,H(4) C(3) O(2)
+575,,Gly->Val,Gly->Val substitution,42.04695,42.0797,H(6) C(3)
+576,,Gly->Asp,Gly->Asp substitution,58.005479,58.0361,H(2) C(2) O(2)
+577,,Gly->Cys,Gly->Cys substitution,45.987721,46.0916,H(2) C S
+578,,Gly->Arg,Gly->Arg substitution,99.079647,99.1344,H(9) C(4) N(3)
+580,,His->Pro,His->Pro substitution,-40.006148,-40.0241,C(-1) N(-2)
+581,,His->Tyr,His->Tyr substitution,26.004417,26.034,H(2) C(3) N(-2) O
+582,,His->Gln,His->Gln substitution,-9.000334,-9.0101,H C(-1) N(-1) O
+584,,His->Arg,His->Arg substitution,19.042199,19.0464,H(5) N
+585,,His->Xle,His->Leu/Ile substitution,-23.974848,-23.9816,H(4) N(-2)
+588,,Xle->Thr,Leu/Ile->Thr substitution,-12.036386,-12.0538,H(-4) C(-2) O
+589,,Xle->Asn,Leu/Ile->Asn substitution,0.958863,0.945,H(-5) C(-2) N O
+590,,Xle->Lys,Leu/Ile->Lys substitution,15.010899,15.0146,H N
+594,,Lys->Thr,Lys->Thr substitution,-27.047285,-27.0684,H(-5) C(-2) N(-1) O
+595,,Lys->Asn,Lys->Asn substitution,-14.052036,-14.0696,H(-6) C(-2) O
+596,,Lys->Glu,Lys->Glu substitution,0.94763,0.9417,H(-5) C(-1) N(-1) O(2)
+597,,Lys->Gln,Lys->Gln substitution,-0.036386,-0.0431,H(-4) C(-1) O
+598,,Lys->Met,Lys->Met substitution,2.945522,3.0238,H(-3) C(-1) N(-1) S
+599,,Lys->Arg,Lys->Arg substitution,28.006148,28.0134,N(2)
+600,,Lys->Xle,Lys->Leu/Ile substitution,-15.010899,-15.0146,H(-1) N(-1)
+601,,Xle->Ser,Leu/Ile->Ser substitution,-26.052036,-26.0803,H(-6) C(-3) O
+602,,Xle->Phe,Leu/Ile->Phe substitution,33.98435,34.0162,H(-2) C(3)
+603,,Xle->Trp,Leu/Ile->Trp substitution,72.995249,73.0523,H(-1) C(5) N
+604,,Xle->Pro,Leu/Ile->Pro substitution,-16.0313,-16.0425,H(-4) C(-1)
+605,,Xle->Val,Leu/Ile->Val substitution,-14.01565,-14.0266,H(-2) C(-1)
+606,,Xle->His,Leu/Ile->His substitution,23.974848,23.9816,H(-4) N(2)
+607,,Xle->Gln,Leu/Ile->Gln substitution,14.974514,14.9716,H(-3) C(-1) N O
+608,,Xle->Met,Leu/Ile->Met substitution,17.956421,18.0384,H(-2) C(-1) S
+609,,Xle->Arg,Leu/Ile->Arg substitution,43.017047,43.028,H N(3)
+610,,Met->Thr,Met->Thr substitution,-29.992806,-30.0922,H(-2) C(-1) O S(-1)
+611,,Met->Arg,Met->Arg substitution,25.060626,24.9896,H(3) C N(3) S(-1)
+613,,Met->Lys,Met->Lys substitution,-2.945522,-3.0238,H(3) C N S(-1)
+614,,Met->Xle,Met->Leu/Ile substitution,-17.956421,-18.0384,H(2) C S(-1)
+615,,Met->Val,Met->Val substitution,-31.972071,-32.065,S(-1)
+616,,Asn->Ser,Asn->Ser substitution,-27.010899,-27.0253,H(-1) C(-1) N(-1)
+617,,Asn->Thr,Asn->Thr substitution,-12.995249,-12.9988,H N(-1)
+618,,Asn->Lys,Asn->Lys substitution,14.052036,14.0696,H(6) C(2) O(-1)
+619,,Asn->Tyr,Asn->Tyr substitution,49.020401,49.0706,H(3) C(5) N(-1)
+620,,Asn->His,Asn->His substitution,23.015984,23.0366,H C(2) N O(-1)
+621,,Asn->Asp,Asn->Asp substitution,0.984016,0.9848,H(-1) N(-1) O
+622,,Asn->Xle,Asn->Leu/Ile substitution,-0.958863,-0.945,H(5) C(2) N(-1) O(-1)
+623,,Pro->Ser,Pro->Ser substitution,-10.020735,-10.0379,H(-2) C(-2) O
+624,,Pro->Ala,Pro->Ala substitution,-26.01565,-26.0373,H(-2) C(-2)
+625,,Pro->His,Pro->His substitution,40.006148,40.0241,C N(2)
+626,,Pro->Gln,Pro->Gln substitution,31.005814,31.014,H N O
+627,,Pro->Thr,Pro->Thr substitution,3.994915,3.9887,C(-1) O
+628,,Pro->Arg,Pro->Arg substitution,59.048347,59.0705,H(5) C N(3)
+629,,Pro->Xle,Pro->Leu/Ile substitution,16.0313,16.0425,H(4) C
+630,,Gln->Pro,Gln->Pro substitution,-31.005814,-31.014,H(-1) N(-1) O(-1)
+631,,Gln->Lys,Gln->Lys substitution,0.036386,0.0431,H(4) C O(-1)
+632,,Gln->Glu,Gln->Glu substitution,0.984016,0.9848,H(-1) N(-1) O
+633,,Gln->His,Gln->His substitution,9.000334,9.0101,H(-1) C N O(-1)
+634,,Gln->Arg,Gln->Arg substitution,28.042534,28.0565,H(4) C N(2) O(-1)
+635,,Gln->Xle,Gln->Leu/Ile substitution,-14.974514,-14.9716,H(3) C N(-1) O(-1)
+636,,Arg->Ser,Arg->Ser substitution,-69.069083,-69.1084,H(-7) C(-3) N(-3) O
+637,,Arg->Trp,Arg->Trp substitution,29.978202,30.0242,H(-2) C(5) N(-2)
+638,,Arg->Thr,Arg->Thr substitution,-55.053433,-55.0818,H(-5) C(-2) N(-3) O
+639,,Arg->Pro,Arg->Pro substitution,-59.048347,-59.0705,H(-5) C(-1) N(-3)
+640,,Arg->Lys,Arg->Lys substitution,-28.006148,-28.0134,N(-2)
+641,,Arg->His,Arg->His substitution,-19.042199,-19.0464,H(-5) N(-1)
+642,,Arg->Gln,Arg->Gln substitution,-28.042534,-28.0565,H(-4) C(-1) N(-2) O
+643,,Arg->Met,Arg->Met substitution,-25.060626,-24.9896,H(-3) C(-1) N(-3) S
+644,,Arg->Cys,Arg->Cys substitution,-53.091927,-53.0428,H(-7) C(-3) N(-3) S
+645,,Arg->Xle,Arg->Leu/Ile substitution,-43.017047,-43.028,H(-1) N(-3)
+646,,Arg->Gly,Arg->Gly substitution,-99.079647,-99.1344,H(-9) C(-4) N(-3)
+647,,Ser->Phe,Ser->Phe substitution,60.036386,60.0966,H(4) C(6) O(-1)
+648,,Ser->Ala,Ser->Ala substitution,-15.994915,-15.9994,O(-1)
+649,,Ser->Trp,Ser->Trp substitution,99.047285,99.1326,H(5) C(8) N O(-1)
+650,,Ser->Thr,Ser->Thr substitution,14.01565,14.0266,H(2) C
+651,,Ser->Asn,Ser->Asn substitution,27.010899,27.0253,H C N
+652,,Ser->Pro,Ser->Pro substitution,10.020735,10.0379,H(2) C(2) O(-1)
+653,,Ser->Tyr,Ser->Tyr substitution,76.0313,76.096,H(4) C(6)
+654,,Ser->Cys,Ser->Cys substitution,15.977156,16.0656,O(-1) S
+655,,Ser->Arg,Ser->Arg substitution,69.069083,69.1084,H(7) C(3) N(3) O(-1)
+656,,Ser->Xle,Ser->Leu/Ile substitution,26.052036,26.0803,H(6) C(3) O(-1)
+657,,Ser->Gly,Ser->Gly substitution,-30.010565,-30.026,H(-2) C(-1) O(-1)
+658,,Thr->Ser,Thr->Ser substitution,-14.01565,-14.0266,H(-2) C(-1)
+659,,Thr->Ala,Thr->Ala substitution,-30.010565,-30.026,H(-2) C(-1) O(-1)
+660,,Thr->Asn,Thr->Asn substitution,12.995249,12.9988,H(-1) N
+661,,Thr->Lys,Thr->Lys substitution,27.047285,27.0684,H(5) C(2) N O(-1)
+662,,Thr->Pro,Thr->Pro substitution,-3.994915,-3.9887,C O(-1)
+663,,Thr->Met,Thr->Met substitution,29.992806,30.0922,H(2) C O(-1) S
+664,,Thr->Xle,Thr->Leu/Ile substitution,12.036386,12.0538,H(4) C(2) O(-1)
+665,,Thr->Arg,Thr->Arg substitution,55.053433,55.0818,H(5) C(2) N(3) O(-1)
+666,,Val->Phe,Val->Phe substitution,48,48.0428,C(4)
+667,,Val->Ala,Val->Ala substitution,-28.0313,-28.0532,H(-4) C(-2)
+668,,Val->Glu,Val->Glu substitution,29.974179,29.9829,H(-2) O(2)
+669,,Val->Met,Val->Met substitution,31.972071,32.065,S
+670,,Val->Asp,Val->Asp substitution,15.958529,15.9563,H(-4) C(-1) O(2)
+671,,Val->Xle,Val->Leu/Ile substitution,14.01565,14.0266,H(2) C
+672,,Val->Gly,Val->Gly substitution,-42.04695,-42.0797,H(-6) C(-3)
+673,,Trp->Ser,Trp->Ser substitution,-99.047285,-99.1326,H(-5) C(-8) N(-1) O
+674,,Trp->Cys,Trp->Cys substitution,-83.070128,-83.067,H(-5) C(-8) N(-1) S
+675,,Trp->Arg,Trp->Arg substitution,-29.978202,-30.0242,H(2) C(-5) N(2)
+676,,Trp->Gly,Trp->Gly substitution,-129.057849,-129.1586,H(-7) C(-9) N(-1)
+677,,Trp->Xle,Trp->Leu/Ile substitution,-72.995249,-73.0523,H C(-5) N(-1)
+678,,Tyr->Phe,Tyr->Phe substitution,-15.994915,-15.9994,O(-1)
+679,,Tyr->Ser,Tyr->Ser substitution,-76.0313,-76.096,H(-4) C(-6)
+680,,Tyr->Asn,Tyr->Asn substitution,-49.020401,-49.0706,H(-3) C(-5) N
+681,,Tyr->His,Tyr->His substitution,-26.004417,-26.034,H(-2) C(-3) N(2) O(-1)
+682,,Tyr->Asp,Tyr->Asp substitution,-48.036386,-48.0859,H(-4) C(-5) O
+683,,Tyr->Cys,Tyr->Cys substitution,-60.054144,-60.0304,H(-4) C(-6) O(-1) S
+684,,BDMAPP,Mass Defect Tag on lysine e-amino,253.010225,254.1231,H(12) C(11) N O Br
+685,,NA-LNO2,Nitroalkylation by Nitro Linoleic Acid,325.225309,325.443,H(31) C(18) N O(4)
+686,,NA-OA-NO2,Nitroalkylation by Nitro Oleic Acid,327.240959,327.4589,H(33) C(18) N O(4)
+687,ICPL:2H(4),ICPL_medium,"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, medium form",109.046571,109.1188,H(-1) 2H(4) C(6) N O
+695,Label:13C(6)15N(1),Label:13C(6)15N(1),13C(6) 15N(1) Silac label,7.017164,6.9493,C(-6) 13C(6) N(-1) 15N
+696,Label:2H(9)13C(6)15N(2),13C6-15N2-D9,13C(6) 15N(2) (D)9 SILAC label,17.07069,16.9982,H(-9) 2H(9) C(-6) 13C(6) N(-2) 15N(2)
+697,,NIC,Nicotinic Acid,105.021464,105.0941,H(3) C(6) N O
+698,,dNIC,deuterated Nicotinic Acid,109.048119,109.1205,H 2H(3) C(6) N O
+720,,HNE-Delta:H(2)O,Dehydrated 4-hydroxynonenal,138.104465,138.2069,H(14) C(9) O
+721,,4-ONE,4-Oxononenal (ONE),154.09938,154.2063,H(14) C(9) O(2)
+723,,O-Dimethylphosphate,O-Dimethylphosphorylation,107.997631,108.0331,H(5) C(2) O(3) P
+724,,O-Methylphosphate,O-Methylphosphorylation,93.981981,94.0065,H(3) C O(3) P
+725,,Diethylphosphate,O-Diethylphosphorylation,136.028931,136.0862,H(9) C(4) O(3) P
+726,,Ethylphosphate,O-Ethylphosphorylation,107.997631,108.0331,H(5) C(2) O(3) P
+727,,O-pinacolylmethylphosphonate,O-pinacolylmethylphosphonylation,162.080967,162.1666,H(15) C(7) O(2) P
+728,,Methylphosphonate,Methylphosphonylation,77.987066,78.0071,H(3) C O(2) P
+729,,O-Isopropylmethylphosphonate,O-Isopropylmethylphosphonylation,120.034017,120.0868,H(9) C(4) O(2) P
+730,,iTRAQ8plex,"Representative mass and accurate mass for 113, 114, 116 & 117",304.20536,304.3074,H(24) C(7) 13C(7) N(3) 15N O(3)
+731,,iTRAQ8plex:13C(6)15N(2),"Accurate mass for 115, 118, 119 & 121",304.19904,304.3081,H(24) C(8) 13C(6) N(2) 15N(2) O(3)
+734,,Ethanolamine,Carboxyl modification with ethanolamine,43.042199,43.0678,H(5) C(2) N
+735,,BEMAD_ST,Beta elimination of modified S or T followed by Michael addition of DTT,136.001656,136.2357,H(8) C(4) O S(2)
+736,,BEMAD_C,Beta elimination of alkylated Cys followed by Michael addition of DTT,120.0245,120.1701,H(8) C(4) O(2) S
+737,,TMT6plex,Sixplex Tandem Mass Tag®,229.162932,229.2634,H(20) C(8) 13C(4) N 15N O(2)
+738,,TMT2plex,Duplex Tandem Mass Tag®,225.155833,225.2921,H(20) C(11) 13C N(2) O(2)
+739,,TMT,Native Tandem Mass Tag®,224.152478,224.2994,H(20) C(12) N(2) O(2)
+740,,ExacTagThiol,ExacTag Thiol label mass for 2-4-7-10 plex,972.365219,972.7268,H(50) C(23) 13C(12) N(8) 15N(6) O(18)
+741,,ExacTagAmine,ExacTag Amine label mass for 2-4-7-10 plex,1046.347854,1046.8285,H(52) C(25) 13C(12) N(8) 15N(6) O(19) S
+743,,4-ONE+Delta:H(-2)O(-1),Dehydrated 4-Oxononenal Michael adduct,136.088815,136.191,H(12) C(9) O
+744,,NO_SMX_SEMD,Nitroso Sulfamethoxazole Sulphenamide thiol adduct,252.044287,252.2697,H(10) C(10) N(3) O(3) S
+745,,NO_SMX_SMCT,Nitroso Sulfamethoxazole semimercaptal thiol adduct,268.039202,268.2691,H(10) C(10) N(3) O(4) S
+746,,NO_SMX_SIMD,Nitroso Sulfamethoxazole Sulfinamide thiol adduct,267.031377,267.2612,H(9) C(10) N(3) O(4) S
+747,,Malonyl,Malonylation,86.000394,86.0462,H(2) C(3) O(3)
+748,,3sulfo,derivatization by N-term modification using 3-Sulfobenzoic succinimidyl ester,183.983029,184.1693,H(4) C(7) O(4) S
+750,,trifluoro,trifluoroleucine replacement of leucine,53.971735,53.9714,H(-3) F(3)
+751,,TNBS,tri nitro benzene,210.986535,211.0886,H C(6) N(3) O(6)
+762,,IDEnT,Isotope Distribution Encoded Tag,214.990469,216.064,H(7) C(9) N O Cl(2)
+763,,BEMAD_ST:2H(6),Beta elimination of modified S or T followed by Michael addition of labelled DTT,142.039317,142.2727,H(2) 2H(6) C(4) O S(2)
+764,,BEMAD_C:2H(6),Beta elimination of alkylated Cys followed by Michael addition of labelled DTT,126.062161,126.2071,H(2) 2H(6) C(4) O(2) S
+765,,Met-loss,Removal of initiator methionine from protein N-terminus,-131.040485,-131.1961,H(-9) C(-5) N(-1) O(-1) S(-1)
+766,,Met-loss+Acetyl,"Removal of initiator methionine from protein N-terminus, then acetylation of the new N-terminus",-89.02992,-89.1594,H(-7) C(-3) N(-1) S(-1)
+767,,Menadione-HQ,Menadione hydroquinone derivative,172.05243,172.18,H(8) C(11) O(2)
+768,,Methyl+Acetyl:2H(3),Mono-methylated lysine labelled with Acetyl_heavy,59.045045,59.0817,H 2H(3) C(3) O
+771,,lapachenole,lapachenole photochemically added to cysteine,240.11503,240.297,H(16) C(16) O(2)
+772,Label:13C(5),13C5,13C(5) Silac label,5.016774,4.9633,C(-5) 13C(5)
+773,,maleimide,maleimide,97.016378,97.0721,H(3) C(4) N O(2)
+774,,Biotin-phenacyl,Alkylation by biotinylated form of phenacyl bromide,626.263502,626.727,H(38) C(29) N(8) O(6) S
+775,,Carboxymethyl:13C(2),Iodoacetic acid derivative w/ 13C label,60.012189,60.0214,H(2) 13C(2) O(2)
+776,,NEM:2H(5),D5 N-ethylmaleimide on cysteines,130.079062,130.1561,H(2) 2H(5) C(6) N O(2)
+792,,AEC-MAEC:2H(4),deuterium cysteamine modification to S or T,63.044462,63.158,H 2H(4) C(2) N O(-1) S
+793,,Hex(1)HexNAc(1),Hex1HexNAc1,365.132196,365.3331,Hex HexNAc
+799,,Label:13C(6)+GG,13C6 labeled ubiquitinylation residue,120.063056,120.0586,H(6) C(-2) 13C(6) N(2) O(2)
+800,,Biotin:Thermo-21345,was PentylamineBiotin,311.166748,311.4429,H(25) C(15) N(3) O(2) S
+801,,Pentylamine,Labeling transglutaminase substrate on glutamine side chain,85.089149,85.1475,H(11) C(5) N
+811,,Biotin:Thermo-21360,was Biotin-PEO4-hydrazide,487.246455,487.6134,H(37) C(21) N(5) O(6) S
+821,,Cy3b-maleimide,fluorescent dye that labels cysteines,682.24612,682.7852,H(38) C(37) N(4) O(7) S
+822,,Gly-loss+Amide,Enzymatic glycine removal leaving an amidated C-terminus,-58.005479,-58.0361,H(-2) C(-2) O(-2)
+824,,Xlink:BMOE,Intact or monolink BMOE crosslinker,220.048407,220.1815,H(8) C(10) N(2) O(4)
+825,,Xlink:DFDNB,Intact DFDNB crosslinker,163.985807,164.0752,C(6) N(2) O(4)
+827,,TMPP-Ac,"tris(2,4,6-trimethoxyphenyl)phosphonium acetic acid N-hydroxysuccinimide ester derivative",572.181134,572.5401,H(33) C(29) O(10) P
+830,,Dihydroxyimidazolidine,Dihydroxy methylglyoxal adduct,72.021129,72.0627,H(4) C(3) O(2)
+834,,Label:2H(4)+Acetyl,"Acetyl 4,4,5,5-D4 Lysine",46.035672,46.0613,H(-2) 2H(4) C(2) O
+835,,Label:13C(6)+Acetyl,Acetyl 13C(6) Silac label,48.030694,47.9926,H(2) C(-4) 13C(6) O
+836,,Label:13C(6)15N(2)+Acetyl,Acetyl_13C(6) 15N(2) Silac label,50.024764,49.9794,H(2) C(-4) 13C(6) N(-2) 15N(2) O
+837,,Arg->Npo,Arginine replacement by Nitropyrimidyl ornithine,80.985078,81.0297,H(-1) C(3) N O(2)
+846,,EQIGG,Sumo mutant Smt3-WT tail following trypsin digestion,484.228162,484.5035,H(32) C(20) N(6) O(8)
+848,,Arg2PG,Adduct of phenylglyoxal with Arg,266.057909,266.2482,H(10) C(16) O(4)
+849,,cGMP,S-guanylation,343.031785,343.1895,H(10) C(10) N(5) O(7) P
+851,,cGMP+RMP-loss,S-guanylation-2,150.041585,150.1182,H(4) C(5) N(5) O
+853,,Label:2H(4)+GG,Ubiquitination 2H4 lysine,118.068034,118.1273,H(2) 2H(4) C(4) N(2) O(2)
+859,,MG-H1,Methylglyoxal-derived hydroimidazolone,54.010565,54.0474,H(2) C(3) O
+860,,G-H1,Glyoxal-derived hydroimiadazolone,39.994915,40.0208,C(2) O
+861,,ZGB,NHS ester linked Green Fluorescent Bodipy Dye,758.380841,758.7261,H(53) B C(37) N(6) O(6) F(2) S
+862,,Label:13C(1)2H(3),SILAC,4.022185,4.0111,H(-3) 2H(3) C(-1) 13C
+864,,Label:13C(6)15N(2)+GG,13C(6) 15N(2) Lysine glygly,122.057126,122.0454,H(6) C(-2) 13C(6) 15N(2) O(2)
+866,,ICPL:13C(6)2H(4),"Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, +10 Da form",115.0667,115.0747,H(-1) 2H(4) 13C(6) N O
+876,,QEQTGG,SUMOylation by SUMO-1,600.250354,600.5789,H(36) C(23) N(8) O(11)
+877,,QQQTGG,SUMOylation by SUMO-2/3,599.266339,599.5942,H(37) C(23) N(9) O(10)
+878,,Bodipy,Bodipy modifications onto cysteine,414.167478,414.2135,H(21) B C(20) N(4) O(3) F(2)
+884,,Biotin:Thermo-21325,was ChromoBiotin,695.310118,695.8288,H(45) C(34) N(7) O(7) S
+885,,Label:13C(1)2H(3)+Oxidation,Oxidised methionine 13C(1)2H(3) SILAC label,20.0171,20.0105,H(-3) 2H(3) C(-1) 13C O
+886,,HydroxymethylOP,2-ammonio-6-[4-(hydroxymethyl)-3-oxidopyridinium-1-yl]- hexanoate,108.021129,108.0948,H(4) C(6) O(2)
+887,,MDCC,covalent linkage of maleimidyl coumarin probe (Molecular Probes D-10253),383.148121,383.3978,H(21) C(20) N(3) O(5)
+888,,mTRAQ,mTRAQ light,140.094963,140.183,H(12) C(7) N(2) O
+889,,mTRAQ:13C(3)15N(1),mTRAQ medium,144.102063,144.1544,H(12) C(4) 13C(3) N 15N O
+890,,DyLight-maleimide,Thiol-reactive dye for fluorescence labelling of proteins,940.1999,941.0762,H(48) C(39) N(4) O(15) S(4)
+891,,Methyl-PEO12-Maleimide,Methyl-PEO12-Maleimide,710.383719,710.8073,H(58) C(32) N(2) O(15)
+893,,CarbamidomethylDTT,Carbamidomethylated DTT modification of cysteine,209.018035,209.2864,H(11) C(6) N O(3) S(2)
+894,,CarboxymethylDTT,Carboxymethylated DTT modification of cysteine,210.00205,210.2712,H(10) C(6) O(4) S(2)
+895,,Biotin-PEG-PRA,Biotin polyethyleneoxide (n=3) alkyne,578.317646,578.6611,H(42) C(26) N(8) O(7)
+896,,Met->Aha,Methionine replacement by azido homoalanine,-4.986324,-5.0794,H(-3) C(-1) N(3) S(-1)
+897,,Label:15N(4),SILAC 15N(4),3.98814,3.9736,N(-4) 15N(4)
+898,,pyrophospho,pyrophosphorylation of Ser/Thr,159.932662,159.9598,H(2) O(6) P(2)
+899,,Met->Hpg,methionine replacement by homopropargylglycine,-21.987721,-22.0702,H(-2) C S(-1)
+901,,4AcAllylGal,"2,3,4,6-tetra-O-Acetyl-1-allyl-alpha-D-galactopyranoside modification of cysteine",372.142033,372.3671,H(24) C(17) O(9)
+902,,DimethylArsino,Reaction with dimethylarsinous (AsIII) acid,103.960719,103.9827,H(5) C(2) As
+903,,Lys->CamCys,Lys->Cys substitution and carbamidomethylation,31.935685,32.0219,H(-4) C(-1) O S
+904,,Phe->CamCys,Phe->Cys substitution and carbamidomethylation,12.962234,13.0204,H(-1) C(-4) N O S
+905,,Leu->MetOx,Leu->Met substitution and sulfoxidation,33.951335,34.0378,H(-2) C(-1) O S
+906,,Lys->MetOx,Lys->Met substitution and sulfoxidation,18.940436,19.0232,H(-3) C(-1) N(-1) O S
+907,,Galactosyl,Gluconoylation,178.047738,178.14,O Hex
+908,,Xlink:SMCC[321],Monolink of SMCC terminated with 3-(dimethylamino)-1-propylamine,321.205242,321.4146,H(27) C(17) N(3) O(3)
+910,,Bacillosamine,"2,4-diacetamido-2,4,6-trideoxyglucopyranose",228.111007,228.245,H(6) C(4) N(2) dHex
+911,,MTSL,"Cys modification by (1-oxyl-2,2,5,5-tetramethyl-3-pyrroline-3-methyl)methanesulfonate (MTSL)",184.07961,184.2786,H(14) C(9) N O S
+912,,HNE-BAHAH,"4-hydroxy-2-nonenal and biotinamidohexanoic acid hydrazide, reduced",511.319226,511.7209,H(45) C(25) N(5) O(4) S
+914,,Methylmalonylation,Methylmalonylation on Serine,100.016044,100.0728,H(4) C(4) O(3)
+915,,Ethoxyformyl,Ethoxyformylation,72.021129,72.0627,H(4) C(3) O(2)
+923,,Label:13C(4)15N(2)+GG,13C(4) 15N(2) Lysine glygly,120.050417,120.0601,H(6) 13C(4) 15N(2) O(2)
+926,,ethylamino,ethyl amino,27.047285,27.0684,H(5) C(2) N O(-1)
+928,,MercaptoEthanol,2-OH-ethyl thio-Ser,60.003371,60.1182,H(4) C(2) S
+931,,Ethyl+Deamidated,deamidation followed by esterification with ethanol,29.015316,29.0379,H(3) C(2) N(-1) O
+932,,VFQQQTGG,SUMOylation by SUMO-2/3 (formic acid cleavage),845.403166,845.8991,H(55) C(37) N(11) O(12)
+933,,VIEVYQEQTGG,SUMOylation by SUMO-1 (formic acid cleavage),1203.577168,1204.2859,H(81) C(53) N(13) O(19)
+934,,AMTzHexNAc2,Photocleavable Biotin + GalNAz on O-GlcNAc,502.202341,502.4757,H(30) C(19) N(6) O(10)
+935,,Atto495Maleimide,High molecular absorption maleimide label for proteins,474.250515,474.5747,H(32) C(27) N(5) O(3)
+936,,Chlorination,Chlorination of tyrosine residues,33.961028,34.4451,H(-1) Cl
+937,,dichlorination,Dichlorination,67.922055,68.8901,H(-2) Cl(2)
+938,,AROD,Cysteine modifier,820.336015,820.979,H(52) C(35) N(10) O(9) S(2)
+939,,Cys->methylaminoAla,carbamidomethylated Cys that undergoes beta-elimination and Michael addition of methylamine,-2.945522,-3.0238,H(3) C N S(-1)
+940,,Cys->ethylaminoAla,Carbamidomethylated Cys that undergoes beta-elimination and Michael addition of ethylamine,11.070128,11.0028,H(5) C(2) N S(-1)
+941,,DNPS,"2,4-Dinitrobenzenesulfenyl",198.981352,199.164,H(3) C(6) N(2) O(4) S
+942,,SulfoGMBS,High molecular absorption label for proteins,458.162391,458.5306,H(26) C(22) N(4) O(5) S
+943,,DimethylamineGMBS,Modified GMBS X linker,267.158292,267.3241,H(21) C(13) N(3) O(3)
+944,,Label:15N(2)2H(9),SILAC label,11.050561,11.0423,H(-9) 2H(9) N(-2) 15N(2)
+946,,LG-anhydrolactam,Levuglandinyl-lysine anhydrolactam adduct,314.188195,314.4186,H(26) C(20) O(3)
+947,,LG-pyrrole,Levuglandinyl-lysine pyrrole adduct,316.203845,316.4345,H(28) C(20) O(3)
+948,,LG-anhyropyrrole,Levuglandinyl-lysine anhyropyrrole adduct,298.19328,298.4192,H(26) C(20) O(2)
+949,,3-deoxyglucosone,Condensation product of 3-deoxyglucosone,144.042259,144.1253,H(8) C(6) O(4)
+950,,Cation:Li,Replacement of proton by lithium,6.008178,5.9331,H(-1) Li
+951,,Cation:Ca[II],Replacement of 2 protons by calcium,37.946941,38.0621,H(-2) Ca
+952,,Cation:Fe[II],Replacement of 2 protons by iron,53.919289,53.8291,H(-2) Fe
+953,,Cation:Ni[II],Replacement of 2 protons by nickel,55.919696,56.6775,H(-2) Ni
+954,,Cation:Zn[II],Replacement of 2 protons by zinc,61.913495,63.3931,H(-2) Zn
+955,,Cation:Ag,Replacement of proton by silver,105.897267,106.8603,H(-1) Ag
+956,,Cation:Mg[II],Replacement of 2 protons by magnesium,21.969392,22.2891,H(-2) Mg
+957,,2-succinyl,S-(2-succinyl) cysteine,116.010959,116.0722,H(4) C(4) O(4)
+958,,Propargylamine,propargylamine,37.031634,37.0632,H(3) C(3) N O(-1)
+959,,Phosphopropargyl,phospho-propargylamine,116.997965,117.0431,H(4) C(3) N O(2) P
+960,,SUMO2135,SUMOylation by SUMO-1 after tryptic cleavage,2135.920496,2137.2343,H(137) C(90) N(21) O(37) S
+961,,SUMO3549,SUMOylation by SUMO-2/3 after tryptic cleavage,3549.536568,3551.6672,H(224) C(150) N(38) O(60) S
+967,,thioacylPA,membrane protein extraction,159.035399,159.2062,H(9) C(6) N O(2) S
+971,,maleimide3,maleimide-3-saccharide,969.366232,969.8975,H(59) C(37) N(7) O(23)
+972,,maleimide5,maleimide-5-saccharide,1293.471879,1294.1787,H(79) C(49) N(7) O(33)
+973,,Puromycin,Puromycin,453.212452,453.4943,H(27) C(22) N(7) O(4)
+977,,Carbofuran,"2,3-dihydro-2,2-dimethyl-7-benzofuranol N-methyl carbamate",58.029289,58.0593,H(4) C(2) N O
+978,,BITC,Benzyl isothiocyanate,149.02992,149.2129,H(7) C(8) N S
+979,,PEITC,Phenethyl isothiocyanate,163.04557,163.2395,H(9) C(9) N S
+981,,glucosone,Condensation product of glucosone,160.037173,160.1247,H(8) C(6) O(5)
+984,,cysTMT,Native cysteine-reactive Tandem Mass Tag®,299.166748,299.4322,H(25) C(14) N(3) O(2) S
+985,,cysTMT6plex,cysteine-reactive Sixplex Tandem Mass Tag®,304.177202,304.3962,H(25) C(10) 13C(4) N(2) 15N O(2) S
+986,,Label:13C(6)+Dimethyl,Dimethyl 13C(6) Silac label,34.051429,34.0091,H(4) C(-4) 13C(6)
+987,,Label:13C(6)15N(2)+Dimethyl,Dimethyl 13C(6)15N(2) Silac label,36.045499,35.9959,H(4) C(-4) 13C(6) N(-2) 15N(2)
+989,,Ammonium,replacement of proton with ammonium ion,17.026549,17.0305,H(3) N
+991,,ISD_z+2_ion,ISD (z+2)-series,-15.010899,-15.0146,H(-1) N(-1)
+993,,Biotin:Sigma-B1267,was Biotin-maleimide,449.17329,449.5239,H(27) C(20) N(5) O(5) S
+994,,Label:15N(1),15N(1),0.997035,0.9934,N(-1) 15N
+995,,Label:15N(2),15N(2),1.99407,1.9868,N(-2) 15N(2)
+996,,Label:15N(3),15N(3),2.991105,2.9802,N(-3) 15N(3)
+997,,sulfo+amino,aminotyrosine with sulfation,94.967714,95.0778,H N O(3) S
+1000,,AHA-Alkyne,Azidohomoalanine (AHA) bound to propargylglycine-NH2 (alkyne),107.077339,107.0504,H(5) C(4) N(5) O S(-1)
+1001,,AHA-Alkyne-KDDDD,Azidohomoalanine (AHA) bound to DDDDK-propargylglycine-NH2 (alkyne),695.280074,695.5723,H(37) C(26) N(11) O(14) S(-1)
+1002,,EGCG1,(-)-epigallocatechin-3-gallate,456.069261,456.3558,H(16) C(22) O(11)
+1003,,EGCG2,(-)-dehydroepigallocatechin,287.055563,287.2442,H(11) C(15) O(6)
+1004,,Label:13C(6)15N(4)+Methyl,Monomethylated Arg13C(6) 15N(4),24.023919,23.9561,H(2) C(-5) 13C(6) N(-4) 15N(4)
+1005,,Label:13C(6)15N(4)+Dimethyl,Dimethylated Arg13C(6) 15N(4),38.039569,37.9827,H(4) C(-4) 13C(6) N(-4) 15N(4)
+1006,,Label:13C(6)15N(4)+Methyl:2H(3)13C(1),2H(3) 13C(1) monomethylated Arg13C(6) 15N(4),28.046104,27.9673,H(-1) 2H(3) C(-6) 13C(7) N(-4) 15N(4)
+1007,,Label:13C(6)15N(4)+Dimethyl:2H(6)13C(2),2H(6) 13C(2) Dimethylated Arg13C(6) 15N(4),46.083939,46.005,H(-2) 2H(6) C(-6) 13C(8) N(-4) 15N(4)
+1008,,Cys->CamSec,Sec Iodoacetamide derivative,104.965913,103.9463,H(3) C(2) N O S(-1) Se
+1009,,Thiazolidine,formaldehyde adduct,12,12.0107,C
+1010,,DEDGFLYMVYASQETFG,Addition of DEDGFLYMVYASQETFG,1970.824411,1972.088,H(122) C(89) N(18) O(31) S
+1012,,Biotin:Invitrogen-M1602,Nalpha-(3-maleimidylpropionyl)biocytin,523.210069,523.6024,H(33) C(23) N(5) O(7) S
+1014,,glycidamide,glycidamide adduct,87.032028,87.0773,H(5) C(3) N O(2)
+1015,,Ahx2+Hsl,C-terminal homoserine lactone and two aminohexanoic acids,309.205242,309.4039,H(27) C(16) N(3) O(3)
+1017,,DMPO,DMPO spin-trap nitrone adduct,111.068414,111.1418,H(9) C(6) N O
+1018,,ICDID,Isotope-Coded Dimedone light form,138.06808,138.1638,H(10) C(8) O(2)
+1019,,ICDID:2H(6),Isotope-Coded Dimedone heavy form,144.10574,144.2008,H(4) 2H(6) C(8) O(2)
+1020,,Xlink:DSS[156],Water-quenched monolink of DSS/BS3 crosslinker,156.078644,156.1791,H(12) C(8) O(3)
+1021,,Xlink:EGS[244],Water quenched monolink of EGS cross-linker,244.058303,244.1981,H(12) C(10) O(7)
+1022,,Xlink:DST[132],Water quenched monolink of DST crosslinker,132.005873,132.0716,H(4) C(4) O(5)
+1023,,Xlink:DTSSP[192],Water quenched monolink of DSP/DTSSP crosslinker,191.991486,192.2559,H(8) C(6) O(3) S(2)
+1024,,Xlink:SMCC[237],Water quenched monolink of SMCC,237.100108,237.2518,H(15) C(12) N O(4)
+1027,,Xlink:DMP[140],Water quenched monolink of DMP crosslinker,140.094963,140.183,H(12) C(7) N(2) O
+1028,,Xlink:EGS[115],Cleavage product of EGS protein crosslinks by hydroylamine treatment,115.026943,115.0874,H(5) C(4) N O(3)
+1031,,Biotin:Thermo-88310,desthiobiotin modification of lysine,196.121178,196.2462,H(16) C(10) N(2) O(2)
+1032,,2-nitrobenzyl,Tyrosine caged with 2-nitrobenzyl (ONB),135.032028,135.1201,H(5) C(7) N O(2)
+1033,,Cys->SecNEM,N-ethylmaleimide on selenocysteines,172.992127,172.0203,H(7) C(6) N O(2) S(-1) Se
+1034,,Cys->SecNEM:2H(5),D5 N-ethylmaleimide on selenocysteines,178.023511,177.0511,H(2) 2H(5) C(6) N O(2) S(-1) Se
+1035,,Thiadiazole,Thiadiazolydation of Cys,174.025169,174.2223,H(6) C(9) N(2) S
+1036,,Withaferin,Modification of cystein by withaferin,470.266839,470.5977,H(38) C(28) O(6)
+1037,,Biotin:Thermo-88317,desthiobiotin fluorophosphonate,443.291294,443.5603,H(42) C(22) N(3) O(4) P
+1038,,TAMRA-FP,TAMRA fluorophosphonate modification of serine,659.312423,659.7514,H(46) C(37) N(3) O(6) P
+1039,,Biotin:Thermo-21901+H2O,Maleimide-Biotin + Water,543.236284,543.6336,H(37) C(23) N(5) O(8) S
+1041,,Deoxyhypusine,Deoxyhypusine,71.073499,71.121,H(9) C(4) N
+1042,,Acetyldeoxyhypusine,Acetyldeoxyhypusine,97.089149,97.1582,H(11) C(6) N
+1043,,Acetylhypusine,Acetylhypusine,113.084064,113.1576,H(11) C(6) N O
+1044,,Ala->Cys,Ala->Cys substitution,31.972071,32.065,S
+1045,,Ala->Phe,Ala->Phe substitution,76.0313,76.096,H(4) C(6)
+1046,,Ala->His,Ala->His substitution,66.021798,66.0614,H(2) C(3) N(2)
+1047,,Ala->Xle,Ala->Leu/Ile substitution,42.04695,42.0797,H(6) C(3)
+1048,,Ala->Lys,Ala->Lys substitution,57.057849,57.0944,H(7) C(3) N
+1049,,Ala->Met,Ala->Met substitution,60.003371,60.1182,H(4) C(2) S
+1050,,Ala->Asn,Ala->Asn substitution,43.005814,43.0247,H C N O
+1051,,Ala->Gln,Ala->Gln substitution,57.021464,57.0513,H(3) C(2) N O
+1052,,Ala->Arg,Ala->Arg substitution,85.063997,85.1078,H(7) C(3) N(3)
+1053,,Ala->Trp,Ala->Trp substitution,115.042199,115.132,H(5) C(8) N
+1054,,Ala->Tyr,Ala->Tyr substitution,92.026215,92.0954,H(4) C(6) O
+1055,,Cys->Ala,Cys->Ala substitution,-31.972071,-32.065,S(-1)
+1056,,Cys->Asp,Cys->Asp substitution,12.017759,11.9445,C O(2) S(-1)
+1057,,Cys->Glu,Cys->Glu substitution,26.033409,25.9711,H(2) C(2) O(2) S(-1)
+1058,,Cys->His,Cys->His substitution,34.049727,33.9964,H(2) C(3) N(2) S(-1)
+1059,,Cys->Xle,Cys->Leu/Ile substitution,10.07488,10.0147,H(6) C(3) S(-1)
+1060,,Cys->Lys,Cys->Lys substitution,25.085779,25.0294,H(7) C(3) N S(-1)
+1061,,Cys->Met,Cys->Met substitution,28.0313,28.0532,H(4) C(2)
+1062,,Cys->Asn,Cys->Asn substitution,11.033743,10.9597,H C N O S(-1)
+1063,,Cys->Pro,Cys->Pro substitution,-5.956421,-6.0277,H(2) C(2) S(-1)
+1064,,Cys->Gln,Cys->Gln substitution,25.049393,24.9863,H(3) C(2) N O S(-1)
+1065,,Cys->Thr,Cys->Thr substitution,-1.961506,-2.039,H(2) C O S(-1)
+1066,,Cys->Val,Cys->Val substitution,-3.940771,-4.0118,H(4) C(2) S(-1)
+1067,,Asp->Cys,Asp->Cys substitution,-12.017759,-11.9445,C(-1) O(-2) S
+1068,,Asp->Phe,Asp->Phe substitution,32.041471,32.0865,H(4) C(5) O(-2)
+1069,,Asp->Xle,Asp->Leu/Ile substitution,-1.942879,-1.9298,H(6) C(2) O(-2)
+1070,,Asp->Lys,Asp->Lys substitution,13.06802,13.0849,H(7) C(2) N O(-2)
+1071,,Asp->Met,Asp->Met substitution,16.013542,16.1087,H(4) C O(-2) S
+1072,,Asp->Pro,Asp->Pro substitution,-17.974179,-17.9722,H(2) C O(-2)
+1073,,Asp->Gln,Asp->Gln substitution,13.031634,13.0418,H(3) C N O(-1)
+1074,,Asp->Arg,Asp->Arg substitution,41.074168,41.0983,H(7) C(2) N(3) O(-2)
+1075,,Asp->Ser,Asp->Ser substitution,-27.994915,-28.0101,C(-1) O(-1)
+1076,,Asp->Thr,Asp->Thr substitution,-13.979265,-13.9835,H(2) O(-1)
+1077,,Asp->Trp,Asp->Trp substitution,71.05237,71.1225,H(5) C(7) N O(-2)
+1078,,Glu->Cys,Glu->Cys substitution,-26.033409,-25.9711,H(-2) C(-2) O(-2) S
+1079,,Glu->Phe,Glu->Phe substitution,18.025821,18.0599,H(2) C(4) O(-2)
+1080,,Glu->His,Glu->His substitution,8.016319,8.0253,C N(2) O(-2)
+1081,,Glu->Xle,Glu->Leu/Ile substitution,-15.958529,-15.9563,H(4) C O(-2)
+1082,,Glu->Met,Glu->Met substitution,1.997892,2.0821,H(2) O(-2) S
+1083,,Glu->Asn,Glu->Asn substitution,-14.999666,-15.0113,H(-1) C(-1) N O(-1)
+1084,,Glu->Pro,Glu->Pro substitution,-31.989829,-31.9988,O(-2)
+1085,,Glu->Arg,Glu->Arg substitution,27.058518,27.0717,H(5) C N(3) O(-2)
+1086,,Glu->Ser,Glu->Ser substitution,-42.010565,-42.0367,H(-2) C(-2) O(-1)
+1087,,Glu->Thr,Glu->Thr substitution,-27.994915,-28.0101,C(-1) O(-1)
+1088,,Glu->Trp,Glu->Trp substitution,57.03672,57.0959,H(3) C(6) N O(-2)
+1089,,Glu->Tyr,Glu->Tyr substitution,34.020735,34.0593,H(2) C(4) O(-1)
+1090,,Phe->Ala,Phe->Ala substitution,-76.0313,-76.096,H(-4) C(-6)
+1091,,Phe->Asp,Phe->Asp substitution,-32.041471,-32.0865,H(-4) C(-5) O(2)
+1092,,Phe->Glu,Phe->Glu substitution,-18.025821,-18.0599,H(-2) C(-4) O(2)
+1093,,Phe->Gly,Phe->Gly substitution,-90.04695,-90.1225,H(-6) C(-7)
+1094,,Phe->His,Phe->His substitution,-10.009502,-10.0346,H(-2) C(-3) N(2)
+1095,,Phe->Lys,Phe->Lys substitution,-18.973451,-19.0016,H(3) C(-3) N
+1096,,Phe->Met,Phe->Met substitution,-16.027929,-15.9778,C(-4) S
+1097,,Phe->Asn,Phe->Asn substitution,-33.025486,-33.0712,H(-3) C(-5) N O
+1098,,Phe->Pro,Phe->Pro substitution,-50.01565,-50.0587,H(-2) C(-4)
+1099,,Phe->Gln,Phe->Gln substitution,-19.009836,-19.0446,H(-1) C(-4) N O
+1100,,Phe->Arg,Phe->Arg substitution,9.032697,9.0118,H(3) C(-3) N(3)
+1101,,Phe->Thr,Phe->Thr substitution,-46.020735,-46.07,H(-2) C(-5) O
+1102,,Phe->Trp,Phe->Trp substitution,39.010899,39.036,H C(2) N
+1103,,Gly->Phe,Gly->Phe substitution,90.04695,90.1225,H(6) C(7)
+1104,,Gly->His,Gly->His substitution,80.037448,80.088,H(4) C(4) N(2)
+1105,,Gly->Xle,Gly->Leu/Ile substitution,56.0626,56.1063,H(8) C(4)
+1106,,Gly->Lys,Gly->Lys substitution,71.073499,71.121,H(9) C(4) N
+1107,,Gly->Met,Gly->Met substitution,74.019021,74.1447,H(6) C(3) S
+1108,,Gly->Asn,Gly->Asn substitution,57.021464,57.0513,H(3) C(2) N O
+1109,,Gly->Pro,Gly->Pro substitution,40.0313,40.0639,H(4) C(3)
+1110,,Gly->Gln,Gly->Gln substitution,71.037114,71.0779,H(5) C(3) N O
+1111,,Gly->Thr,Gly->Thr substitution,44.026215,44.0526,H(4) C(2) O
+1112,,Gly->Tyr,Gly->Tyr substitution,106.041865,106.1219,H(6) C(7) O
+1113,,His->Ala,His->Ala substitution,-66.021798,-66.0614,H(-2) C(-3) N(-2)
+1114,,His->Cys,His->Cys substitution,-34.049727,-33.9964,H(-2) C(-3) N(-2) S
+1115,,His->Glu,His->Glu substitution,-8.016319,-8.0253,C(-1) N(-2) O(2)
+1116,,His->Phe,His->Phe substitution,10.009502,10.0346,H(2) C(3) N(-2)
+1117,,His->Gly,His->Gly substitution,-80.037448,-80.088,H(-4) C(-4) N(-2)
+1119,,His->Lys,His->Lys substitution,-8.963949,-8.967,H(5) N(-1)
+1120,,His->Met,His->Met substitution,-6.018427,-5.9432,H(2) C(-1) N(-2) S
+1121,,His->Ser,His->Ser substitution,-50.026883,-50.062,H(-2) C(-3) N(-2) O
+1122,,His->Thr,His->Thr substitution,-36.011233,-36.0354,C(-2) N(-2) O
+1123,,His->Val,His->Val substitution,-37.990498,-38.0082,H(2) C(-1) N(-2)
+1124,,His->Trp,His->Trp substitution,49.020401,49.0706,H(3) C(5) N(-1)
+1125,,Xle->Ala,Leu/Ile->Ala substitution,-42.04695,-42.0797,H(-6) C(-3)
+1126,,Xle->Cys,Leu/Ile->Cys substitution,-10.07488,-10.0147,H(-6) C(-3) S
+1127,,Xle->Asp,Leu/Ile->Asp substitution,1.942879,1.9298,H(-6) C(-2) O(2)
+1128,,Xle->Glu,Leu/Ile->Glu substitution,15.958529,15.9563,H(-4) C(-1) O(2)
+1129,,Xle->Gly,Leu/Ile->Gly substitution,-56.0626,-56.1063,H(-8) C(-4)
+1130,,Xle->Tyr,Leu/Ile->Tyr substitution,49.979265,50.0156,H(-2) C(3) O
+1131,,Lys->Ala,Lys->Ala substitution,-57.057849,-57.0944,H(-7) C(-3) N(-1)
+1132,,Lys->Cys,Lys->Cys substitution,-25.085779,-25.0294,H(-7) C(-3) N(-1) S
+1133,,Lys->Asp,Lys->Asp substitution,-13.06802,-13.0849,H(-7) C(-2) N(-1) O(2)
+1134,,Lys->Phe,Lys->Phe substitution,18.973451,19.0016,H(-3) C(3) N(-1)
+1135,,Lys->Gly,Lys->Gly substitution,-71.073499,-71.121,H(-9) C(-4) N(-1)
+1136,,Lys->His,Lys->His substitution,8.963949,8.967,H(-5) N
+1137,,Lys->Pro,Lys->Pro substitution,-31.042199,-31.0571,H(-5) C(-1) N(-1)
+1138,,Lys->Ser,Lys->Ser substitution,-41.062935,-41.095,H(-7) C(-3) N(-1) O
+1139,,Lys->Val,Lys->Val substitution,-29.026549,-29.0412,H(-3) C(-1) N(-1)
+1140,,Lys->Trp,Lys->Trp substitution,57.98435,58.0376,H(-2) C(5)
+1141,,Lys->Tyr,Lys->Tyr substitution,34.968366,35.001,H(-3) C(3) N(-1) O
+1142,,Met->Ala,Met->Ala substitution,-60.003371,-60.1182,H(-4) C(-2) S(-1)
+1143,,Met->Cys,Met->Cys substitution,-28.0313,-28.0532,H(-4) C(-2)
+1144,,Met->Asp,Met->Asp substitution,-16.013542,-16.1087,H(-4) C(-1) O(2) S(-1)
+1145,,Met->Glu,Met->Glu substitution,-1.997892,-2.0821,H(-2) O(2) S(-1)
+1146,,Met->Phe,Met->Phe substitution,16.027929,15.9778,C(4) S(-1)
+1147,,Met->Gly,Met->Gly substitution,-74.019021,-74.1447,H(-6) C(-3) S(-1)
+1148,,Met->His,Met->His substitution,6.018427,5.9432,H(-2) C N(2) S(-1)
+1149,,Met->Asn,Met->Asn substitution,-16.997557,-17.0934,H(-3) C(-1) N O S(-1)
+1150,,Met->Pro,Met->Pro substitution,-33.987721,-34.0809,H(-2) S(-1)
+1151,,Met->Gln,Met->Gln substitution,-2.981907,-3.0668,H(-1) N O S(-1)
+1152,,Met->Ser,Met->Ser substitution,-44.008456,-44.1188,H(-4) C(-2) O S(-1)
+1153,,Met->Trp,Met->Trp substitution,55.038828,55.0138,H C(6) N S(-1)
+1154,,Met->Tyr,Met->Tyr substitution,32.022844,31.9772,C(4) O S(-1)
+1155,,Asn->Ala,Asn->Ala substitution,-43.005814,-43.0247,H(-1) C(-1) N(-1) O(-1)
+1156,,Asn->Cys,Asn->Cys substitution,-11.033743,-10.9597,H(-1) C(-1) N(-1) O(-1) S
+1157,,Asn->Glu,Asn->Glu substitution,14.999666,15.0113,H C N(-1) O
+1158,,Asn->Phe,Asn->Phe substitution,33.025486,33.0712,H(3) C(5) N(-1) O(-1)
+1159,,Asn->Gly,Asn->Gly substitution,-57.021464,-57.0513,H(-3) C(-2) N(-1) O(-1)
+1160,,Asn->Met,Asn->Met substitution,16.997557,17.0934,H(3) C N(-1) O(-1) S
+1161,,Asn->Pro,Asn->Pro substitution,-16.990164,-16.9875,H C N(-1) O(-1)
+1162,,Asn->Gln,Asn->Gln substitution,14.01565,14.0266,H(2) C
+1163,,Asn->Arg,Asn->Arg substitution,42.058184,42.083,H(6) C(2) N(2) O(-1)
+1164,,Asn->Val,Asn->Val substitution,-14.974514,-14.9716,H(3) C N(-1) O(-1)
+1165,,Asn->Trp,Asn->Trp substitution,72.036386,72.1073,H(4) C(7) O(-1)
+1166,,Pro->Cys,Pro->Cys substitution,5.956421,6.0277,H(-2) C(-2) S
+1167,,Pro->Asp,Pro->Asp substitution,17.974179,17.9722,H(-2) C(-1) O(2)
+1168,,Pro->Glu,Pro->Glu substitution,31.989829,31.9988,O(2)
+1169,,Pro->Phe,Pro->Phe substitution,50.01565,50.0587,H(2) C(4)
+1170,,Pro->Gly,Pro->Gly substitution,-40.0313,-40.0639,H(-4) C(-3)
+1171,,Pro->Lys,Pro->Lys substitution,31.042199,31.0571,H(5) C N
+1172,,Pro->Met,Pro->Met substitution,33.987721,34.0809,H(2) S
+1173,,Pro->Asn,Pro->Asn substitution,16.990164,16.9875,H(-1) C(-1) N O
+1174,,Pro->Val,Pro->Val substitution,2.01565,2.0159,H(2)
+1175,,Pro->Trp,Pro->Trp substitution,89.026549,89.0947,H(3) C(6) N
+1176,,Pro->Tyr,Pro->Tyr substitution,66.010565,66.0581,H(2) C(4) O
+1177,,Gln->Ala,Gln->Ala substitution,-57.021464,-57.0513,H(-3) C(-2) N(-1) O(-1)
+1178,,Gln->Cys,Gln->Cys substitution,-25.049393,-24.9863,H(-3) C(-2) N(-1) O(-1) S
+1179,,Gln->Asp,Gln->Asp substitution,-13.031634,-13.0418,H(-3) C(-1) N(-1) O
+1180,,Gln->Phe,Gln->Phe substitution,19.009836,19.0446,H C(4) N(-1) O(-1)
+1181,,Gln->Gly,Gln->Gly substitution,-71.037114,-71.0779,H(-5) C(-3) N(-1) O(-1)
+1182,,Gln->Met,Gln->Met substitution,2.981907,3.0668,H N(-1) O(-1) S
+1183,,Gln->Asn,Gln->Asn substitution,-14.01565,-14.0266,H(-2) C(-1)
+1184,,Gln->Ser,Gln->Ser substitution,-41.026549,-41.0519,H(-3) C(-2) N(-1)
+1185,,Gln->Thr,Gln->Thr substitution,-27.010899,-27.0253,H(-1) C(-1) N(-1)
+1186,,Gln->Val,Gln->Val substitution,-28.990164,-28.9982,H N(-1) O(-1)
+1187,,Gln->Trp,Gln->Trp substitution,58.020735,58.0807,H(2) C(6) O(-1)
+1188,,Gln->Tyr,Gln->Tyr substitution,35.004751,35.044,H C(4) N(-1)
+1189,,Arg->Ala,Arg->Ala substitution,-85.063997,-85.1078,H(-7) C(-3) N(-3)
+1190,,Arg->Asp,Arg->Asp substitution,-41.074168,-41.0983,H(-7) C(-2) N(-3) O(2)
+1191,,Arg->Glu,Arg->Glu substitution,-27.058518,-27.0717,H(-5) C(-1) N(-3) O(2)
+1192,,Arg->Asn,Arg->Asn substitution,-42.058184,-42.083,H(-6) C(-2) N(-2) O
+1193,,Arg->Val,Arg->Val substitution,-57.032697,-57.0546,H(-3) C(-1) N(-3)
+1194,,Arg->Tyr,Arg->Tyr substitution,6.962218,6.9876,H(-3) C(3) N(-3) O
+1195,,Arg->Phe,Arg->Phe substitution,-9.032697,-9.0118,H(-3) C(3) N(-3)
+1196,,Ser->Asp,Ser->Asp substitution,27.994915,28.0101,C O
+1197,,Ser->Glu,Ser->Glu substitution,42.010565,42.0367,H(2) C(2) O
+1198,,Ser->His,Ser->His substitution,50.026883,50.062,H(2) C(3) N(2) O(-1)
+1199,,Ser->Lys,Ser->Lys substitution,41.062935,41.095,H(7) C(3) N O(-1)
+1200,,Ser->Met,Ser->Met substitution,44.008456,44.1188,H(4) C(2) O(-1) S
+1201,,Ser->Gln,Ser->Gln substitution,41.026549,41.0519,H(3) C(2) N
+1202,,Ser->Val,Ser->Val substitution,12.036386,12.0538,H(4) C(2) O(-1)
+1203,,Thr->Cys,Thr->Cys substitution,1.961506,2.039,H(-2) C(-1) O(-1) S
+1204,,Thr->Asp,Thr->Asp substitution,13.979265,13.9835,H(-2) O
+1205,,Thr->Glu,Thr->Glu substitution,27.994915,28.0101,C O
+1206,,Thr->Phe,Thr->Phe substitution,46.020735,46.07,H(2) C(5) O(-1)
+1207,,Thr->Gly,Thr->Gly substitution,-44.026215,-44.0526,H(-4) C(-2) O(-1)
+1208,,Thr->His,Thr->His substitution,36.011233,36.0354,C(2) N(2) O(-1)
+1209,,Thr->Gln,Thr->Gln substitution,27.010899,27.0253,H C N
+1210,,Thr->Val,Thr->Val substitution,-1.979265,-1.9728,H(2) C O(-1)
+1211,,Thr->Trp,Thr->Trp substitution,85.031634,85.106,H(3) C(7) N O(-1)
+1212,,Thr->Tyr,Thr->Tyr substitution,62.01565,62.0694,H(2) C(5)
+1213,,Val->Cys,Val->Cys substitution,3.940771,4.0118,H(-4) C(-2) S
+1214,,Val->His,Val->His substitution,37.990498,38.0082,H(-2) C N(2)
+1215,,Val->Lys,Val->Lys substitution,29.026549,29.0412,H(3) C N
+1216,,Val->Asn,Val->Asn substitution,14.974514,14.9716,H(-3) C(-1) N O
+1217,,Val->Pro,Val->Pro substitution,-2.01565,-2.0159,H(-2)
+1218,,Val->Gln,Val->Gln substitution,28.990164,28.9982,H(-1) N O
+1219,,Val->Arg,Val->Arg substitution,57.032697,57.0546,H(3) C N(3)
+1220,,Val->Ser,Val->Ser substitution,-12.036386,-12.0538,H(-4) C(-2) O
+1221,,Val->Thr,Val->Thr substitution,1.979265,1.9728,H(-2) C(-1) O
+1222,,Val->Trp,Val->Trp substitution,87.010899,87.0788,H C(6) N
+1223,,Val->Tyr,Val->Tyr substitution,63.994915,64.0422,C(4) O
+1224,,Trp->Ala,Trp->Ala substitution,-115.042199,-115.132,H(-5) C(-8) N(-1)
+1225,,Trp->Asp,Trp->Asp substitution,-71.05237,-71.1225,H(-5) C(-7) N(-1) O(2)
+1226,,Trp->Glu,Trp->Glu substitution,-57.03672,-57.0959,H(-3) C(-6) N(-1) O(2)
+1227,,Trp->Phe,Trp->Phe substitution,-39.010899,-39.036,H(-1) C(-2) N(-1)
+1228,,Trp->His,Trp->His substitution,-49.020401,-49.0706,H(-3) C(-5) N
+1229,,Trp->Lys,Trp->Lys substitution,-57.98435,-58.0376,H(2) C(-5)
+1230,,Trp->Met,Trp->Met substitution,-55.038828,-55.0138,H(-1) C(-6) N(-1) S
+1231,,Trp->Asn,Trp->Asn substitution,-72.036386,-72.1073,H(-4) C(-7) O
+1232,,Trp->Pro,Trp->Pro substitution,-89.026549,-89.0947,H(-3) C(-6) N(-1)
+1233,,Trp->Gln,Trp->Gln substitution,-58.020735,-58.0807,H(-2) C(-6) O
+1234,,Trp->Thr,Trp->Thr substitution,-85.031634,-85.106,H(-3) C(-7) N(-1) O
+1235,,Trp->Val,Trp->Val substitution,-87.010899,-87.0788,H(-1) C(-6) N(-1)
+1236,,Trp->Tyr,Trp->Tyr substitution,-23.015984,-23.0366,H(-1) C(-2) N(-1) O
+1237,,Tyr->Ala,Tyr->Ala substitution,-92.026215,-92.0954,H(-4) C(-6) O(-1)
+1238,,Tyr->Glu,Tyr->Glu substitution,-34.020735,-34.0593,H(-2) C(-4) O
+1239,,Tyr->Gly,Tyr->Gly substitution,-106.041865,-106.1219,H(-6) C(-7) O(-1)
+1240,,Tyr->Lys,Tyr->Lys substitution,-34.968366,-35.001,H(3) C(-3) N O(-1)
+1241,,Tyr->Met,Tyr->Met substitution,-32.022844,-31.9772,C(-4) O(-1) S
+1242,,Tyr->Pro,Tyr->Pro substitution,-66.010565,-66.0581,H(-2) C(-4) O(-1)
+1243,,Tyr->Gln,Tyr->Gln substitution,-35.004751,-35.044,H(-1) C(-4) N
+1244,,Tyr->Arg,Tyr->Arg substitution,-6.962218,-6.9876,H(3) C(-3) N(3) O(-1)
+1245,,Tyr->Thr,Tyr->Thr substitution,-62.01565,-62.0694,H(-2) C(-5)
+1246,,Tyr->Val,Tyr->Val substitution,-63.994915,-64.0422,C(-4) O(-1)
+1247,,Tyr->Trp,Tyr->Trp substitution,23.015984,23.0366,H C(2) N O(-1)
+1248,,Tyr->Xle,Tyr->Leu/Ile substitution,-49.979265,-50.0156,H(2) C(-3) O(-1)
+1249,,AHA-SS,Azidohomoalanine coupled to reductively cleaved tag,195.075625,195.1787,H(9) C(7) N(5) O(2)
+1250,,AHA-SS_CAM,carbamidomethylated form of reductively cleaved tag coupled to azidohomoalanine,252.097088,252.23,H(12) C(9) N(6) O(3)
+1251,,Biotin:Thermo-33033,Sulfo-SBED Label Photoreactive Biotin Crosslinker,548.223945,548.7211,H(36) C(25) N(6) O(4) S(2)
+1252,,Biotin:Thermo-33033-H,Sulfo-SBED Label Photoreactive Biotin Crosslinker minus Hydrogen,546.208295,546.7053,H(34) C(25) N(6) O(4) S(2)
+1253,,2-monomethylsuccinyl,S-(2-monomethylsuccinyl) cysteine,130.026609,130.0987,H(6) C(5) O(4)
+1254,,Saligenin,o-toluene,106.041865,106.1219,H(6) C(7) O
+1255,,Cresylphosphate,o-toluyl-phosphorylation,170.013281,170.1024,H(7) C(7) O(3) P
+1256,,CresylSaligeninPhosphate,Cresyl-Saligenin-phosphorylation,276.055146,276.2244,H(13) C(14) O(4) P
+1257,,Ub-Br2,Ub Bromide probe addition,100.063663,100.1191,H(8) C(4) N(2) O
+1258,,Ub-VME,Ubiquitin vinylmethylester,173.092617,173.1897,H(13) C(7) N(2) O(3)
+1260,,Ub-amide,Ub amide probe addition,196.108602,196.2264,H(14) C(9) N(3) O(2)
+1261,,Ub-fluorescein,Ub Fluorescein probe addition,597.209772,597.598,H(29) C(31) N(6) O(7)
+1262,,2-dimethylsuccinyl,S-(2-dimethylsuccinyl) cysteine,144.042259,144.1253,H(8) C(6) O(4)
+1263,,Gly,Addition of Glycine,57.021464,57.0513,H(3) C(2) N O
+1264,,pupylation,addition of GGE,243.085521,243.2166,H(13) C(9) N(3) O(5)
+1266,,Label:13C(4),13C4 Methionine label,4.013419,3.9706,C(-4) 13C(4)
+1267,,Label:13C(4)+Oxidation,Oxidised 13C4 labelled Methionine,20.008334,19.97,C(-4) 13C(4) O
+1270,,HCysThiolactone,N-Homocysteine thiolactone,117.024835,117.1695,H(7) C(4) N O S
+1271,,HCysteinyl,S-homocysteinylation,133.019749,133.1689,H(7) C(4) N O(2) S
+1276,,UgiJoullie,Side reaction of HisTag,1106.48935,1107.1274,H(60) C(47) N(23) O(10)
+1277,,Dipyridyl,Cys modified with dipy ligand,225.090212,225.2459,H(11) C(13) N(3) O
+1278,,Furan,Chemical modification of the iodinated sites of thyroglobulin by Suzuki reaction,66.010565,66.0581,H(2) C(4) O
+1279,,Difuran,Chemical modification of the diiodinated sites of thyroglobulin by Suzuki reaction,132.021129,132.1162,H(4) C(8) O(2)
+1281,,BMP-piperidinol,1-methyl-3-benzoyl-4-hydroxy-4-phenylpiperidine,263.131014,263.3337,H(17) C(18) N O
+1282,,UgiJoullieProGly,Side reaction of PG with Side chain of aspartic or glutamic acid,154.074228,154.1665,H(10) C(7) N(2) O(2)
+1283,,UgiJoullieProGlyProGly,Side reaction of PGPG with Side chain of aspartic or glutamic acid,308.148455,308.333,H(20) C(14) N(4) O(4)
+1286,,IMEHex(2)NeuAc(1),Glycosylation with IME linked Hex(2) NeuAc,688.199683,688.6527,H(3) C(2) N S Hex(2) NeuAc
+1287,,Arg-loss,Loss of arginine due to transpeptidation,-156.101111,-156.1857,H(-12) C(-6) N(-4) O(-1)
+1288,,Arg,Addition of arginine due to transpeptidation,156.101111,156.1857,H(12) C(6) N(4) O
+1289,,Butyryl,Butyryl,70.041865,70.0898,H(6) C(4) O
+1290,,Dicarbamidomethyl,Double Carbamidomethylation,114.042927,114.1026,H(6) C(4) N(2) O(2)
+1291,,Dimethyl:2H(6),Dimethyl-Medium,34.068961,34.0901,H(-2) 2H(6) C(2)
+1292,,GGQ,SUMOylation leaving GlyGlyGln,242.101505,242.2319,H(14) C(9) N(4) O(4)
+1293,,QTGG,SUMOylation leaving GlnThrGlyGly,343.149184,343.3357,H(21) C(13) N(5) O(6)
+1296,,Label:13C(3),13C3 label for SILAC,3.010064,2.978,C(-3) 13C(3)
+1297,,Label:13C(3)15N(1),13C3 15N1 label for SILAC,4.007099,3.9714,C(-3) 13C(3) N(-1) 15N
+1298,,Label:13C(4)15N(1),13C4 15N1 label for SILAC,5.010454,4.964,C(-4) 13C(4) N(-1) 15N
+1299,,Label:2H(10),2H(10) label,10.062767,10.0616,H(-10) 2H(10)
+1300,,Label:2H(4)13C(1),Label:2H(4)13C(1),5.028462,5.0173,H(-4) 2H(4) C(-1) 13C
+1301,,Lys,Addition of lysine due to transpeptidation,128.094963,128.1723,H(12) C(6) N(2) O
+1302,,mTRAQ:13C(6)15N(2),mTRAQ heavy,148.109162,148.1257,H(12) C 13C(6) 15N(2) O
+1303,,NeuAc,N-acetyl neuraminic acid,291.095417,291.2546,NeuAc
+1304,,NeuGc,N-glycoyl neuraminic acid,307.090331,307.254,NeuGc
+1305,,Propyl,Propyl,42.04695,42.0797,H(6) C(3)
+1306,,Propyl:2H(6),Propyl:2H(6),48.084611,48.1167,2H(6) C(3)
+1310,,Propiophenone,Propiophenone,132.057515,132.1592,H(8) C(9) O
+1312,,Delta:H(6)C(3)O(1),Reduced acrolein addition +58,58.041865,58.0791,H(6) C(3) O
+1313,,Delta:H(8)C(6)O(1),Reduced acrolein addition +96,96.057515,96.1271,H(8) C(6) O
+1314,,biotinAcrolein298,biotin hydrazide labeled acrolein addition +298,298.146347,298.4044,H(22) C(13) N(4) O(2) S
+1315,,MM-diphenylpentanone,"3-methyl-5-(methylamino)-1,3-diphenylpentan-1-one",265.146664,265.3496,H(19) C(18) N O
+1317,,EHD-diphenylpentanone,"2-ethyl-3-hydroxy-1,3-diphenylpentan-1-one",266.13068,266.3343,H(18) C(18) O(2)
+1320,,Biotin:Thermo-21901+2H2O,Maleimide-Biotin + 2Water,561.246849,561.6489,H(39) C(23) N(5) O(9) S
+1321,,DiLeu4plex115,Accurate mass for DiLeu 115 isobaric tag,145.12,145.1966,H(15) C(7) 13C 15N 18O
+1322,,DiLeu4plex,Accurate mass for DiLeu 116 isobaric tag,145.132163,145.2229,H(13) 2H(2) C(8) N 18O
+1323,,DiLeu4plex117,Accurate mass for DiLeu 117 isobaric tag,145.128307,145.2092,H(13) 2H(2) C(7) 13C 15N O
+1324,,DiLeu4plex118,Accurate mass for DiLeu 118 isobaric tag,145.140471,145.2354,H(11) 2H(4) C(8) N O
+1326,,NEMsulfur,N-ethylmaleimideSulfur,157.019749,157.1903,H(7) C(6) N O(2) S
+1327,,SulfurDioxide,SulfurDioxide,63.9619,64.0638,O(2) S
+1328,,NEMsulfurWater,N-ethylmaleimideSulfurWater,175.030314,175.2056,H(9) C(6) N O(3) S
+1330,,bisANS-sulfonates,BisANS with loss of both sulfonates,437.201774,437.5543,H(25) C(32) N(2)
+1331,,DNCB_hapten,"Chemical reaction with 2,4-dinitro-1-chloro benzene (DNCB)",166.001457,166.0911,H(2) C(6) N(2) O(4)
+1340,,Biotin:Thermo-21911,Biotin-PEG11-maleimide,921.461652,922.0913,H(71) C(41) N(5) O(16) S
+1341,,iodoTMT,Native iodoacetyl Tandem Mass Tag®,324.216141,324.4185,H(28) C(16) N(4) O(3)
+1342,,iodoTMT6plex,Sixplex iodoacetyl Tandem Mass Tag®,329.226595,329.3825,H(28) C(12) 13C(4) N(3) 15N O(3)
+1344,,Phosphogluconoylation,Phosphogluconoylation,258.014069,258.1199,H(11) C(6) O(9) P
+1345,,PS_Hapten,reaction with phenyl salicylate (PS),120.021129,120.1055,H(4) C(7) O(2)
+1348,,Cy3-maleimide,Cy3 Maleimide mono-Reactive dye,753.262796,753.9046,H(45) C(37) N(4) O(9) S(2)
+1349,,benzylguanidine,modification of the lysine side chain from NH2 to guanidine with a H removed in favor of a benzyl group,132.068748,132.1625,H(8) C(8) N(2)
+1350,,CarboxymethylDMAP,A fixed +1 charge tag attached to the N-terminus of peptides,162.079313,162.1885,H(10) C(9) N(2) O
+1355,,azole,Formation of five membered aromatic heterocycle,-20.026215,-20.0312,H(-4) O(-1)
+1356,,phosphoRibosyl,phosphate-ribosylation,212.00859,212.0945,H(9) C(5) O(7) P
+1358,,NEM:2H(5)+H2O,D5 N-ethylmaleimide+water on cysteines,148.089627,148.1714,H(4) 2H(5) C(6) N O(3)
+1363,,Crotonyl,Crotonylation,68.026215,68.074,H(4) C(4) O
+1364,,O-Et-N-diMePhospho,"O-ethyl, N-dimethyl phosphate",135.044916,135.1015,H(10) C(4) N O(2) P
+1365,,N-dimethylphosphate,N-dimethylphosphate,107.013615,107.0483,H(6) C(2) N O(2) P
+1367,,dHex(1)Hex(1),Hex1dHex1,308.110732,308.2818,dHex Hex
+1368,,Methyl:2H(3)+Acetyl:2H(3),3-fold methylated lysine labelled with Acetyl_heavy,62.063875,62.1002,H(-2) 2H(6) C(3) O
+1370,,Label:2H(3)+Oxidation,Oxidised 2H(3) labelled Methionine,19.013745,19.0179,H(-3) 2H(3) O
+1371,,Trimethyl:2H(9),3-fold methylation with deuterated methyl groups,51.103441,51.1352,H(-3) 2H(9) C(3)
+1372,,Acetyl:13C(2),heavy acetylation,44.017274,44.022,H(2) 13C(2) O
+1375,,dHex(1)Hex(2),Hex2dHex1,470.163556,470.4224,dHex Hex(2)
+1376,,dHex(1)Hex(3),Hex3dHex1,632.216379,632.563,dHex Hex(3)
+1377,,dHex(1)Hex(4),Hex4dHex1,794.269203,794.7036,dHex Hex(4)
+1378,,dHex(1)Hex(5),Hex5dHex1,956.322026,956.8442,dHex Hex(5)
+1379,,dHex(1)Hex(6),Hex6dHex1,1118.37485,1118.9848,dHex Hex(6)
+1380,,methylsulfonylethyl,reaction with methyl vinyl sulfone,106.00885,106.1435,H(6) C(3) O(2) S
+1381,,ethylsulfonylethyl,reaction with ethyl vinyl sulfone,120.0245,120.1701,H(8) C(4) O(2) S
+1382,,phenylsulfonylethyl,reaction with phenyl vinyl sulfone,168.0245,168.2129,H(8) C(8) O(2) S
+1383,,PyridoxalPhosphateH2,PLP bound to lysine reduced by sodium borohydride (NaBH4) to create amine linkage,231.02966,231.1425,H(10) C(8) N O(5) P
+1384,,Homocysteic_acid,methionine oxidation to homocysteic acid,33.969094,33.9716,H(-2) C(-1) O(3)
+1385,,Hydroxamic_acid,Conversion of carboxylic acid to hydroxamic acid,15.010899,15.0146,H N
+1387,,3-phosphoglyceryl,3-phosphoglyceryl,167.982375,168.042,H(5) C(3) O(6) P
+1388,,HN2_mustard,Modification by hydroxylated mechloroethamine (HN-2),101.084064,101.1469,H(11) C(5) N O
+1389,,HN3_mustard,Modification by hydroxylated tris-(2-chloroethyl)amine (HN-3),131.094629,131.1729,H(13) C(6) N O(2)
+1390,,Oxidation+NEM,N-ethylmaleimide on cysteine sulfenic acid,141.042593,141.1247,H(7) C(6) N O(3)
+1391,,NHS-fluorescein,fluorescein-hexanoate-NHS hydrolysis,471.131802,471.4581,H(21) C(27) N O(7)
+1392,,DiART6plex,Representative mass and accurate mass for 114,217.162932,217.2527,H(20) C(7) 13C(4) N 15N O(2)
+1393,,DiART6plex115,Accurate mass for DiART6plex 115,217.156612,217.2535,H(20) C(8) 13C(3) 15N(2) O(2)
+1394,,DiART6plex116/119,Accurate mass for DiART6plex 116 and 119,217.168776,217.2797,H(18) 2H(2) C(9) 13C(2) N 15N O(2)
+1395,,DiART6plex117,Accurate mass for DiART6plex 117,217.162456,217.2805,H(18) 2H(2) C(10) 13C 15N(2) O(2)
+1396,,DiART6plex118,Accurate mass for DiART6plex 118,217.175096,217.279,H(18) 2H(2) C(8) 13C(3) N(2) O(2)
+1397,,Iodoacetanilide,iodoacetanilide derivative,133.052764,133.1473,H(7) C(8) N O
+1398,,Iodoacetanilide:13C(6),13C labelled iodoacetanilide derivative,139.072893,139.1032,H(7) C(2) 13C(6) N O
+1399,,Dap-DSP,Diaminopimelic acid-DSP monolinked,364.076278,364.4377,H(20) C(13) N(2) O(6) S(2)
+1400,,MurNAc,N-Acetylmuramic acid,275.100502,275.2552,O(-1) NeuAc
+1402,,Label:2H(7)15N(4),Label:2H(7)15N(4),11.032077,11.0168,H(-7) 2H(7) N(-4) 15N(4)
+1403,,Label:2H(6)15N(1),Label:2H(6)15N(1),7.034695,7.0304,H(-6) 2H(6) N(-1) 15N
+1405,,EEEDVIEVYQEQTGG,Sumoylation by SUMO-1 after Cyanogen bromide (CNBr) cleavage,1705.73189,1706.7153,H(107) C(72) N(17) O(31)
+1406,,EDEDTIDVFQQQTGG,Sumoylation by SUMO-2/3 after Cyanogen bromide (CNBr) cleavage,1662.700924,1663.6508,H(102) C(69) N(18) O(30)
+1408,,Hex(5)HexNAc(4)NeuAc(2),Hex(5) HexNAc(4) NeuAc(2),2204.772441,2205.9822,Hex(5) HexNAc(4) NeuAc(2)
+1409,,Hex(5)HexNAc(4)NeuAc(1),Hex(5) HexNAc(4) NeuAc,1913.677025,1914.7277,Hex(5) HexNAc(4) NeuAc
+1410,,dHex(1)Hex(5)HexNAc(4)NeuAc(1),dHex Hex(5) HexNAc(4) NeuAc,2059.734933,2060.8689,dHex Hex(5) HexNAc(4) NeuAc
+1411,,dHex(1)Hex(5)HexNAc(4)NeuAc(2),dHex Hex(5) HexNAc(4) NeuAc(2),2350.83035,2352.1234,dHex Hex(5) HexNAc(4) NeuAc(2)
+1412,,s-GlcNAc,O3S1HexNAc1,283.036187,283.2557,O(3) S HexNAc
+1413,,PhosphoHex(2),H1O3P1Hex2,404.071978,404.2611,H O(3) P Hex(2)
+1414,,Trimethyl:13C(3)2H(9),3-fold methylation with fully labelled methyl groups,54.113505,54.1132,H(-3) 2H(9) 13C(3)
+1419,,15N-oxobutanoic,Loss of ammonia (15N),-18.023584,-18.0239,H(-3) 15N(-1)
+1420,,spermine,spermine adduct,185.189198,185.3097,H(23) C(10) N(3)
+1421,,spermidine,spermidine adduct,128.131349,128.2153,H(16) C(7) N(2)
+1423,,Biotin:Thermo-21330,Biotin_PEG4,473.219571,473.5835,H(35) C(21) N(3) O(7) S
+1425,,Pentose,Pentose,132.042259,132.1146,Pent
+1426,,Hex(1)Pent(1),Hex Pent,294.095082,294.2552,Pent Hex
+1427,,Hex(1)HexA(1),Hex HexA,338.084912,338.2647,Hex HexA
+1428,,Hex(1)Pent(2),Hex Pent(2),426.137341,426.3698,Pent(2) Hex
+1429,,Hex(1)HexNAc(1)Phos(1),Hex HexNAc Phos,445.098527,445.313,H O(3) P Hex HexNAc
+1430,,Hex(1)HexNAc(1)Sulf(1),Hex HexNAc Sulf,445.089011,445.3963,O(3) S Hex HexNAc
+1431,,Hex(1)NeuAc(1),Hex NeuAc ---OR--- HexNAc Kdn,453.14824,453.3952,Hex NeuAc
+1432,,Hex(1)NeuGc(1),Hex NeuGc,469.143155,469.3946,Hex NeuGc
+1433,,HexNAc(3),HexNAc(3),609.238118,609.5776,HexNAc(3)
+1434,,HexNAc(1)NeuAc(1),HexNAc NeuAc,494.174789,494.4471,HexNAc NeuAc
+1435,,HexNAc(1)NeuGc(1),HexNAc NeuGc,510.169704,510.4465,HexNAc NeuGc
+1436,,Hex(1)HexNAc(1)dHex(1)Me(1),Hex HexNAc dHex Me,525.205755,525.5009,Me dHex Hex HexNAc
+1437,,Hex(1)HexNAc(1)dHex(1)Me(2),Hex HexNAc dHex Me(2),539.221405,539.5275,Me(2) dHex Hex HexNAc
+1438,,Hex(2)HexNAc(1),Hex(2) HexNAc,527.18502,527.4737,Hex(2) HexNAc
+1439,,Hex(1)HexA(1)HexNAc(1),Hex HexA HexNAc,541.164284,541.4572,Hex HexA HexNAc
+1440,,Hex(2)HexNAc(1)Me(1),Hex(2) HexNAc Me,541.20067,541.5003,Me Hex(2) HexNAc
+1441,,Hex(1)Pent(3),Hex Pent(3),558.1796,558.4845,Pent(3) Hex
+1442,,Hex(1)NeuAc(1)Pent(1),Hex NeuAc Pent,585.190499,585.5098,Pent Hex NeuAc
+1443,,Hex(2)HexNAc(1)Sulf(1),Hex(2) HexNAc Sulf,607.141834,607.5369,O(3) S Hex(2) HexNAc
+1444,,Hex(2)NeuAc(1),Hex(2) NeuAc ---OR--- Hex HexNAc Kdn,615.201064,615.5358,Hex(2) NeuAc
+1445,,dHex(2)Hex(2),Hex2 dHex2,616.221465,616.5636,dHex(2) Hex(2)
+1446,,dHex(1)Hex(2)HexA(1),dHex Hex(2) HexA,646.195644,646.5465,dHex Hex(2) HexA
+1447,,Hex(1)HexNAc(2)Sulf(1),Hex HexNAc(2) Sulf,648.168383,648.5888,O(3) S Hex HexNAc(2)
+1448,,Hex(4),Hex(4),648.211294,648.5624,Hex(4)
+1449,,dHex(1)Hex(2)HexNAc(2)Pent(1),dHex Hex(2) HexNAc(2) Pent,1008.36456,1008.9221,dHex(1) Hex(2) HexNAc(2) Pent(1)
+1450,,Hex(2)HexNAc(2)NeuAc(1),Hex(2) HexNAc(2) NeuAc ---OR--- dHex Hex HexNAc(2) NeuGc,1021.359809,1021.9208,Hex(2) HexNAc(2) NeuAc
+1451,,Hex(3)HexNAc(2)Pent(1),Hex(3) HexNAc(2) Pent,1024.359475,1024.9215,Hex(3) HexNAc(2) Pent(1)
+1452,,Hex(4)HexNAc(2),Hex(4) HexNAc(2),1054.370039,1054.9474,Hex(4) HexNAc(2)
+1453,,dHex(1)Hex(4)HexNAc(1)Pent(1),dHex Hex(4) HexNAc Pent,1129.390834,1130.0107,dHex(1) Hex(4) HexNAc(1) Pent(1)
+1454,,dHex(1)Hex(3)HexNAc(2)Pent(1),dHex Hex(3) HexNAc(2) Pent,1170.417383,1171.0627,dHex(1) Hex(3) HexNAc(2) Pent(1)
+1455,,Hex(3)HexNAc(2)NeuAc(1),Hex(3) HexNAc(2) NeuAc,1183.412632,1184.0614,Hex(3) HexNAc(2) NeuAc(1)
+1456,,Hex(4)HexNAc(2)Pent(1),Hex(4) HexNAc(2) Pent,1186.412298,1187.0621,Hex(4) HexNAc(2) Pent(1)
+1457,,Hex(3)HexNAc(3)Pent(1),Hex(3) HexNAc(3) Pent,1227.438847,1228.114,Hex(3) HexNAc(3) Pent(1)
+1458,,Hex(5)HexNAc(2)Phos(1),Hex(5) HexNAc(2) Phos,1296.389194,1297.0679,H O(3) P Hex(5) HexNAc(2)
+1459,,dHex(1)Hex(4)HexNAc(2)Pent(1),dHex Hex(4) HexNAc(2) Pent,1332.470207,1333.2033,dHex(1) Hex(4) HexNAc(2) Pent(1)
+1460,,Hex(7)HexNAc(1),Hex(7) HexNAc,1337.449137,1338.1767,Hex(7) HexNAc(1)
+1461,,Hex(4)HexNAc(2)NeuAc(1),Hex(4) HexNAc(2) NeuAc ---OR--- Hex(3) HexNAc(2) dHex NeuGc,1345.465456,1346.202,Hex(4) HexNAc(2) NeuAc
+1462,,dHex(1)Hex(5)HexNAc(2),dHex Hex(5) HexNAc(2),1362.480772,1363.2292,dHex(1) Hex(5) HexNAc(2)
+1463,,dHex(1)Hex(3)HexNAc(3)Pent(1),dHex Hex(3) HexNAc(3) Pent,1373.496756,1374.2552,dHex(1) Hex(3) HexNAc(3) Pent(1)
+1464,,Hex(3)HexNAc(4)Sulf(1),Hex(3) HexNAc(4) Sulf,1378.432776,1379.2551,O(3) S Hex(3) HexNAc(4)
+1465,,Hex(6)HexNAc(2),Hex(6) HexNAc(2),1378.475686,1379.2286,Hex(6) HexNAc(2)
+1466,,Hex(4)HexNAc(3)Pent(1),Hex(4) HexNAc(3) Pent,1389.491671,1390.2546,Hex(4) HexNAc(3) Pent(1)
+1467,,dHex(1)Hex(4)HexNAc(3),dHex Hex(4) HexNAc(3),1403.507321,1404.2812,dHex(1) Hex(4) HexNAc(3)
+1468,,Hex(5)HexNAc(3),Hex(5) HexNAc(3),1419.502235,1420.2806,Hex(5) HexNAc(3)
+1469,,Hex(3)HexNAc(4)Pent(1),Hex(3) HexNAc(4) Pent,1430.51822,1431.3065,Hex(3) HexNAc(4) Pent(1)
+1470,,Hex(6)HexNAc(2)Phos(1),Hex(6) HexNAc(2) Phos,1458.442017,1459.2085,H O(3) P Hex(6) HexNAc(2)
+1471,,dHex(1)Hex(4)HexNAc(3)Sulf(1),dHex Hex(4) HexNAc(3) Sulf,1483.464135,1484.3444,O(3) S dHex Hex(4) HexNAc(3)
+1472,,dHex(1)Hex(5)HexNAc(2)Pent(1),dHex Hex(5) HexNAc(2) Pent,1494.52303,1495.3439,dHex(1) Hex(5) HexNAc(2) Pent(1)
+1473,,Hex(8)HexNAc(1),Hex(8) HexNAc,1499.501961,1500.3173,Hex(8) HexNAc(1)
+1474,,dHex(1)Hex(3)HexNAc(3)Pent(2),dHex Hex(3) HexNAc(3) Pent(2),1505.539015,1506.3698,dHex(1) Hex(3) HexNAc(3) Pent(2)
+1475,,dHex(2)Hex(3)HexNAc(3)Pent(1),dHex(2) Hex(3) HexNAc(3) Pent,1519.554665,1520.3964,dHex(2) Hex(3) HexNAc(3) Pent(1)
+1476,,dHex(1)Hex(3)HexNAc(4)Sulf(1),dHex Hex(3) HexNAc(4) Sulf,1524.490684,1525.3963,O(3) S dHex Hex(3) HexNAc(4)
+1477,,dHex(1)Hex(6)HexNAc(2),dHex Hex(6) HexNAc(2),1524.533595,1525.3698,dHex(1) Hex(6) HexNAc(2)
+1478,,dHex(1)Hex(4)HexNAc(3)Pent(1),dHex Hex(4) HexNAc(3) Pent,1535.549579,1536.3958,dHex(1) Hex(4) HexNAc(3) Pent(1)
+1479,,Hex(4)HexNAc(4)Sulf(1),Hex(4) HexNAc(4) Sulf,1540.485599,1541.3957,O(3) S Hex(4) HexNAc(4)
+1480,,Hex(7)HexNAc(2),Hex(7) HexNAc(2),1540.52851,1541.3692,Hex(7) HexNAc(2)
+1481,,dHex(2)Hex(4)HexNAc(3),dHex(2) Hex(4) HexNAc(3),1549.56523,1550.4224,dHex(2) Hex(4) HexNAc(3)
+1482,,Hex(5)HexNAc(3)Pent(1),Hex(5) HexNAc(3) Pent,1551.544494,1552.3952,Hex(5) HexNAc(3) Pent(1)
+1483,,Hex(4)HexNAc(3)NeuGc(1),Hex(4) HexNAc(3) NeuGc,1564.539743,1565.3939,Hex(4) HexNAc(3) NeuGc(1)
+1484,,dHex(1)Hex(5)HexNAc(3),dHex Hex(5) HexNAc(3),1565.560144,1566.4218,dHex(1) Hex(5) HexNAc(3)
+1485,,dHex(1)Hex(3)HexNAc(4)Pent(1),dHex Hex(3) HexNAc(4) Pent,1576.576129,1577.4477,dHex(1) Hex(3) HexNAc(4) Pent(1)
+1486,,Hex(3)HexNAc(5)Sulf(1),Hex(3) HexNAc(5) Sulf,1581.512148,1582.4476,O(3) S Hex(3) HexNAc(5)
+1487,,Hex(6)HexNAc(3),Hex(6) HexNAc(3),1581.555059,1582.4212,Hex(6) HexNAc(3)
+1488,,Hex(3)HexNAc(4)NeuAc(1),Hex(3) HexNAc(4) NeuAc ---OR--- Hex(2) HexNAc(4) dHex NeuGc,1589.571378,1590.4465,Hex(3) HexNAc(4) NeuAc
+1489,,Hex(4)HexNAc(4)Pent(1),Hex(4) HexNAc(4) Pent,1592.571043,1593.4471,Hex(4) HexNAc(4) Pent(1)
+1490,,Hex(7)HexNAc(2)Phos(1),Hex(7) HexNAc(2) Phos,1620.494841,1621.3491,H O(3) P Hex(7) HexNAc(2)
+1491,,Hex(4)HexNAc(4)Me(2)Pent(1),Hex(4) HexNAc(4) Me(2) Pent,1620.602343,1621.5003,Hex(4) HexNAc(4) Me(2) Pent(1)
+1492,,dHex(1)Hex(3)HexNAc(3)Pent(3),dHex Hex(3) HexNAc(3) Pent(3) ---OR--- Hex(4) HexNAc(2) dHex(2) NeuAc,1637.581274,1638.4844,Pent(3) dHex Hex(3) HexNAc(3)
+1493,,dHex(1)Hex(5)HexNAc(3)Sulf(1),dHex Hex(5) HexNAc(3) Sulf,1645.516959,1646.485,O(3) S dHex Hex(5) HexNAc(3)
+1494,,dHex(2)Hex(3)HexNAc(3)Pent(2),dHex(2) Hex(3) HexNAc(3) Pent(2),1651.596924,1652.511,dHex(2) Hex(3) HexNAc(3) Pent(2)
+1495,,Hex(6)HexNAc(3)Phos(1),Hex(6) HexNAc(3) Phos,1661.52139,1662.4011,H O(3) P Hex(6) HexNAc(3)
+1496,,Hex(4)HexNAc(5),Hex(4) HexNAc(5),1663.608157,1664.525,Hex(4) HexNAc(5)
+1497,,dHex(3)Hex(3)HexNAc(3)Pent(1),dHex(3) Hex(3) HexNAc(3) Pent,1665.612574,1666.5376,dHex(3) Hex(3) HexNAc(3) Pent(1)
+1498,,dHex(2)Hex(4)HexNAc(3)Pent(1),dHex(2) Hex(4) HexNAc(3) Pent,1681.607488,1682.537,dHex(2) Hex(4) HexNAc(3) Pent(1)
+1499,,dHex(1)Hex(4)HexNAc(4)Sulf(1),dHex Hex(4) HexNAc(4) Sulf,1686.543508,1687.5369,O(3) S dHex Hex(4) HexNAc(4)
+1500,,dHex(1)Hex(7)HexNAc(2),dHex Hex(7) HexNAc(2),1686.586419,1687.5104,dHex(1) Hex(7) HexNAc(2)
+1501,,dHex(1)Hex(4)HexNAc(3)NeuAc(1),dHex Hex(4) HexNAc(3) NeuAc ---OR--- dHex(2) Hex(3) HexNAc(3) NeuGc,1694.602737,1695.5357,dHex Hex(4) HexNAc(3) NeuAc
+1502,,Hex(7)HexNAc(2)Phos(2),Hex(7) HexNAc(2) Phos(2),1700.461172,1701.329,H(2) O(6) P(2) Hex(7) HexNAc(2)
+1503,,Hex(5)HexNAc(4)Sulf(1),Hex(5) HexNAc(4) Sulf,1702.538423,1703.5363,O(3) S Hex(5) HexNAc(4)
+1504,,Hex(8)HexNAc(2),Hex(8) HexNAc(2),1702.581333,1703.5098,Hex(8) HexNAc(2)
+1505,,dHex(1)Hex(3)HexNAc(4)Pent(2),dHex Hex(3) HexNAc(4) Pent(2),1708.618387,1709.5623,dHex(1) Hex(3) HexNAc(4) Pent(2)
+1506,,dHex(1)Hex(4)HexNAc(3)NeuGc(1),dHex Hex(4) HexNAc(3) NeuGc ---OR--- Hex(5) HexNAc(3) NeuAc,1710.597652,1711.5351,dHex Hex(4) HexNAc(3) NeuGc
+1507,,dHex(2)Hex(3)HexNAc(4)Pent(1),dHex(2) Hex(3) HexNAc(4) Pent,1722.634037,1723.5889,dHex(2) Hex(3) HexNAc(4) Pent(1)
+1508,,dHex(1)Hex(3)HexNAc(5)Sulf(1),dHex Hex(3) HexNAc(5) Sulf,1727.570057,1728.5888,O(3) S dHex Hex(3) HexNAc(5)
+1509,,dHex(1)Hex(6)HexNAc(3),dHex Hex(6) HexNAc(3),1727.612968,1728.5624,dHex(1) Hex(6) HexNAc(3)
+1510,,dHex(1)Hex(3)HexNAc(4)NeuAc(1),dHex Hex(3) HexNAc(4) NeuAc,1735.629286,1736.5877,dHex(1) Hex(3) HexNAc(4) NeuAc(1)
+1511,,dHex(3)Hex(3)HexNAc(4),dHex(3) Hex(3) HexNAc(4),1736.649688,1737.6155,dHex(3) Hex(3) HexNAc(4)
+1512,,dHex(1)Hex(4)HexNAc(4)Pent(1),dHex Hex(4) HexNAc(4) Pent,1738.628952,1739.5883,dHex(1) Hex(4) HexNAc(4) Pent(1)
+1513,,Hex(4)HexNAc(5)Sulf(1),Hex(4) HexNAc(5) Sulf,1743.564972,1744.5882,O(3) S Hex(4) HexNAc(5)
+1514,,Hex(7)HexNAc(3),Hex(7) HexNAc(3),1743.607882,1744.5618,Hex(7) HexNAc(3)
+1515,,dHex(1)Hex(4)HexNAc(3)NeuAc(1)Sulf(1),dHex Hex(4) HexNAc(3) NeuAc Sulf,1774.559552,1775.5989,O(3) S dHex Hex(4) HexNAc(3) NeuAc
+1516,,Hex(5)HexNAc(4)Me(2)Pent(1),Hex(5) HexNAc(4) Me(2) Pent,1782.655167,1783.6409,Hex(5) HexNAc(4) Me(2) Pent(1)
+1517,,Hex(3)HexNAc(6)Sulf(1),Hex(3) HexNAc(6) Sulf,1784.591521,1785.6401,O(3) S Hex(3) HexNAc(6)
+1518,,dHex(1)Hex(6)HexNAc(3)Sulf(1),dHex Hex(6) HexNAc(3) Sulf,1807.569782,1808.6256,O(3) S dHex Hex(6) HexNAc(3)
+1519,,dHex(1)Hex(4)HexNAc(5),dHex Hex(4) HexNAc(5),1809.666066,1810.6662,dHex(1) Hex(4) HexNAc(5)
+1520,,dHex(1)Hex(5)HexA(1)HexNAc(3)Sulf(1),dHex Hex(5) HexA HexNAc(3) Sulf,1821.549047,1822.6091,O(3) S dHex Hex(5) HexA HexNAc(3)
+1521,,Hex(7)HexNAc(3)Phos(1),Hex(7) HexNAc(3) Phos,1823.574213,1824.5417,H O(3) P Hex(7) HexNAc(3)
+1522,,Hex(6)HexNAc(4)Me(3),Hex(6) HexNAc(4) Me(3),1826.681382,1827.6934,Hex(6) HexNAc(4) Me(3)
+1523,,dHex(2)Hex(4)HexNAc(4)Sulf(1),dHex(2) Hex(4) HexNAc(4) Sulf,1832.601417,1833.6781,O(3) S dHex(2) Hex(4) HexNAc(4)
+1524,,Hex(4)HexNAc(3)NeuAc(2),Hex(4) HexNAc(3) NeuAc(2),1839.640245,1840.6491,Hex(4) HexNAc(3) NeuAc(2)
+1525,,dHex(1)Hex(3)HexNAc(4)Pent(3),dHex Hex(3) HexNAc(4) Pent(3),1840.660646,1841.6769,dHex(1) Hex(3) HexNAc(4) Pent(3)
+1526,,dHex(2)Hex(5)HexNAc(3)Pent(1),dHex(2) Hex(5) HexNAc(3) Pent,1843.660312,1844.6776,dHex(2) Hex(5) HexNAc(3) Pent(1)
+1527,,dHex(1)Hex(5)HexNAc(4)Sulf(1),dHex Hex(5) HexNAc(4) Sulf,1848.596331,1849.6775,O(3) S dHex Hex(5) HexNAc(4)
+1528,,dHex(2)Hex(3)HexNAc(4)Pent(2),dHex(2) Hex(3) HexNAc(4) Pent(2),1854.676296,1855.7035,dHex(2) Hex(3) HexNAc(4) Pent(2)
+1529,,dHex(1)Hex(5)HexNAc(3)NeuAc(1),dHex Hex(5) HexNAc(3) NeuAc,1856.655561,1857.6763,dHex(1) Hex(5) HexNAc(3) NeuAc(1)
+1530,,Hex(3)HexNAc(6)Sulf(2),Hex(3) HexNAc(6) Sulf(2),1864.548335,1865.7033,O(6) S(2) Hex(3) HexNAc(6)
+1531,,Hex(9)HexNAc(2),Hex(9) HexNAc(2),1864.634157,1865.6504,Hex(9) HexNAc(2)
+1532,,Hex(4)HexNAc(6),Hex(4) HexNAc(6),1866.68753,1867.7175,Hex(4) HexNAc(6)
+1533,,dHex(3)Hex(3)HexNAc(4)Pent(1),dHex(3) Hex(3) HexNAc(4) Pent,1868.691946,1869.7301,dHex(3) Hex(3) HexNAc(4) Pent(1)
+1534,,dHex(1)Hex(5)HexNAc(3)NeuGc(1),dHex Hex(5) HexNAc(3) NeuGc ---OR--- Hex(6) HexNAc(3) NeuAc,1872.650475,1873.6757,dHex Hex(5) HexNAc(3) NeuGc
+1535,,dHex(2)Hex(4)HexNAc(4)Pent(1),dHex(2) Hex(4) HexNAc(4) Pent,1884.686861,1885.7295,dHex(2) Hex(4) HexNAc(4) Pent(1)
+1536,,dHex(1)Hex(4)HexNAc(5)Sulf(1),dHex Hex(4) HexNAc(5) Sulf,1889.62288,1890.7294,O(3) S dHex Hex(4) HexNAc(5)
+1537,,dHex(1)Hex(7)HexNAc(3),dHex Hex(7) HexNAc(3),1889.665791,1890.703,dHex(1) Hex(7) HexNAc(3)
+1538,,dHex(1)Hex(5)HexNAc(4)Pent(1),dHex Hex(5) HexNAc(4) Pent,1900.681776,1901.7289,dHex(1) Hex(5) HexNAc(4) Pent(1)
+1539,,dHex(1)Hex(5)HexA(1)HexNAc(3)Sulf(2),dHex Hex(5) HexA HexNAc(3) Sulf(2),1901.505861,1902.6723,O(6) S(2) dHex Hex(5) HexA HexNAc(3)
+1540,,Hex(3)HexNAc(7),Hex(3) HexNAc(7),1907.714079,1908.7694,Hex(3) HexNAc(7)
+1541,,dHex(2)Hex(5)HexNAc(4),dHex(2) Hex(5) HexNAc(4),1914.697426,1915.7555,dHex(2) Hex(5) HexNAc(4)
+1542,,dHex(2)Hex(4)HexNAc(3)NeuAc(1)Sulf(1),dHex(2) Hex(4) HexNAc(3) NeuAc Sulf,1920.617461,1921.7401,O(3) S dHex(2) Hex(4) HexNAc(3) NeuAc
+1543,,dHex(1)Hex(5)HexNAc(4)Sulf(2),dHex Hex(5) HexNAc(4) Sulf(2),1928.553146,1929.7407,O(6) S(2) dHex Hex(5) HexNAc(4)
+1544,,dHex(1)Hex(5)HexNAc(4)Me(2)Pent(1),dHex Hex(5) HexNAc(4) Me(2) Pent,1928.713076,1929.7821,dHex(1) Hex(5) HexNAc(4) Me(2) Pent(1)
+1545,,Hex(5)HexNAc(4)NeuGc(1),Hex(5) HexNAc(4) NeuGc,1929.671939,1930.7271,Hex(5) HexNAc(4) NeuGc(1)
+1546,,dHex(1)Hex(3)HexNAc(6)Sulf(1),dHex Hex(3) HexNAc(6) Sulf,1930.64943,1931.7813,O(3) S dHex Hex(3) HexNAc(6)
+1547,,dHex(1)Hex(6)HexNAc(4),dHex Hex(6) HexNAc(4),1930.69234,1931.7549,dHex(1) Hex(6) HexNAc(4)
+1548,,dHex(1)Hex(5)HexNAc(3)NeuAc(1)Sulf(1),dHex Hex(5) HexNAc(3) NeuAc Sulf,1936.612375,1937.7395,O(3) S dHex Hex(5) HexNAc(3) NeuAc
+1549,,Hex(7)HexNAc(4),Hex(7) HexNAc(4),1946.687255,1947.7543,Hex(7) HexNAc(4)
+1550,,dHex(1)Hex(5)HexNAc(3)NeuGc(1)Sulf(1),dHex Hex(5) HexNAc(3) NeuGc Sulf,1952.60729,1953.7389,O(3) S dHex Hex(5) HexNAc(3) NeuGc
+1551,,Hex(4)HexNAc(5)NeuAc(1),Hex(4) HexNAc(5) NeuAc,1954.703574,1955.7796,Hex(4) HexNAc(5) NeuAc(1)
+1552,,Hex(6)HexNAc(4)Me(3)Pent(1),Hex(6) HexNAc(4) Me(3) Pent,1958.72364,1959.808,Hex(6) HexNAc(4) Me(3) Pent(1)
+1553,,dHex(1)Hex(7)HexNAc(3)Sulf(1),dHex Hex(7) HexNAc(3) Sulf,1969.622606,1970.7662,O(3) S dHex Hex(7) HexNAc(3)
+1554,,dHex(1)Hex(7)HexNAc(3)Phos(1),dHex Hex(7) HexNAc(3) Phos,1969.632122,1970.6829,H O(3) P dHex Hex(7) HexNAc(3)
+1555,,dHex(1)Hex(5)HexNAc(5),dHex Hex(5) HexNAc(5),1971.718889,1972.8068,dHex(1) Hex(5) HexNAc(5)
+1556,,dHex(1)Hex(4)HexNAc(4)NeuAc(1)Sulf(1),dHex Hex(4) HexNAc(4) NeuAc Sulf,1977.638925,1978.7915,O(3) S dHex Hex(4) HexNAc(4) NeuAc
+1557,,dHex(3)Hex(4)HexNAc(4)Sulf(1),dHex(3) Hex(4) HexNAc(4) Sulf,1978.659326,1979.8193,O(3) S dHex(3) Hex(4) HexNAc(4)
+1558,,Hex(3)HexNAc(7)Sulf(1),Hex(3) HexNAc(7) Sulf,1987.670893,1988.8326,O(3) S Hex(3) HexNAc(7)
+1559,,Hex(6)HexNAc(5),Hex(6) HexNAc(5),1987.713804,1988.8062,Hex(6) HexNAc(5)
+1560,,Hex(5)HexNAc(4)NeuAc(1)Sulf(1),Hex(5) HexNAc(4) NeuAc Sulf,1993.633839,1994.7909,O(3) S Hex(5) HexNAc(4) NeuAc
+1561,,Hex(3)HexNAc(6)NeuAc(1),Hex(3) HexNAc(6) NeuAc,1995.730123,1996.8315,Hex(3) HexNAc(6) NeuAc(1)
+1562,,dHex(2)Hex(3)HexNAc(6),dHex(2) Hex(3) HexNAc(6),1996.750524,1997.8593,dHex(2) Hex(3) HexNAc(6)
+1563,,Hex(1)HexNAc(1)NeuGc(1),Hex HexNAc NeuGc,672.222527,672.5871,Hex(1) HexNAc(1) NeuGc(1)
+1564,,dHex(1)Hex(2)HexNAc(1),dHex Hex(2) HexNAc,673.242928,673.6149,dHex(1) Hex(2) HexNAc(1)
+1565,,HexNAc(3)Sulf(1),HexNAc(3) Sulf,689.194932,689.6408,O(3) S HexNAc(3)
+1566,,Hex(3)HexNAc(1),Hex(3) HexNAc,689.237843,689.6143,Hex(3) HexNAc
+1567,,Hex(1)HexNAc(1)Kdn(1)Sulf(1),Hex HexNAc Kdn Sulf,695.157878,695.599,O(3) S Hex HexNAc Kdn
+1568,,HexNAc(2)NeuAc(1),HexNAc(2) NeuAc,697.254162,697.6396,HexNAc(2) NeuAc(1)
+1570,,HexNAc(1)Kdn(2),HexNAc Kdn(2) ---OR--- Hex(2) HexNAc HexA,703.217108,703.5978,HexNAc Kdn(2)
+1571,,Hex(3)HexNAc(1)Me(1),Hex(3) HexNAc Me,703.253493,703.6409,Hex(3) HexNAc(1) Me(1)
+1572,,Hex(2)HexA(1)Pent(1)Sulf(1),Hex(2) HexA Pent Sulf,712.136808,712.5831,O(3) S Pent Hex(2) HexA
+1573,,HexNAc(2)NeuGc(1),HexNAc(2) NeuGc,713.249076,713.639,HexNAc(2) NeuGc(1)
+1575,,Hex(4)Phos(1),Hex(4) Phos,728.177625,728.5423,H O(3) P Hex(4)
+1577,,Hex(1)HexNAc(1)NeuAc(1)Sulf(1),Hex HexNAc NeuAc Sulf,736.184427,736.6509,O(3) S Hex HexNAc NeuAc
+1578,,Hex(1)HexA(1)HexNAc(2),Hex HexA HexNAc(2),744.243657,744.6498,Hex(1) HexA(1) HexNAc(2)
+1579,,dHex(1)Hex(2)HexNAc(1)Sulf(1),dHex Hex(2) HexNAc Sulf,753.199743,753.6781,O(3) S dHex Hex(2) HexNAc
+1580,,dHex(1)HexNAc(3),dHex HexNAc(3),755.296027,755.7188,dHex(1) HexNAc(3)
+1581,,dHex(1)Hex(1)HexNAc(1)Kdn(1),dHex Hex HexNAc Kdn ---OR--- Hex(2) dHex NeuAc,761.258973,761.677,dHex Hex HexNAc Kdn
+1582,,Hex(1)HexNAc(3),Hex HexNAc(3),771.290941,771.7182,Hex(1) HexNAc(3)
+1583,,HexNAc(2)NeuAc(1)Sulf(1),HexNAc(2) NeuAc Sulf,777.210976,777.7028,O(3) S HexNAc(2) NeuAc
+1584,,dHex(2)Hex(3),dHex(2) Hex(3),778.274288,778.7042,dHex(2) Hex(3)
+1585,,Hex(2)HexA(1)HexNAc(1)Sulf(1),Hex(2) HexA HexNAc Sulf,783.173922,783.661,O(3) S Hex(2) HexA HexNAc
+1586,,dHex(2)Hex(2)HexA(1),dHex(2) Hex(2) HexA,792.253553,792.6877,dHex(2) Hex(2) HexA(1)
+1587,,dHex(1)Hex(1)HexNAc(2)Sulf(1),dHex Hex HexNAc(2) Sulf,794.226292,794.73,O(3) S dHex Hex HexNAc(2)
+1588,,dHex(1)Hex(1)HexNAc(1)NeuAc(1),dHex Hex HexNAc NeuAc,802.285522,802.7289,dHex(1) Hex(1) HexNAc(1) NeuAc(1)
+1589,,Hex(2)HexNAc(2)Sulf(1),Hex(2) HexNAc(2) Sulf,810.221207,810.7294,O(3) S Hex(2) HexNAc(2)
+1590,,Hex(5),Hex(5),810.264117,810.703,Hex(5)
+1591,,HexNAc(4),HexNAc(4),812.31749,812.7701,HexNAc(4)
+1592,,HexNAc(1)NeuGc(2),HexNAc NeuGc(2),817.260035,817.7005,HexNAc(1) NeuGc(2)
+1593,,dHex(1)Hex(1)HexNAc(1)NeuGc(1),dHex Hex HexNAc NeuGc ---OR--- Hex(2) HexNAc NeuAc,818.280436,818.7283,dHex Hex HexNAc NeuGc
+1594,,dHex(2)Hex(2)HexNAc(1),dHex(2) Hex(2) HexNAc,819.300837,819.7561,dHex(2) Hex(2) HexNAc(1)
+1595,,Hex(2)HexNAc(1)NeuGc(1),Hex(2) HexNAc NeuGc,834.275351,834.7277,Hex(2) HexNAc(1) NeuGc(1)
+1596,,dHex(1)Hex(3)HexNAc(1),dHex Hex(3) HexNAc,835.295752,835.7555,dHex(1) Hex(3) HexNAc(1)
+1597,,dHex(1)Hex(2)HexA(1)HexNAc(1),dHex Hex(2) HexA HexNAc,849.275017,849.739,dHex(1) Hex(2) HexA(1) HexNAc(1)
+1598,,Hex(1)HexNAc(3)Sulf(1),Hex HexNAc(3) Sulf,851.247756,851.7814,O(3) S Hex HexNAc(3)
+1599,,Hex(4)HexNAc(1),Hex(4) HexNAc,851.290667,851.7549,Hex(4) HexNAc
+1600,,Hex(1)HexNAc(2)NeuAc(1),Hex HexNAc(2) NeuAc,859.306985,859.7802,Hex(1) HexNAc(2) NeuAc(1)
+1602,,Hex(1)HexNAc(2)NeuGc(1),Hex HexNAc(2) NeuGc,875.3019,875.7796,Hex(1) HexNAc(2) NeuGc(1)
+1604,,Hex(5)Phos(1),Hex(5) Phos,890.230448,890.6829,H O(3) P Hex(5)
+1606,,dHex(2)Hex(1)HexNAc(1)Kdn(1),dHex(2) Hex HexNAc Kdn,907.316881,907.8182,dHex(2) Hex HexNAc Kdn
+1607,,dHex(1)Hex(3)HexNAc(1)Sulf(1),dHex Hex(3) HexNAc Sulf,915.252567,915.8187,O(3) S dHex Hex(3) HexNAc
+1608,,dHex(1)Hex(1)HexNAc(3),dHex Hex HexNAc(3),917.34885,917.8594,dHex(1) Hex(1) HexNAc(3)
+1609,,dHex(1)Hex(2)HexA(1)HexNAc(1)Sulf(1),dHex Hex(2) HexA HexNAc Sulf,929.231831,929.8022,O(3) S dHex Hex(2) HexA HexNAc
+1610,,Hex(2)HexNAc(3),Hex(2) HexNAc(3),933.343765,933.8588,Hex(2) HexNAc(3)
+1611,,Hex(1)HexNAc(2)NeuAc(1)Sulf(1),Hex HexNAc(2) NeuAc Sulf,939.2638,939.8434,O(3) S Hex HexNAc(2) NeuAc
+1612,,dHex(2)Hex(4),dHex(2) Hex(4),940.327112,940.8448,dHex(2) Hex(4)
+1614,,dHex(2)HexNAc(2)Kdn(1),dHex(2) HexNAc(2) Kdn,948.34343,948.8701,dHex(2) HexNAc(2) Kdn
+1615,,dHex(1)Hex(2)HexNAc(2)Sulf(1),dHex Hex(2) HexNAc(2) Sulf,956.279116,956.8706,O(3) S dHex Hex(2) HexNAc(2)
+1616,,dHex(1)HexNAc(4),dHex HexNAc(4),958.375399,958.9113,dHex(1) HexNAc(4)
+1617,,Hex(1)HexNAc(1)NeuAc(1)NeuGc(1),Hex HexNAc NeuAc NeuGc,963.317944,963.8417,Hex(1) HexNAc(1) NeuAc(1) NeuGc(1)
+1618,,dHex(1)Hex(1)HexNAc(2)Kdn(1),dHex Hex HexNAc(2) Kdn ---OR--- Hex(2) HexNAc dHex NeuAc,964.338345,964.8695,dHex Hex HexNAc(2) Kdn
+1619,,Hex(1)HexNAc(1)NeuGc(2),Hex HexNAc NeuGc(2),979.312859,979.8411,Hex(1) HexNAc(1) NeuGc(2)
+1620,,Hex(1)HexNAc(1)NeuAc(2)Ac(1),Ac Hex HexNAc NeuAc(2),989.333594,989.879,Ac Hex HexNAc NeuAc(2)
+1621,,dHex(2)Hex(2)HexA(1)HexNAc(1),dHex(2) Hex(2) HexA HexNAc,995.332925,995.8802,dHex(2) Hex(2) HexA(1) HexNAc(1)
+1622,,dHex(1)Hex(1)HexNAc(3)Sulf(1),dHex Hex HexNAc(3) Sulf,997.305665,997.9226,O(3) S dHex Hex HexNAc(3)
+1623,,Hex(2)HexA(1)NeuAc(1)Pent(1)Sulf(1),Hex(2) HexA NeuAc Pent Sulf,1003.232225,1003.8377,O(3) S Pent Hex(2) HexA NeuAc
+1624,,dHex(1)Hex(1)HexNAc(2)NeuAc(1),dHex Hex HexNAc(2) NeuAc,1005.364894,1005.9214,dHex(1) Hex(1) HexNAc(2) NeuAc(1)
+1625,,dHex(1)Hex(3)HexA(1)HexNAc(1),dHex Hex(3) HexA HexNAc,1011.32784,1011.8796,dHex(1) Hex(3) HexA(1) HexNAc(1)
+1626,,Hex(2)HexNAc(3)Sulf(1),Hex(2) HexNAc(3) Sulf,1013.300579,1013.922,O(3) S Hex(2) HexNAc(3)
+1627,,Hex(5)HexNAc(1),Hex(5) HexNAc,1013.34349,1013.8955,Hex(5) HexNAc
+1628,,HexNAc(5),HexNAc(5),1015.396863,1015.9626,HexNAc(5)
+1630,,Hex(1)HexNAc(1)NeuAc(2)Ac(2),Ac(2) Hex HexNAc NeuAc(2),1031.344159,1031.9156,Ac(2) Hex HexNAc NeuAc(2)
+1631,,Hex(2)HexNAc(2)NeuGc(1),Hex(2) HexNAc(2) NeuGc,1037.354723,1037.9202,Hex(2) HexNAc(2) NeuGc(1)
+1632,,Hex(5)Phos(3),Hex(5) Phos(3),1050.16311,1050.6427,H(3) O(9) P(3) Hex(5)
+1633,,Hex(6)Phos(1),Hex(6) Phos,1052.283272,1052.8235,H O(3) P Hex(6)
+1634,,dHex(1)Hex(2)HexA(1)HexNAc(2),dHex Hex(2) HexA HexNAc(2),1052.354389,1052.9316,dHex(1) Hex(2) HexA(1) HexNAc(2)
+1635,,dHex(2)Hex(3)HexNAc(1)Sulf(1),dHex(2) Hex(3) HexNAc Sulf,1061.310475,1061.9599,O(3) S dHex(2) Hex(3) HexNAc
+1636,,Hex(1)HexNAc(3)NeuAc(1),Hex HexNAc(3) NeuAc,1062.386358,1062.9727,Hex(1) HexNAc(3) NeuAc(1)
+1637,,dHex(2)Hex(1)HexNAc(3),dHex(2) Hex HexNAc(3),1063.406759,1064.0006,dHex(2) Hex(1) HexNAc(3)
+1638,,Hex(1)HexNAc(3)NeuGc(1),Hex HexNAc(3) NeuGc,1078.381273,1078.9721,Hex(1) HexNAc(3) NeuGc(1)
+1639,,dHex(1)Hex(1)HexNAc(2)NeuAc(1)Sulf(1),dHex Hex HexNAc(2) NeuAc Sulf,1085.321709,1085.9846,O(3) S dHex Hex HexNAc(2) NeuAc
+1640,,dHex(1)Hex(3)HexA(1)HexNAc(1)Sulf(1),dHex Hex(3) HexA HexNAc Sulf,1091.284655,1091.9428,O(3) S dHex Hex(3) HexA HexNAc
+1641,,dHex(1)Hex(1)HexA(1)HexNAc(3),dHex Hex HexA HexNAc(3),1093.380938,1093.9835,dHex(1) Hex(1) HexA(1) HexNAc(3)
+1642,,Hex(2)HexNAc(2)NeuAc(1)Sulf(1),Hex(2) HexNAc(2) NeuAc Sulf,1101.316623,1101.984,O(3) S Hex(2) HexNAc(2) NeuAc
+1643,,dHex(2)Hex(2)HexNAc(2)Sulf(1),dHex(2) Hex(2) HexNAc(2) Sulf,1102.337025,1103.0118,O(3) S dHex(2) Hex(2) HexNAc(2)
+1644,,dHex(2)Hex(1)HexNAc(2)Kdn(1),dHex(2) Hex HexNAc(2) Kdn ---OR--- Hex(2) HexNAc dHex(2) NeuAc,1110.396254,1111.0107,dHex(2) Hex HexNAc(2) Kdn
+1645,,dHex(1)Hex(1)HexNAc(4),dHex Hex HexNAc(4),1120.428223,1121.0519,dHex(1) Hex(1) HexNAc(4)
+1646,,Hex(2)HexNAc(4),Hex(2) HexNAc(4),1136.423137,1137.0513,Hex(2) HexNAc(4)
+1647,,Hex(2)HexNAc(1)NeuGc(2),Hex(2) HexNAc NeuGc(2),1141.365682,1141.9817,Hex(2) HexNAc(1) NeuGc(2)
+1648,,dHex(2)Hex(4)HexNAc(1),dHex(2) Hex(4) HexNAc,1143.406484,1144.0373,dHex(2) Hex(4) HexNAc(1)
+1649,,Hex(1)HexNAc(2)NeuAc(2),Hex HexNAc(2) NeuAc(2),1150.402402,1151.0348,Hex(1) HexNAc(2) NeuAc(2)
+1650,,dHex(2)Hex(1)HexNAc(2)NeuAc(1),dHex(2) Hex HexNAc(2) NeuAc,1151.422803,1152.0626,dHex(2) Hex(1) HexNAc(2) NeuAc(1)
+1651,,dHex(1)Hex(2)HexNAc(3)Sulf(1),dHex Hex(2) HexNAc(3) Sulf,1159.358488,1160.0632,O(3) S dHex Hex(2) HexNAc(3)
+1652,,dHex(1)HexNAc(5),dHex HexNAc(5),1161.454772,1162.1038,dHex(1) HexNAc(5)
+1653,,dHex(2)Hex(1)HexNAc(2)NeuGc(1),dHex(2) Hex HexNAc(2) NeuGc ---OR--- Hex(2) HexNAc(2) dHex NeuAc ---OR--- Hex HexNAc(3) dHex Kdn,1167.417718,1168.062,dHex(2) Hex HexNAc(2) NeuGc
+1654,,dHex(3)Hex(2)HexNAc(2),dHex(3) Hex(2) HexNAc(2),1168.438119,1169.0898,dHex(3) Hex(2) HexNAc(2)
+1655,,Hex(3)HexNAc(3)Sulf(1),Hex(3) HexNAc(3) Sulf,1175.353403,1176.0626,O(3) S Hex(3) HexNAc(3)
+1656,,dHex(2)Hex(2)HexNAc(2)Sulf(2),dHex(2) Hex(2) HexNAc(2) Sulf(2),1182.293839,1183.075,O(6) S(2) dHex(2) Hex(2) HexNAc(2)
+1657,,dHex(1)Hex(2)HexNAc(2)NeuGc(1),dHex Hex(2) HexNAc(2) NeuGc ---OR--- Hex(3) HexNAc(2) NeuAc,1183.412632,1184.0614,dHex Hex(2) HexNAc(2) NeuGc
+1658,,dHex(1)Hex(1)HexNAc(3)NeuAc(1),dHex Hex HexNAc(3) NeuAc,1208.444267,1209.1139,dHex Hex HexNAc(3) NeuAc
+1659,,Hex(6)Phos(3),Hex(6) Phos(3),1212.215934,1212.7833,H(3) O(9) P(3) Hex(6)
+1660,,dHex(1)Hex(3)HexA(1)HexNAc(2),dHex Hex(3) HexA HexNAc(2),1214.407213,1215.0722,dHex(1) Hex(3) HexA(1) HexNAc(2)
+1661,,dHex(1)Hex(1)HexNAc(3)NeuGc(1),dHex Hex HexNAc(3) NeuGc ---OR--- Hex(2) HexNAc(3) NeuAc,1224.439181,1225.1133,dHex Hex HexNAc(3) NeuGc
+1662,,Hex(1)HexNAc(2)NeuAc(2)Sulf(1),Hex HexNAc(2) NeuAc(2) Sulf,1230.359217,1231.098,O(3) S Hex HexNAc(2) NeuAc(2)
+1663,,dHex(2)Hex(3)HexA(1)HexNAc(1)Sulf(1),dHex(2) Hex(3) HexA HexNAc Sulf,1237.342563,1238.084,O(3) S dHex(2) Hex(3) HexA HexNAc
+1664,,Hex(1)HexNAc(1)NeuAc(3),Hex HexNAc NeuAc(3),1238.418446,1239.0969,Hex(1) HexNAc(1) NeuAc(3)
+1665,,Hex(2)HexNAc(3)NeuGc(1),Hex(2) HexNAc(3) NeuGc,1240.434096,1241.1127,Hex(2) HexNAc(3) NeuGc(1)
+1666,,dHex(1)Hex(2)HexNAc(2)NeuAc(1)Sulf(1),dHex Hex(2) HexNAc(2) NeuAc Sulf,1247.374532,1248.1252,O(3) S dHex Hex(2) HexNAc(2) NeuAc
+1667,,dHex(3)Hex(1)HexNAc(2)Kdn(1),dHex(3) Hex HexNAc(2) Kdn,1256.454163,1257.1519,dHex(3) Hex HexNAc(2) Kdn
+1668,,dHex(2)Hex(3)HexNAc(2)Sulf(1),dHex(2) Hex(3) HexNAc(2) Sulf,1264.389848,1265.1524,O(3) S dHex(2) Hex(3) HexNAc(2)
+1669,,dHex(2)Hex(2)HexNAc(2)Kdn(1),dHex(2) Hex(2) HexNAc(2) Kdn,1272.449077,1273.1513,dHex(2) Hex(2) HexNAc(2) Kdn
+1670,,dHex(2)Hex(2)HexA(1)HexNAc(2)Sulf(1),dHex(2) Hex(2) HexA HexNAc(2) Sulf,1278.369113,1279.136,O(3) S dHex(2) Hex(2) HexA HexNAc(2)
+1671,,dHex(1)Hex(2)HexNAc(4),dHex Hex(2) HexNAc(4),1282.481046,1283.1925,dHex Hex(2) HexNAc(4)
+1672,,Hex(1)HexNAc(1)NeuGc(3),Hex HexNAc NeuGc(3),1286.40319,1287.0951,Hex(1) HexNAc(1) NeuGc(3)
+1673,,dHex(1)Hex(1)HexNAc(3)NeuAc(1)Sulf(1),dHex Hex HexNAc(3) NeuAc Sulf,1288.401081,1289.1771,O(3) S dHex Hex HexNAc(3) NeuAc
+1674,,dHex(1)Hex(3)HexA(1)HexNAc(2)Sulf(1),dHex Hex(3) HexA HexNAc(2) Sulf,1294.364027,1295.1354,O(3) S dHex Hex(3) HexA HexNAc(2)
+1675,,dHex(1)Hex(1)HexNAc(2)NeuAc(2),dHex Hex HexNAc(2) NeuAc(2),1296.460311,1297.176,dHex(1) Hex(1) HexNAc(2) NeuAc(2)
+1676,,dHex(3)HexNAc(3)Kdn(1),dHex(3) HexNAc(3) Kdn,1297.480712,1298.2038,dHex(3) HexNAc(3) Kdn
+1678,,Hex(2)HexNAc(3)NeuAc(1)Sulf(1),Hex(2) HexNAc(3) NeuAc Sulf,1304.395996,1305.1765,O(3) S Hex(2) HexNAc(3) NeuAc
+1679,,dHex(2)Hex(2)HexNAc(3)Sulf(1),dHex(2) Hex(2) HexNAc(3) Sulf,1305.416397,1306.2044,O(3) S dHex(2) Hex(2) HexNAc(3)
+1680,,dHex(2)HexNAc(5),dHex(2) HexNAc(5),1307.512681,1308.245,dHex(2) HexNAc(5)
+1681,,Hex(2)HexNAc(2)NeuAc(2),Hex(2) HexNAc(2) NeuAc(2),1312.455225,1313.1754,Hex(2) HexNAc(2) NeuAc(2)
+1682,,dHex(2)Hex(2)HexNAc(2)NeuAc(1),dHex(2) Hex(2) HexNAc(2) NeuAc ---OR--- Hex HexNAc(3) dHex(2) Kdn,1313.475627,1314.2032,dHex(2) Hex(2) HexNAc(2) NeuAc
+1683,,dHex(1)Hex(3)HexNAc(3)Sulf(1),dHex Hex(3) HexNAc(3) Sulf,1321.411312,1322.2038,O(3) S dHex Hex(3) HexNAc(3)
+1684,,dHex(2)Hex(2)HexNAc(2)NeuGc(1),dHex(2) Hex(2) HexNAc(2) NeuGc ---OR--- Hex(3) HexNAc(2) dHex NeuAc ---OR--- Hex(2) HexNAc(3) dHex Kdn,1329.470541,1330.2026,dHex(2) Hex(2) HexNAc(2) NeuGc
+1685,,Hex(2)HexNAc(5),Hex(2) HexNAc(5),1339.50251,1340.2438,Hex(2) HexNAc(5)
+1686,,dHex(1)Hex(3)HexNAc(2)NeuGc(1),dHex Hex(3) HexNAc(2) NeuGc,1345.465456,1346.202,dHex(1) Hex(3) HexNAc(2) NeuGc(1)
+1687,,Hex(1)HexNAc(3)NeuAc(2),Hex HexNAc(3) NeuAc(2),1353.481775,1354.2273,Hex(1) HexNAc(3) NeuAc(2)
+1688,,dHex(1)Hex(2)HexNAc(3)NeuAc(1),dHex Hex(2) HexNAc(3) NeuAc,1370.49709,1371.2545,dHex(1) Hex(2) HexNAc(3) NeuAc(1)
+1689,,dHex(3)Hex(2)HexNAc(3),dHex(3) Hex(2) HexNAc(3),1371.517491,1372.2824,dHex(3) Hex(2) HexNAc(3)
+1690,,Hex(7)Phos(3),Hex(7) Phos(3),1374.268757,1374.9239,H(3) O(9) P(3) Hex(7)
+1691,,dHex(1)Hex(4)HexA(1)HexNAc(2),dHex Hex(4) HexA HexNAc(2),1376.460036,1377.2128,dHex(1) Hex(4) HexA(1) HexNAc(2)
+1692,,Hex(3)HexNAc(3)NeuAc(1),Hex(3) HexNAc(3) NeuAc ---OR--- Hex(2) HexNAc(3) dHex NeuGc ---OR--- Hex(2) HexNAc(4) Kdn,1386.492005,1387.2539,Hex(3) HexNAc(3) NeuAc
+1693,,dHex(1)Hex(3)HexA(2)HexNAc(2),dHex Hex(3) HexA(2) HexNAc(2),1390.439301,1391.1963,dHex(1) Hex(3) HexA(2) HexNAc(2)
+1694,,Hex(2)HexNAc(2)NeuAc(2)Sulf(1),Hex(2) HexNAc(2) NeuAc(2) Sulf,1392.41204,1393.2386,O(3) S Hex(2) HexNAc(2) NeuAc(2)
+1695,,dHex(2)Hex(2)HexNAc(2)NeuAc(1)Sulf(1),dHex(2) Hex(2) HexNAc(2) NeuAc Sulf,1393.432441,1394.2664,O(3) S dHex(2) Hex(2) HexNAc(2) NeuAc
+1696,,Hex(3)HexNAc(3)NeuGc(1),Hex(3) HexNAc(3) NeuGc,1402.48692,1403.2533,Hex(3) HexNAc(3) NeuGc(1)
+1697,,dHex(4)Hex(1)HexNAc(2)Kdn(1),dHex(4) Hex HexNAc(2) Kdn,1402.512072,1403.2931,dHex(4) Hex HexNAc(2) Kdn
+1698,,dHex(3)Hex(2)HexNAc(2)Kdn(1),dHex(3) Hex(2) HexNAc(2) Kdn,1418.506986,1419.2925,dHex(3) Hex(2) HexNAc(2) Kdn
+1699,,dHex(3)Hex(2)HexA(1)HexNAc(2)Sulf(1),dHex(3) Hex(2) HexA HexNAc(2) Sulf,1424.427021,1425.2772,O(3) S dHex(3) Hex(2) HexA HexNAc(2)
+1700,,Hex(2)HexNAc(4)NeuAc(1),Hex(2) HexNAc(4) NeuAc,1427.518554,1428.3059,Hex(2) HexNAc(4) NeuAc(1)
+1701,,dHex(2)Hex(2)HexNAc(4),dHex(2) Hex(2) HexNAc(4),1428.538955,1429.3337,dHex(2) Hex(2) HexNAc(4)
+1702,,dHex(2)Hex(3)HexA(1)HexNAc(2)Sulf(1),dHex(2) Hex(3) HexA HexNAc(2) Sulf,1440.421936,1441.2766,O(3) S dHex(2) Hex(3) HexA HexNAc(2)
+1703,,dHex(4)HexNAc(3)Kdn(1),dHex(4) HexNAc(3) Kdn,1443.538621,1444.345,dHex(4) HexNAc(3) Kdn
+1705,,Hex(2)HexNAc(1)NeuGc(3),Hex(2) HexNAc NeuGc(3),1448.456013,1449.2357,Hex(2) HexNAc(1) NeuGc(3)
+1706,,dHex(4)Hex(1)HexNAc(1)Kdn(2),dHex(4) Hex HexNAc Kdn(2),1449.501567,1450.3032,dHex(4) Hex HexNAc Kdn(2)
+1707,,dHex(1)Hex(2)HexNAc(3)NeuAc(1)Sulf(1),dHex Hex(2) HexNAc(3) NeuAc Sulf,1450.453905,1451.3177,O(3) S dHex Hex(2) HexNAc(3) NeuAc
+1708,,dHex(1)Hex(2)HexNAc(2)NeuAc(2),dHex Hex(2) HexNAc(2) NeuAc(2),1458.513134,1459.3166,dHex(1) Hex(2) HexNAc(2) NeuAc(2)
+1709,,dHex(3)Hex(1)HexNAc(3)Kdn(1),dHex(3) Hex HexNAc(3) Kdn,1459.533535,1460.3444,dHex(3) Hex HexNAc(3) Kdn
+1711,,Hex(3)HexNAc(3)NeuAc(1)Sulf(1),Hex(3) HexNAc(3) NeuAc Sulf,1466.44882,1467.3171,O(3) S Hex(3) HexNAc(3) NeuAc
+1712,,Hex(3)HexNAc(2)NeuAc(2),Hex(3) HexNAc(2) NeuAc(2),1474.508049,1475.316,Hex(3) HexNAc(2) NeuAc(2)
+1713,,Hex(3)HexNAc(3)NeuGc(1)Sulf(1),Hex(3) HexNAc(3) NeuGc Sulf,1482.443734,1483.3165,O(3) S Hex(3) HexNAc(3) NeuGc
+1714,,dHex(1)Hex(2)HexNAc(2)NeuGc(2),dHex Hex(2) HexNAc(2) NeuGc(2),1490.502964,1491.3154,dHex(1) Hex(2) HexNAc(2) NeuGc(2)
+1715,,dHex(2)Hex(3)HexNAc(2)NeuGc(1),dHex(2) Hex(3) HexNAc(2) NeuGc ---OR--- Hex(4) HexNAc(2) dHex NeuAc,1491.523365,1492.3432,dHex(2) Hex(3) HexNAc(2) NeuGc
+1716,,dHex(1)Hex(3)HexA(1)HexNAc(3)Sulf(1),dHex Hex(3) HexA HexNAc(3) Sulf,1497.4434,1498.3279,O(3) S dHex Hex(3) HexA HexNAc(3)
+1717,,Hex(2)HexNAc(3)NeuAc(2),Hex(2) HexNAc(3) NeuAc(2),1515.534598,1516.3679,Hex(2) HexNAc(3) NeuAc(2)
+1718,,dHex(2)Hex(2)HexNAc(3)NeuAc(1),dHex(2) Hex(2) HexNAc(3) NeuAc,1516.554999,1517.3957,dHex(2) Hex(2) HexNAc(3) NeuAc(1)
+1719,,dHex(4)Hex(2)HexNAc(3),dHex(4) Hex(2) HexNAc(3),1517.5754,1518.4236,dHex(4) Hex(2) HexNAc(3)
+1720,,Hex(2)HexNAc(3)NeuAc(1)NeuGc(1),Hex(2) HexNAc(3) NeuAc NeuGc,1531.529513,1532.3673,Hex(2) HexNAc(3) NeuAc(1) NeuGc(1)
+1721,,dHex(2)Hex(2)HexNAc(3)NeuGc(1),dHex(2) Hex(2) HexNAc(3) NeuGc ---OR--- Hex(3) HexNAc(3) dHex NeuAc ---OR--- Hex(2) HexNAc(4) dHex Kdn,1532.549914,1533.3951,dHex(2) Hex(2) HexNAc(3) NeuGc
+1722,,dHex(3)Hex(3)HexNAc(3),dHex(3) Hex(3) HexNAc(3),1533.570315,1534.423,dHex(3) Hex(3) HexNAc(3)
+1723,,Hex(8)Phos(3),Hex(8) Phos(3),1536.321581,1537.0645,H(3) O(9) P(3) Hex(8)
+1724,,dHex(1)Hex(2)HexNAc(2)NeuAc(2)Sulf(1),dHex Hex(2) HexNAc(2) NeuAc(2) Sulf,1538.469949,1539.3798,O(3) S dHex Hex(2) HexNAc(2) NeuAc(2)
+1725,,Hex(2)HexNAc(3)NeuGc(2),Hex(2) HexNAc(3) NeuGc(2),1547.524427,1548.3667,Hex(2) HexNAc(3) NeuGc(2)
+1726,,dHex(4)Hex(2)HexNAc(2)Kdn(1),dHex(4) Hex(2) HexNAc(2) Kdn,1564.564895,1565.4337,dHex(4) Hex(2) HexNAc(2) Kdn
+1727,,dHex(1)Hex(2)HexNAc(4)NeuAc(1),dHex Hex(2) HexNAc(4) NeuAc,1573.576463,1574.4471,dHex(1) Hex(2) HexNAc(4) NeuAc(1)
+1728,,dHex(3)Hex(2)HexNAc(4),dHex(3) Hex(2) HexNAc(4),1574.596864,1575.4749,dHex(3) Hex(2) HexNAc(4)
+1729,,Hex(1)HexNAc(1)NeuGc(4),Hex HexNAc NeuGc(4),1593.493521,1594.349,Hex(1) HexNAc(1) NeuGc(4)
+1730,,dHex(4)Hex(1)HexNAc(3)Kdn(1),dHex(4) Hex HexNAc(3) Kdn,1605.591444,1606.4856,dHex(4) Hex HexNAc(3) Kdn
+1732,,Hex(4)HexNAc(4)Sulf(2),Hex(4) HexNAc(4) Sulf(2),1620.442414,1621.4589,O(6) S(2) Hex(4) HexNAc(4)
+1733,,dHex(3)Hex(2)HexNAc(3)Kdn(1),dHex(3) Hex(2) HexNAc(3) Kdn ---OR--- Hex(3) HexNAc(2) dHex(3) NeuAc,1621.586359,1622.485,dHex(3) Hex(2) HexNAc(3) Kdn
+1735,,dHex(2)Hex(2)HexNAc(5),dHex(2) Hex(2) HexNAc(5),1631.618328,1632.5262,dHex(2) Hex(2) HexNAc(5)
+1736,,dHex(2)Hex(3)HexA(1)HexNAc(3)Sulf(1),dHex(2) Hex(3) HexA HexNAc(3) Sulf,1643.501309,1644.4691,O(3) S dHex(2) Hex(3) HexA HexNAc(3)
+1737,,dHex(1)Hex(4)HexA(1)HexNAc(3)Sulf(1),dHex Hex(4) HexA HexNAc(3) Sulf,1659.496223,1660.4685,O(3) S dHex Hex(4) HexA HexNAc(3)
+1738,,Hex(3)HexNAc(3)NeuAc(2),Hex(3) HexNAc(3) NeuAc(2),1677.587422,1678.5085,Hex(3) HexNAc(3) NeuAc(2)
+1739,,dHex(2)Hex(3)HexNAc(3)NeuAc(1),dHex(2) Hex(3) HexNAc(3) NeuAc ---OR--- Hex(2) HexNAc(4) dHex(2) Kdn,1678.607823,1679.5363,dHex(2) Hex(3) HexNAc(3) NeuAc
+1740,,dHex(4)Hex(3)HexNAc(3),dHex(4) Hex(3) HexNAc(3),1679.628224,1680.5642,dHex(4) Hex(3) HexNAc(3)
+1742,,Hex(9)Phos(3),Hex(9) Phos(3),1698.374404,1699.2051,H(3) O(9) P(3) Hex(9)
+1743,,dHex(2)HexNAc(7),dHex(2) HexNAc(7),1713.671426,1714.63,dHex(2) HexNAc(7)
+1744,,Hex(2)HexNAc(1)NeuGc(4),Hex(2) HexNAc NeuGc(4),1755.546345,1756.4896,Hex(2) HexNAc(1) NeuGc(4)
+1745,,Hex(3)HexNAc(3)NeuAc(2)Sulf(1),Hex(3) HexNAc(3) NeuAc(2) Sulf,1757.544236,1758.5717,O(3) S Hex(3) HexNAc(3) NeuAc(2)
+1746,,dHex(2)Hex(3)HexNAc(5),dHex(2) Hex(3) HexNAc(5),1793.671151,1794.6668,dHex(2) Hex(3) HexNAc(5)
+1747,,dHex(1)Hex(2)HexNAc(2)NeuGc(3),dHex Hex(2) HexNAc(2) NeuGc(3),1797.593295,1798.5694,dHex(1) Hex(2) HexNAc(2) NeuGc(3)
+1748,,dHex(2)Hex(4)HexA(1)HexNAc(3)Sulf(1),dHex(2) Hex(4) HexA HexNAc(3) Sulf,1805.554132,1806.6097,O(3) S dHex(2) Hex(4) HexA HexNAc(3)
+1749,,Hex(2)HexNAc(3)NeuAc(3),Hex(2) HexNAc(3) NeuAc(3),1806.630015,1807.6225,Hex(2) HexNAc(3) NeuAc(3)
+1750,,dHex(1)Hex(3)HexNAc(3)NeuAc(2),dHex Hex(3) HexNAc(3) NeuAc(2),1823.64533,1824.6497,dHex(1) Hex(3) HexNAc(3) NeuAc(2)
+1751,,dHex(3)Hex(3)HexNAc(3)NeuAc(1),dHex(3) Hex(3) HexNAc(3) NeuAc,1824.665732,1825.6775,dHex(3) Hex(3) HexNAc(3) NeuAc(1)
+1752,,Hex(2)HexNAc(3)NeuGc(3),Hex(2) HexNAc(3) NeuGc(3),1854.614759,1855.6207,Hex(2) HexNAc(3) NeuGc(3)
+1753,,Hex(10)Phos(3),Hex(10) Phos(3),1860.427228,1861.3457,H(3) O(9) P(3) Hex(10)
+1754,,dHex(1)Hex(2)HexNAc(4)NeuAc(2),dHex Hex(2) HexNAc(4) NeuAc(2),1864.67188,1865.7016,dHex(1) Hex(2) HexNAc(4) NeuAc(2)
+1755,,Hex(1)HexNAc(1)NeuGc(5),Hex HexNAc NeuGc(5),1900.583852,1901.603,Hex(1) HexNAc(1) NeuGc(5)
+1756,,Hex(4)HexNAc(4)NeuAc(1)Sulf(2),Hex(4) HexNAc(4) NeuAc Sulf(2),1911.53783,1912.7135,O(6) S(2) Hex(4) HexNAc(4) NeuAc
+1757,,Hex(4)HexNAc(4)NeuGc(1)Sulf(2),Hex(4) HexNAc(4) NeuGc Sulf(2),1927.532745,1928.7129,O(6) S(2) Hex(4) HexNAc(4) NeuGc
+1758,,dHex(2)Hex(3)HexNAc(3)NeuAc(2),dHex(2) Hex(3) HexNAc(3) NeuAc(2),1969.703239,1970.7909,dHex(2) Hex(3) HexNAc(3) NeuAc(2)
+1759,,Hex(4)HexNAc(4)NeuAc(1)Sulf(3),Hex(4) HexNAc(4) NeuAc Sulf(3),1991.494645,1992.7767,O(9) S(3) Hex(4) HexNAc(4) NeuAc
+1760,,dHex(2)Hex(2)HexNAc(2),dHex(2) Hex(2) HexNAc(2),1022.38021,1022.9486,dHex(2) Hex(2) HexNAc(2)
+1761,,dHex(1)Hex(3)HexNAc(2),dHex Hex(3) HexNAc(2),1038.375125,1038.948,dHex(1) Hex(3) HexNAc(2)
+1762,,dHex(1)Hex(2)HexNAc(3),dHex Hex(2) HexNAc(3),1079.401674,1080,dHex(1) Hex(2) HexNAc(3)
+1763,,Hex(3)HexNAc(3),Hex(3) HexNAc(3),1095.396588,1095.9994,Hex(3) HexNAc(3)
+1764,,dHex(1)Hex(3)HexNAc(2)Sulf(1),dHex Hex(3) HexNAc(2) Sulf,1118.331939,1119.0112,O(3) S dHex Hex(3) HexNAc(2)
+1765,,dHex(2)Hex(3)HexNAc(2),dHex(2) Hex(3) HexNAc(2),1184.433033,1185.0892,dHex(2) Hex(3) HexNAc(2)
+1766,,dHex(1)Hex(4)HexNAc(2),dHex Hex(4) HexNAc(2),1200.427948,1201.0886,dHex(1) Hex(4) HexNAc(2)
+1767,,dHex(2)Hex(2)HexNAc(3),dHex(2) Hex(2) HexNAc(3),1225.459583,1226.1412,dHex(2) Hex(2) HexNAc(3)
+1768,,dHex(1)Hex(3)HexNAc(3),dHex Hex(3) HexNAc(3),1241.454497,1242.1406,dHex(1) Hex(3) HexNAc(3)
+1769,,Hex(4)HexNAc(3),Hex(4) HexNAc(3),1257.449412,1258.14,Hex(4) HexNAc(3)
+1770,,dHex(2)Hex(4)HexNAc(2),dHex(2) Hex(4) HexNAc(2),1346.485857,1347.2298,dHex(2) Hex(4) HexNAc(2)
+1771,,dHex(2)Hex(3)HexNAc(3),dHex(2) Hex(3) HexNAc(3),1387.512406,1388.2818,dHex(2) Hex(3) HexNAc(3)
+1772,,Hex(3)HexNAc(5),Hex(3) HexNAc(5),1501.555334,1502.3844,Hex(3) HexNAc(5)
+1773,,Hex(4)HexNAc(3)NeuAc(1),Hex(4) HexNAc(3) NeuAc ---OR--- Hex(3) HexNAc(4) Kdn,1548.544828,1549.3945,Hex(4) HexNAc(3) NeuAc
+1774,,dHex(2)Hex(3)HexNAc(4),dHex(2) Hex(3) HexNAc(4),1590.591779,1591.4743,dHex(2) Hex(3) HexNAc(4)
+1775,,dHex(1)Hex(3)HexNAc(5),dHex Hex(3) HexNAc(5),1647.613242,1648.5256,dHex(1) Hex(3) HexNAc(5)
+1776,,Hex(3)HexNAc(6),Hex(3) HexNAc(6),1704.634706,1705.5769,Hex(3) HexNAc(6)
+1777,,Hex(4)HexNAc(4)NeuAc(1),Hex(4) HexNAc(4) NeuAc,1751.624201,1752.5871,Hex(4) HexNAc(4) NeuAc(1)
+1778,,dHex(2)Hex(4)HexNAc(4),dHex(2) Hex(4) HexNAc(4) ---OR--- Hex(4) HexNAc(4) dHex Pent Me,1752.644602,1753.6149,dHex(2) Hex(4) HexNAc(4)
+1779,,Hex(6)HexNAc(4),Hex(6) HexNAc(4),1784.634431,1785.6137,Hex(6) HexNAc(4)
+1780,,Hex(5)HexNAc(5),Hex(5) HexNAc(5),1825.660981,1826.6656,Hex(5) HexNAc(5)
+1781,,dHex(1)Hex(3)HexNAc(6),dHex Hex(3) HexNAc(6),1850.692615,1851.7181,dHex(1) Hex(3) HexNAc(6)
+1782,,dHex(1)Hex(4)HexNAc(4)NeuAc(1),dHex Hex(4) HexNAc(4) NeuAc ---OR--- Hex(3) HexNAc(5) dHex Kdn,1897.68211,1898.7283,dHex Hex(4) HexNAc(4) NeuAc
+1783,,dHex(3)Hex(4)HexNAc(4),dHex(3) Hex(4) HexNAc(4),1898.702511,1899.7561,dHex(3) Hex(4) HexNAc(4)
+1784,,dHex(1)Hex(3)HexNAc(5)NeuAc(1),dHex Hex(3) HexNAc(5) NeuAc,1938.708659,1939.7802,dHex(1) Hex(3) HexNAc(5) NeuAc(1)
+1785,,dHex(2)Hex(4)HexNAc(5),dHex(2) Hex(4) HexNAc(5),1955.723975,1956.8074,dHex(2) Hex(4) HexNAc(5)
+1786,,Hex(1)HexNAc(1)NeuAc(1)Ac(1),Ac Hex HexNAc NeuAc,698.238177,698.6244,Ac Hex HexNAc NeuAc
+1787,,Label:13C(2)15N(2),13C(2) 15N(2),4.00078,3.9721,C(-2) 13C(2) N(-2) 15N(2)
+1789,,Xlink:DSS[155],Ammonium-quenched monolink of DSS/BS3 crosslinker,155.094629,155.1943,H(13) C(8) N O(2)
+1799,,NQIGG,SUMOylation by Giardia lamblia,469.228496,469.4921,H(31) C(19) N(7) O(7)
+1800,,Carboxyethylpyrrole,Carboxyethylpyrrole,122.036779,122.1213,H(6) C(7) O(2)
+1801,,Fluorescein-tyramine,Fluorescein-tyramine adduct by peroxidase activity,493.116152,493.4637,H(19) C(29) N O(7)
+1824,,GEE,transamidation of glycine ethyl ester to glutamine,86.036779,86.0892,H(6) C(4) O(2)
+1825,,RNPXL,Simulate peptide-RNA conjugates,324.035867,324.1813,H(13) C(9) N(2) O(9) P
+1826,,Glu->pyro-Glu+Methyl,Pyro-Glu from E + Methylation,-3.994915,-3.9887,C O(-1)
+1827,,Glu->pyro-Glu+Methyl:2H(2)13C(1),Pyro-Glu from E + Methylation Medium,-0.979006,-0.9837,H(-2) 2H(2) 13C O(-1)
+1828,,LRGG+methyl,LeumethylArgGlyGly,397.243753,397.4725,H(31) C(17) N(7) O(4)
+1829,,LRGG+dimethyl,LeudimethylArgGlyGly,411.259403,411.4991,H(33) C(18) N(7) O(4)
+1830,,Biotin-tyramide,Biotin-Phenol,361.146012,361.4585,H(23) C(18) N(3) O(3) S
+1831,,Tris,tris adduct causes 104 Da addition at asparagine-succinimide intermediate,104.071154,104.1277,H(10) C(4) N O(2)
+1832,,IASD,Iodoacetamide derivative of stilbene (reaction product with thiol),452.034807,452.4582,H(16) C(18) N(2) O(8) S(2)
+1833,,NP40,NP-40 synthetic polymer terminus,220.182715,220.3505,H(24) C(15) O
+1834,,Tween20,Tween 20 synthetic polymer terminus,165.164326,165.2951,H(21) C(12)
+1835,,Tween80,Tween 80 synthetic polymer terminus,263.237491,263.4381,H(31) C(18) O
+1836,,Triton,Triton synthetic polymer terminus,188.156501,188.3086,H(20) C(14)
+1837,,Brij35,Brij 35 synthetic polymer terminus,168.187801,168.319,H(24) C(12)
+1838,,Brij58,Brij 58 synthetic polymer terminus,224.250401,224.4253,H(32) C(16)
+1839,,betaFNA,beta-Funaltrexamine,454.210387,454.5155,H(30) C(25) N(2) O(6)
+1840,,dHex(1)Hex(7)HexNAc(4),Fucosylated biantennary + 2 alphaGal,2092.745164,2093.8955,dHex Hex(7) HexNAc(4)
+1841,,Biotin:Thermo-21328,EZ-Link Sulfo-NHS-SS-Biotin,389.090154,389.5564,H(23) C(15) N(3) O(3) S(3)
+1842,,Xlink:DSSO,disuccinimidyl sulfoxide CID cleavable cross-link,158.003765,158.175,H(6) C(6) O(3) S
+1843,,PhosphoCytidine,Cytidine monophosphate,305.041287,305.1812,H(12) C(9) N(3) O(7) P
+1844,,Xlink:EGS,EGS cross-linker,226.047738,226.1828,H(10) C(10) O(6)
+1845,,AzidoF,Azidophenylalanine,41.001397,41.0122,H(-1) N(3)
+1846,,Dimethylaminoethyl,Cys alkylation by dimethylaminoethyl halide,71.073499,71.121,H(9) C(4) N
+1848,,Gluratylation,Glutarylation,114.031694,114.0993,H(6) C(5) O(3)
+1849,,2-hydroxyisobutyrylation,2-hydroxyisobutyrylation,86.036779,86.0892,H(6) C(4) O(2)
+1868,,MeMePhosphorothioate,S-Methyl Methyl phosphorothioate,107.979873,108.0993,H(5) C(2) O P S
+1870,,Cation:Fe[III],Replacement of 3 protons by iron,52.911464,52.8212,H(-3) Fe
+1871,,DTT,DTT adduct of cysteine,151.996571,152.2351,H(8) C(4) O(2) S(2)
+1872,,DYn-2,Sulfenic Acid specific probe,161.09664,161.2203,H(13) C(11) O
+1873,,MesitylOxide,Acetone chemical artifact,98.073165,98.143,H(10) C(6) O
+1875,,methylol,formaldehyde induced modifications,30.010565,30.026,H(2) C O
+1876,,Xlink:DSS,disuccinimidyl suberate (DSS),138.06808,138.1638,H(10) C(8) O(2)
+1877,,Xlink:DSS[259],Tris-quenched monolink of DSS/BS3 crosslinker,259.141973,259.2988,H(21) C(12) N O(5)
+1878,,Xlink:DSSO[176],Water-quenched monolink of DSSO crosslinker,176.01433,176.1903,H(8) C(6) O(4) S
+1879,,Xlink:DSSO[175],Ammonia-quenched monolink of DSSO crosslinker,175.030314,175.2056,H(9) C(6) N O(3) S
+1880,,Xlink:DSSO[279],Tris-quenched monolink of DSSO crosslinker,279.077658,279.3101,H(17) C(10) N O(6) S
+1881,,Xlink:DSSO[54],Alkene fragment of DSSO crosslinker,54.010565,54.0474,H(2) C(3) O
+1882,,Xlink:DSSO[86],Thiol fragment of DSSO crosslinker,85.982635,86.1124,H(2) C(3) O S
+1883,,Xlink:DSSO[104],Sulfenic acid fragment of DSSO crosslinker,103.9932,104.1277,H(4) C(3) O(2) S
+1884,,Xlink:BuUrBu,disuccinimidyl dibutyric urea CID cleavable cross-link,196.084792,196.2032,H(12) C(9) N(2) O(3)
+1885,,Xlink:BuUrBu[111],BuUr fragment of BuUrBu crosslinker,111.032028,111.0987,H(5) C(5) N O(2)
+1886,,Xlink:BuUrBu[85],Bu fragment of BuUrBu crosslinker,85.052764,85.1045,H(7) C(4) N O
+1887,,Xlink:BuUrBu[213],Ammonia quenched monolink of BuUrBu crosslinker,213.111341,213.2337,H(15) C(9) N(3) O(3)
+1888,,Xlink:BuUrBu[214],Water quenched monolink of BuUrBu crosslinker,214.095357,214.2185,H(14) C(9) N(2) O(4)
+1889,,Xlink:BuUrBu[317],Tris quenched monolink of BuUrBu crosslinker,317.158686,317.3382,H(23) C(13) N(3) O(6)
+1891,,Xlink:DTBP,"dimethyl 3,3\'-dithiobispropionimidate",172.01289,172.2711,H(8) C(6) N(2) S(2)
+1892,,Xlink:DST,Disuccinimidyl tartrate crosslinker,113.995309,114.0563,H(2) C(4) O(4)
+1893,,Xlink:DTSSP,dithiobis[succinimidylpropionate],173.980921,174.2406,H(6) C(6) O(2) S(2)
+1895,,Xlink:SMCC,succinimidyl 4-[N-maleimidomethyl]cyclohexane-1-carboxylate,219.089543,219.2365,H(13) C(12) N O(3)
+1896,,Xlink:DSSO[158],Intact DSSO crosslinker,158.003765,158.175,H(6) C(6) O(3) S
+1897,,Xlink:EGS[226],Intact EGS cross-linker,226.047738,226.1828,H(10) C(10) O(6)
+1898,,Xlink:DSS[138],Intact DSS/BS3 crosslinker,138.06808,138.1638,H(10) C(8) O(2)
+1899,,Xlink:BuUrBu[196],Intact BuUrBu crosslinker,196.084792,196.2032,H(12) C(9) N(2) O(3)
+1900,,Xlink:DTBP[172],Intact DTBP crosslinker,172.01289,172.2711,H(8) C(6) N(2) S(2)
+1901,,Xlink:DST[114],Intact DST crosslinker,113.995309,114.0563,H(2) C(4) O(4)
+1902,,Xlink:DTSSP[174],Intact DSP/DTSSP crosslinker,173.980921,174.2406,H(6) C(6) O(2) S(2)
+1903,,Xlink:SMCC[219],Intact SMCC cross-link,219.089543,219.2365,H(13) C(12) N O(3)
+1905,,Xlink:BS2G[96],Intact BS2-G crosslinker,96.021129,96.0841,H(4) C(5) O(2)
+1906,,Xlink:BS2G[113],Ammonium-quenched monolink of BS2-G crosslinker,113.047679,113.1146,H(7) C(5) N O(2)
+1907,,Xlink:BS2G[114],Water-quenched monolink of BS2-G crosslinker,114.031694,114.0993,H(6) C(5) O(3)
+1908,,Xlink:BS2G[217],Tris-quenched monolink of BS2-G crosslinker,217.095023,217.2191,H(15) C(9) N O(5)
+1909,,Xlink:BS2G,bis[sulfosuccinimidyl] glutarate,96.021129,96.0841,H(4) C(5) O(2)
+1910,,Cation:Al[III],Replacement of 3 protons by aluminium,23.958063,23.9577,H(-3) Al
+1911,,Xlink:DMP[139],Ammonia quenched monolink of DMP crosslinker,139.110947,139.1982,H(13) C(7) N(3)
+1912,,Xlink:DMP[122],Intact DMP crosslinker,122.084398,122.1677,H(10) C(7) N(2)
+1913,,glyoxalAGE,glyoxal-derived AGE,21.98435,22.0055,H(-2) C(2)
+1914,,Met->AspSA,Methionine oxidation to aspartic semialdehyde,-32.008456,-32.1081,H(-4) C(-1) O S(-1)
+1915,,Decarboxylation,Decarboxylation,-30.010565,-30.026,H(-2) C(-1) O(-1)
+1916,,Aspartylurea,Aspartylurea,-10.031969,-10.0412,H(-2) C(-1) N(-2) O(2)
+1917,,Formylasparagine,In Bachi as Formylaspargine (typo?),4.97893,4.9735,H(-1) C(-1) N(-1) O(2)
+1918,,Carbonyl,aldehyde and ketone modifications,13.979265,13.9835,H(-2) O
+1920,,AFB1_Dialdehyde,adduction of aflatoxin B1 Dialdehyde to lysine,310.047738,310.2577,H(10) C(17) O(6)
+1922,,Pro->HAVA,Proline oxidation to 5-hydroxy-2-aminovaleric acid,18.010565,18.0153,H(2) O
+1923,,Delta:H(-4)O(2),"Tryptophan oxidation to beta-unsaturated-2,4-bis-tryptophandione",27.958529,27.967,H(-4) O(2)
+1924,,Delta:H(-4)O(3),Tryptophan oxidation to hydroxy-bis-tryptophandione,43.953444,43.9664,H(-4) O(3)
+1925,,Delta:O(4),Tryptophan oxidation to dihydroxy-N-formaylkynurenine,63.979659,63.9976,O(4)
+1926,,Delta:H(3)C(3)O(2),methylglyoxal-derived carboxyethyllysine,71.013304,71.0547,H(3) C(3) O(2)
+1927,,Delta:H(4)C(5)O(1),methylglyoxal-derived argpyrimidine,80.026215,80.0847,H(4) C(5) O
+1928,,Delta:H(10)C(8)O(1),crotonaldehyde-derived dimethyl-FDP-lysine,122.073165,122.1644,H(10) C(8) O
+1929,,Delta:H(6)C(7)O(4),methylglyoxal-derived tetrahydropyrimidine,154.026609,154.1201,H(6) C(7) O(4)
+1930,,Pent(2),Pent(2),264.084518,264.2292,Pent(2)
+1931,,Pent(1)HexNAc(1),Pent HexNAc,335.121631,335.3071,Pent HexNAc
+1932,,Hex(2)Sulf(1),Hex(2) O(3) S,404.062462,404.3444,O(3) S Hex(2)
+1933,,Hex(1)Pent(2)Me(1),Hex:1 Pent:2 Me:1,440.152991,440.3964,Me Pent(2) Hex
+1934,,HexNAc(2)Sulf(1),HexNAc(2) Sulf,486.11556,486.4482,O(3) S HexNAc(2)
+1935,,Hex(1)Pent(3)Me(1),Hex Pent(3) Me,572.19525,572.511,Me Pent(3) Hex
+1936,,Hex(2)Pent(2),Hex(2) Pent(2),588.190165,588.5104,Pent(2) Hex(2)
+1937,,Hex(2)Pent(2)Me(1),Hex(2) Pent(2) Me,602.205815,602.537,Me Pent(2) Hex(2)
+1938,,Hex(4)HexA(1),Hex(4) HexA,824.243382,824.6865,Hex(4) HexA
+1939,,Hex(2)HexNAc(1)Pent(1)HexA(1),Hex(2) HexNAc Pent HexA,835.259366,835.7125,Pent Hex(2) HexA HexNAc
+1940,,Hex(3)HexNAc(1)HexA(1),Hex(3) HexNAc HexA,865.269931,865.7384,Hex(3) HexA HexNAc
+1941,,Hex(1)HexNAc(2)dHex(2)Sulf(1),Hex HexNAc(2) dHex(2) Sulf,940.284201,940.8712,O(3) S dHex(2) Hex HexNAc(2)
+1942,,HexA(2)HexNAc(3),HexA(2) HexNAc(3),961.302294,961.8258,HexA(2) HexNAc(3)
+1943,,dHex(1)Hex(4)HexA(1),dHex Hex(4) HexA,970.301291,970.8277,dHex Hex(4) HexA
+1944,,Hex(5)HexA(1),Hex(5) HexA,986.296206,986.8271,Hex(5) HexA
+1945,,Hex(4)HexA(1)HexNAc(1),Hex(4) HexA HexNAc,1027.322755,1027.879,Hex(4) HexA HexNAc
+1946,,dHex(3)Hex(3)HexNAc(1),dHex(3) Hex(3) HexNAc,1127.41157,1128.0379,dHex(3) Hex(3) HexNAc
+1947,,Hex(6)HexNAc(1),Hex(6) HexNAc,1175.396314,1176.0361,Hex(6) HexNAc
+1948,,Hex(1)HexNAc(4)dHex(1)Sulf(1),Sulf dHex Hex HexNAc(4),1200.385037,1201.1151,Sulf dHex Hex HexNAc(4)
+1949,,dHex(1)Hex(2)HexNAc(1)NeuAc(2),dHex Hex(2) HexNAc NeuAc(2),1255.433762,1256.1241,dHex Hex(2) HexNAc NeuAc(2)
+1950,,dHex(3)Hex(3)HexNAc(2),dHex(3) Hex(3) HexNAc(2),1330.490942,1331.2304,dHex(3) Hex(3) HexNAc(2)
+1951,,dHex(2)Hex(1)HexNAc(4)Sulf(1),dHex(2) Hex HexNAc(4) Sulf,1346.442946,1347.2563,Sulf dHex(2) Hex HexNAc(4)
+1952,,dHex(1)Hex(2)HexNAc(4)Sulf(2),dHex Hex(2) HexNAc(4) Sulf(2),1442.394675,1443.3189,Sulf(2) dHex Hex(2) HexNAc(4)
+1953,,Hex(9),Hex(9),1458.475412,1459.2654,Hex(9)
+1954,,dHex(2)Hex(3)HexNAc(3)Sulf(1),Sulf dHex(2) Hex(3) HexNAc(3),1467.469221,1468.345,Sulf dHex(2) Hex(3) HexNAc(3)
+1955,,dHex(2)Hex(5)HexNAc(2)Me(1),Me dHex(2) Hex(5) HexNAc(2),1522.554331,1523.397,Me dHex(2) Hex(5) HexNAc(2)
+1956,,dHex(2)Hex(2)HexNAc(4)Sulf(2),Sulf(2) dHex(2) Hex(2) HexNAc(4),1588.452584,1589.4601,Sulf(2) dHex(2) Hex(2) HexNAc(4)
+1957,,Hex(9)HexNAc(1),Hex(9) HexNAc,1661.554784,1662.4579,Hex(9) HexNAc
+1958,,dHex(3)Hex(2)HexNAc(4)Sulf(2),dHex(3) Hex(2) HexNAc(4) Sulf(2),1734.510493,1735.6013,Sulf(2) dHex(3) Hex(2) HexNAc(4)
+1959,,Hex(4)HexNAc(4)NeuGc(1),Hex(4) HexNAc(4) NeuGc,1767.619116,1768.5865,Hex(4) HexNAc(4) NeuGc
+1960,,dHex(4)Hex(3)HexNAc(2)NeuAc(1),dHex(4) Hex(3) HexNAc(2) NeuAc(1),1767.644268,1768.6262,dHex(4) Hex(3) HexNAc(2) NeuAc
+1961,,Hex(3)HexNAc(5)NeuAc(1),Hex(3) HexNAc(5) NeuAc(1),1792.65075,1793.639,Hex(3) HexNAc(5) NeuAc
+1962,,Hex(10)HexNAc(1),Hex(10) HexNAc(1),1823.607608,1824.5985,Hex(10) HexNAc
+1963,,dHex(1)Hex(8)HexNAc(2),dHex Hex(8) HexNAc(2),1848.639242,1849.651,dHex Hex(8) HexNAc(2)
+1964,,Hex(3)HexNAc(4)NeuAc(2),Hex(3) HexNAc(4) NeuAc(2),1880.666794,1881.701,Hex(3) HexNAc(4) NeuAc(2)
+1965,,dHex(2)Hex(3)HexNAc(4)NeuAc(1),dHex(2) Hex(3) HexNAc(4) NeuAc,1881.687195,1882.7289,dHex(2) Hex(3) HexNAc(4) NeuAc
+1966,,dHex(2)Hex(2)HexNAc(6)Sulf(1),dHex(2) Hex(2) HexNAc(6) Sulf,1914.654515,1915.7819,Sulf dHex(2) Hex(2) HexNAc(6)
+1967,,Hex(5)HexNAc(4)NeuAc(1)Ac(1),Hex(5) HexNAc(4) NeuAc Ac,1955.687589,1956.7643,Ac Hex(5) HexNAc(4) NeuAc
+1968,,Hex(3)HexNAc(3)NeuAc(3),Hex(3) HexNAc(3) NeuAc(3),1968.682838,1969.7631,Hex(3) HexNAc(3) NeuAc(3)
+1969,,Hex(5)HexNAc(4)NeuAc(1)Ac(2),Hex(5) HexNAc(4) NeuAc Ac(2),1997.698154,1998.801,Ac(2) Hex(5) HexNAc(4) NeuAc
+1970,,Unknown:162,Unidentified modification of 162.1258 found in open search,162.125595,162.2267,H(18) C(8) O(3)
+1971,,Unknown:177,Unidentified modification of 176.7462 found in open search,176.744957,176.4788,H(-7) O Fe(3)
+1972,,Unknown:210,Unidentified modification of 210.1616 found in open search,210.16198,210.3126,H(22) C(13) O(2)
+1973,,Unknown:216,Unidentified modification of 216.1002 found in open search,216.099774,216.231,H(16) C(10) O(5)
+1974,,Unknown:234,Unidentified modification of 234.0742 found in open search,234.073953,234.2033,H(14) C(9) O(7)
+1975,,Unknown:248,Unidentified modification of 248.1986 found in open search,248.19876,248.359,H(28) C(13) O(4)
+1976,,Unknown:250,Unidentified modification of 249.981 found in open search,249.981018,250.2075,H(4) C(10) N O(5) S
+1977,,Unknown:302,Unidentified modification of 301.9864 found in open search,301.986514,302.2656,H(8) C(4) N(5) O(7) S(2)
+1978,,Unknown:306,Unidentified modification of 306.0952 found in open search,306.095082,306.2659,H(18) C(12) O(9)
+1979,,Unknown:420,Unidentified modification of 420.0506 found in open search,420.050846,420.4049,H(14) C(10) N(9) O(6) S(2)
+1986,,Diethylphosphothione,O-diethylphosphothione,152.006087,152.1518,H(9) C(4) O(2) P S
+1987,,Dimethylphosphothione,O-dimethylphosphothione,123.974787,124.0987,H(5) C(2) O(2) P S
+1989,,monomethylphosphothione,O-methylphosphothione,109.959137,110.0721,H(3) C O(2) P S
+1990,,CIGG,Ubiquitin D (FAT10) leaving after chymotrypsin digestion Cys-Ile-Gly-Gly,330.136176,330.4032,H(22) C(13) N(4) O(4) S
+1991,,GNLLFLACYCIGG,Ubiquitin D (FAT10) leaving after trypsin digestion Gly-Asn-Leu-Leu-Phe-Leu-Ala-Cys-Tyr-Cys-Ile-Gly-Gly,1324.6308,1325.598,H(92) C(61) N(14) O(15) S(2)
+1992,,serotonylation,5-glutamyl serotonin,159.068414,159.1846,H(9) C(10) N O
+1993,,TMPP-Ac:13C(9),"heavy tris(2,4,6-trimethoxyphenyl)phosphonium acetic acid N-hydroxysuccinimide ester derivative",581.211328,581.474,H(33) C(20) 13C(9) O(10) P
+1999,,Xlink:DST[56],DST crosslinker cleaved by sodium periodate,55.989829,56.0202,C(2) O(2)
+2000,,Xlink:SDA,NHS-Diazirine crosslinker,82.041865,82.1005,H(6) C(5) O
+2001,,ZQG,Lys conjugation to carbobenzoxy-L-glutaminyl-glycine,320.100836,320.2973,H(16) C(15) N(2) O(6)

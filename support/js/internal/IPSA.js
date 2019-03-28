@@ -667,9 +667,9 @@ angular.module("IPSA.directive", []).directive("annotatedSpectrum", function($lo
       	// get svg dimensions and settings
         var options = scope.getOptions();
         // create svg element to hold charts
-        scope.svg = d3.select(elements[0]).append("svg").attr("class", "chart")
-        	.attr("width", options.renderSize.width)
-        	.attr("height", options.renderSize.height);
+        scope.svg = d3.select(elements[0]).append("svg").attr("class", "chart");
+        	//.attr("width", options.renderSize.width)
+        	//.attr("height", options.renderSize.height);
        
         // svg element to show peptide sequence and fragment locations
         scope.titleContainer = scope.svg.append("g").attr("id", "titleContainer");
@@ -1245,7 +1245,7 @@ angular.module("IPSA.directive", []).directive("annotatedSpectrum", function($lo
               var tx = Math.max(Math.min(0, t[0]), options.annotation.width - maxX * zoomX.scale());
 
               // update translation to new coordinates. 
-              zoomX.translate([ tx, t[1] ]);
+              zoomX.translate([ 0, 0 ]);
 
               // calling the x axes here seems to be necessary to get them to scale correctly. 
               scope.container.selectAll("g.xAnnotation").call(xAxis);

@@ -35,7 +35,9 @@
     <!-- D3-Tip -->
     <script src="support/js/external/d3-tip.js"></script>
     <!-- css links here -->
+    
     <link href="support/css/external/bootstrap.min.css" rel="stylesheet">
+
     <link href="support/css/external/select.min.css" rel="stylesheet">
     <link href="support/css/external/handsontable.full.min.css" rel="stylesheet">
     <link href="support/css/external/jquery.minicolors.min.css" rel="stylesheet">
@@ -78,17 +80,25 @@
                   <div class="panel-body">
                     <div class="col-md-12">
                       <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-md-12">
                           <label>Select Uploaded Sequence</label>
                           <div class="form-group">
                             <ui-select ng-model="idObject.selectedSequence" search-enabled="true">
                               <ui-select-match placeholder="Click and type/scroll to search for peptide by sequence, scan, etc.">
-                                <span ng-bind="formatSelect()"></span>
+                                <span ng-bind-html="formatUploadedIdOption(idObject.selectedSequence)"></span>
                               </ui-select-match>
-                              <ui-select-choices repeat="id in ids | filter: $select.search | limitTo: 25">
-                                <span ng-bind="formatOption(id)"></span>
+                              <ui-select-choices repeat="id in ids | filter: $select.search | orderBy:'scanNumber'|  limitTo: 100">
+                                <span ng-bind-html="formatUploadedIdOption(id)"></span>
                               </ui-select-choices>
                             </ui-select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-9">
+                          <label>Peptide Sequence</label>
+                          <div class="input-group-md">
+                            <input type="text" class="form-control" placeholder="Enter sequence here..." ng-model="peptide.sequence" ng-blur="validateSequence()"> 
                           </div>
                         </div>
                         <div class="col-md-3">
@@ -98,6 +108,7 @@
                           </div>
                         </div>
                       </div>
+                      <br/>
                       <div ng-controller="DataCtrl">
                         <div class="row">
                           <div class="col-md-4">
@@ -151,6 +162,22 @@
                               <label class="btn btn-fragment" ng-model="checkModel.H2O.selected" uib-btn-checkbox>-H<sub>2</sub>O</label>
                               <label class="btn btn-fragment" ng-model="checkModel.NH3.selected" uib-btn-checkbox>-NH<sub>3</sub></label>
                               <label class="btn btn-fragment" ng-model="checkModel.CO2.selected" uib-btn-checkbox>-CO<sub>2</sub></label>
+                            </div>
+                          </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <label for="dataFormat">Select Peptide Modifications</label>
+                          </div>
+                          <div class="col-md-12">
+                            <div ng-controller="ModCtrl">
+                              <div class="form-group-lg">
+                                <ui-select multiple ng-model="peptide.mods" search-enabled="true">
+                                  <ui-select-match placeholder="Select peptide modifications..."> <span ng-bind-html="formatModificationOption($item)"></span> </ui-select-match>
+                                  <ui-select-choices repeat="mod in mods | filter: $select.search | orderBy:'name' | limitTo: 250" > <span ng-mouseenter="$select.setActiveItem()" ng-bind-html="formatModificationOption(mod)"></span> </ui-select-choices>
+                                </ui-select>
+                              </div>
                             </div>
                           </div>
                         </div>

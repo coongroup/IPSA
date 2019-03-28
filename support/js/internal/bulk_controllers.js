@@ -171,7 +171,7 @@ angular.module("IPSA.bulk.controller").controller("GraphCtrl", ["$scope", "$log"
   $scope.processData = function() {
     var url = "";
     if ($scope.peptide.precursorCharge > 0) {
-      url = "support/php/ProcessData.php";
+      url = "support/php/processData.php";
     } else {
       url = "support/php/NegativeModeProcessData.php";
     }
@@ -252,11 +252,17 @@ angular.module("IPSA.bulk.controller").controller("GraphCtrl", ["$scope", "$log"
 
   $scope.downloadData = function() {
     var csvRows = [];
-
+    $log.log($scope.peptide);
     // write CV peptide sequence header
     csvRows.push("Scan Number, Sequence, Theoretical Mz, Charge, Modifications <Name;Index;Mass Change>, # Matched Fragments, # Bonds Broken, % TIC Explained");
-    csvRows.push($scope.idObject.selectedSequence.scanNumber + "," + $scope.set.peptide.sequence + "," + d3.format("0.4f")($scope.set.peptide.precursorMz) + "," + $scope.set.peptide.precursorCharge + "," + 
-      $scope.formatModsForDownload() + "," + $scope.getNumberFragments() + "," + $scope.getFragmentedBonds() + "," + $scope.getPercentTicExplained());
+    csvRows.push($scope.idObject.selectedSequence.scanNumber + "," + 
+        $scope.set.peptide.sequence + "," + 
+        d3.format("0.4f")($scope.set.peptide.precursorMz) + "," + 
+        $scope.set.peptide.precursorCharge + "," + 
+        $scope.formatModsForDownload() + "," + 
+        $scope.getNumberFragments() + "," + 
+        $scope.getFragmentedBonds() + "," + 
+        $scope.getPercentTicExplained());
     
     csvRows.push("");
 

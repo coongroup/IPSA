@@ -51,6 +51,22 @@ myApp.controller('MasterCtrl', function($scope, $uibModal, $log, $localStorage, 
     return returnString;
   };
 
+  $scope.formatUploadedIdOption = function(id) {
+    var returnString = "";
+    
+    if (id) {
+      returnString += "<b>Peptide Sequence: </b>" + id.sequence + "<br/>" + 
+          "<b>MS Scan Number: </b>" + id.scanNumber + "<br/>" + 
+          "<b>Charge State: </b>" + id.charge;
+      
+      if (id.mods) {
+        returnString +="<br/><b>Modifications: </b>" + id.mods;
+      }
+    }
+
+    return returnString;
+  };
+
   // get timestamp from localstorage. Retrieve info from database if it exists
   if (typeof $localStorage.timeStampIdentifier === "undefined") {
     alert("Make sure user uploads data first");
@@ -81,7 +97,7 @@ myApp.controller('MasterCtrl', function($scope, $uibModal, $log, $localStorage, 
 
   // stores peptide information
   $scope.peptide = {
-    sequence: "",
+    sequence: "TESTPEPTIDE",
     precursorCharge: 2,
     charge: 1,
     fragmentMin: 1,
@@ -135,15 +151,26 @@ myApp.controller('MasterCtrl', function($scope, $uibModal, $log, $localStorage, 
     }
   ];
 
+  $scope.predeterminedMods = [];
+  $scope.userMods = [];
+  $scope.potentialMods = [];
+  $scope.modObject = {};
+
   $scope.db.items = [];
 
   $scope.annotatedResults;
 
   $scope.$watch('idObject.selectedSequence', function () {
     if ($scope.idObject.selectedSequence.sequence) {
+      $log.log($scope.idObject);
       $scope.peptide.sequence = $scope.idObject.selectedSequence.sequence;
       $scope.peptide.precursorCharge = $scope.idObject.selectedSequence.charge;
-      $scope.peptide.mods = $scope.formatModificationsForProcessing();
+
+      var formattedMods = $scope.formatModificationsForProcessing();
+      
+      $scope.matchFormattedModsToDatabase(formattedMods);
+
+      $scope.peptide.mods = formattedMods;
       if ($scope.peptide.precursorCharge > 0) {
         $scope.peptide.charge = 1;
         $scope.peptide.fragmentMin = 1;
@@ -212,6 +239,21 @@ myApp.controller('MasterCtrl', function($scope, $uibModal, $log, $localStorage, 
     tolerance: 10
   };
 
+  $scope.matchFormattedModsToDatabase = function(formattedMods) {
+    formattedMods.forEach(function(formattedModification) {
+      for (var i = 0; i < $scope.mods.length; i++) {
+        if (formattedModification.name == $scope.mods[i].name) {
+          if (formattedModification.index == $scope.mods[i].index) {
+            if (formattedModification.deltaMass == $scope.mods[i].deltaMass) {
+              $scope.peptide.mods.push($scope.mods[i]);
+              break;
+            }
+          }
+        }
+      }
+    });
+  };
+
   $scope.swapToleranceType = function() {
     if ($scope.cutoffs.toleranceType === "Da") {
       $scope.cutoffs.toleranceType = "ppm";
@@ -266,7 +308,6 @@ myApp.controller('MasterCtrl', function($scope, $uibModal, $log, $localStorage, 
     } else if ($scope.peptide.charge > $scope.peptide.fragmentMax) {
       $scope.peptide.charge = $scope.peptide.fragmentMax;
     }
-    $log.log($scope.peptide.charge);
   }
 
   $scope.checkAlpha = function(string) {
@@ -317,6 +358,146 @@ myApp.controller('MasterCtrl', function($scope, $uibModal, $log, $localStorage, 
       return [];
     }
   }
+
+  $scope.loadMods = function() {
+    // parse modifications from database only one time. 
+    if ($scope.predeterminedMods.length == 0) {
+      var url = "support/php/RetrieveUnimodifications.php";
+      // send time stamp and file name as post data
+
+      $http.post(url)
+        .then( function(response) {
+          if (response.data.hasOwnProperty("error")) {
+            alert(response.data.error);
+          } else {
+            $scope.predeterminedMods = response.data;
+
+            // retrieve custom user modifications
+            url = "support/php/RetrieveUserModifications.php";
+            var data = {
+              timeStamp: $localStorage.timeStampIdentifier
+            };
+            
+            $http.post(url, data)
+              .then( function(response) {
+                if (response.data.hasOwnProperty("error")) {
+                  alert(response.data.error);
+                } else {
+                  $scope.userMods = response.data;
+
+                  $scope.potentialMods = $scope.userMods.concat($scope.predeterminedMods);
+                  $scope.mods = [];
+                  for (var i = 0; i < $scope.peptide.sequence.length; i++) {
+                    var char = $scope.peptide.sequence.charAt(i).toUpperCase();
+
+                    for (var j = 0; j < $scope.potentialMods.length; j++) {
+                      var mod = $scope.potentialMods[j];
+                      var addMod = {};
+                      if (mod.site.charAt(0) == char && mod.site != "N-terminus" && mod.site != "C-terminus") {
+                        addMod = 
+                        {
+                          name: mod.name,
+                          site: mod.site,
+                          index: i,
+                          deltaMass: mod.monoisotopicMassShift,
+                          unimod: mod.unimodId
+                        }
+                        if (!contains(addMod)) {
+                          $scope.mods.push(addMod);
+                        }
+                      } else if (mod.site == "N-terminus") {
+                        if (mod.hasOwnProperty("monoisotopicMassShift")) {
+                          addMod = 
+                          {
+                            name: mod.name,
+                            site: mod.site,
+                            index: -1,
+                            deltaMass: mod.monoisotopicMassShift,
+                            unimod: mod.unimodId
+                          };
+                        } 
+                        if (!contains(addMod)) {
+                          $scope.mods.push(addMod);
+                        }
+                      } else if (mod.site == "C-terminus") {
+                        if (mod.hasOwnProperty("monoisotopicMassShift")) {
+                          addMod = 
+                          {
+                            name: mod.name,
+                            site: mod.site,
+                            index: $scope.peptide.sequence.length,
+                            deltaMass: mod.monoisotopicMassShift,
+                            unimod: mod.unimodId
+                          };
+                          if (!contains(addMod)) {
+                            $scope.mods.push(addMod);
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              });
+          }
+        });
+    }
+    // modifications are already loaded. just check which are valid with the peptide sequence.
+    else {
+      $scope.mods = [];
+      for (var i = 0; i < $scope.peptide.sequence.length; i++) {
+        var char = $scope.peptide.sequence.charAt(i).toUpperCase();
+
+        for (var j = 0; j < $scope.potentialMods.length; j++) {
+          var mod = $scope.potentialMods[j];
+          var addMod = {};
+          if (mod.site.charAt(0) == char && mod.site != "N-terminus" && mod.site != "C-terminus") {
+            addMod = 
+            {
+              name: mod.name,
+              site: mod.site,
+              index: i,
+              deltaMass: mod.monoisotopicMassShift,
+              unimod: mod.unimodId
+            }
+            if (!contains(addMod)) {
+              $scope.mods.push(addMod);
+            }
+          } else if (mod.site == "N-terminus") {
+            addMod = 
+            {
+              name: mod.name,
+              site: mod.site,
+              index: -1,
+              deltaMass: mod.monoisotopicMassShift,
+              unimod: mod.unimodId
+            }; 
+            if (!contains(addMod)) {
+              $scope.mods.push(addMod);
+            }
+          } else if (mod.site == "C-terminus") {
+            addMod = 
+            {
+              name: mod.name,
+              site: mod.site,
+              index: $scope.peptide.sequence.length,
+              deltaMass: mod.monoisotopicMassShift,
+              unimod: mod.unimodId
+            };
+            if (!contains(addMod)) {
+              $scope.mods.push(addMod);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  $scope.$watchCollection('peptide.sequence', function () {
+    $scope.loadMods();
+  });
+
+  $scope.$watchCollection('modObject', function () {
+  });
 });
 
 myApp.controller('PeptideCtrl', function ($scope) {
@@ -331,6 +512,59 @@ myApp.controller('PeptideCtrl', function ($scope) {
 
 myApp.controller('DataCtrl', ['$scope', function ($scope) {
     $scope.selectedFormat = $scope.tableColumns[0];      
+}]);
+
+myApp.controller('ModCtrl', ['$scope', '$log', function ($scope, $log) {
+    $scope.modSelectOption = function(mod) {
+      var returnString = mod.name + ": " + mod.site;
+
+      if (mod.index != -1 && mod.index != $scope.peptide.sequence.length) {
+        returnString += mod.index + 1 
+      }
+
+      returnString += " (";
+
+      if (mod.hasOwnProperty("deltaMass")) {
+        if (mod.deltaMass > 0) {
+          returnString += "+";
+        }
+        returnString += mod.deltaMass + ")";
+      } else {
+        returnString += mod.elementChange + ")";
+      }
+
+      return returnString;
+    };
+
+    $scope.formatModificationOption = function(mod) {
+      var returnString = "<b>Modification Category: </b>";
+
+      if (mod.unimod) {
+        returnString += mod.unimod + "<br/>";
+      } else {
+        returnString += "User Modification<br/>";
+      }
+
+      returnString += "<b>Modification Name: </b>" + mod.name + "<br/>" 
+        + "<b>Modification Site: </b>"; 
+
+      if (mod.site) {
+        returnString += mod.site + "<br/>";
+      } else {
+        if (mod.index == 0) {
+          returnString += "N-terminus<br/>";
+        } else if (mod.index == $scope.peptide.sequence.length) {
+          returnString += "C-terminus<br/>";
+        } else {
+          returnString += $scope.peptide.sequence[mod.index] + "<br/>";
+        }
+      }
+
+      returnString += "<b>Modification Index: </b>" + (mod.index + 1) + "<br/>"
+        + "<b>Modification Mass Shift: </b>" + parseFloat(mod.deltaMass).toFixed(4);
+
+      return returnString;
+    };
 }]);
 
 myApp.controller('ColorCtrl', function ($scope) {

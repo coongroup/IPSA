@@ -57,8 +57,8 @@
           <div class="col-md-12">
             <div class="row">
               <div class="col-md-4">
-                <h4>Upload Identifications (.csv, 10MB max size)</h4>
-                <button class="btn btn-primary" type="file" ngf-select="uploadIdentifications($file, $invalidFiles)" ngf-pattern="'.csv'" accept=".csv" ngf-max-size="10MB" ng-disabled="files.identifications.isProcessing || files.peakList.isProcessing || files.modifications.isProcessing">
+                <h4>Upload Identifications (.csv, .mzTab, .mzid, 10MB max size)</h4>
+                <button class="btn btn-primary" type="file" ngf-select="uploadIdentifications($file, $invalidFiles)" ngf-pattern="'.csv,.mzTab,.mzid'" accept=".csv,.mzTab,.mzid" ngf-max-size="10MB" ng-disabled="files.identifications.isProcessing || files.peakList.isProcessing || files.modifications.isProcessing">
                   <Span ng-hide="files.identifications.isProcessing">Select File</Span>
                   <div ng-show="files.identifications.isProcessing">
                     <i class="fa fa-superpowers fa-spin" aria-hidden="true"></i>

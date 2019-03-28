@@ -169,7 +169,7 @@ angular.module("IPSA.spectrum.controller").controller("GraphCtrl", ["$scope", "$
   $scope.processData = function() {
     var url = "";
     if ($scope.peptide.precursorCharge > 0) {
-      url = "support/php/ProcessData.php";
+      url = "support/php/processData.php";
     } else {
       url = "support/php/NegativeModeProcessData.php";
     }
