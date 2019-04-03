@@ -1,0 +1,30 @@
+<html ng-app="myApp">
+  <head>
+    <!-- Javascript Dependencies -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <script src="js/lodash.min.js" charset="utf-8"></script>
+    <script src="js/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/d3-ease.v1.min.js"></script>
+    <script src="js/IPSA.js"></script>
+    <script src="js/d3-tip.js"></script>
+
+    <!-- CSS Dependencies -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Montserrat.css" rel="stylesheet">
+    <link href="css/Open+Sans.css" rel="stylesheet">
+    <link href="css/Inconsolata.css" rel="stylesheet">
+    <link href="css/PeptideAnnotator.css" rel="stylesheet">
+
+    <!-- Your custom Javascript code, which provides the spectrum renderer with the spectral data and annotations -->
+    <script src="js/MyCustomJavascript.js"></script>
+  </head>
+  <body>
+    <div ng-controller="plotCtrl">
+      <div class="col-md-6">
+        <div annotated-spectrum plotdata="myData.plotData" peptide="myData.peptide" settings="myData.settings" class="content"></div>
+        <button ng-click="randomize()">Click me to randomize data</button>
+      </div>
+    </div>
+  </body>
+</html>

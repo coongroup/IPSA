@@ -1,0 +1,333 @@
+/* navbar */
+img {
+  max-height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+}
+
+.navbar-default {
+  background-color: #231d49;
+  border-color: #534e72;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+  background-color: #534e72;
+}
+
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #534e72;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #534e72;
+}
+.na
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #534e72;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #534e72;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #534e72;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 40px;
+}
+
+.navbar-nav {
+  font-size: 16px;
+}
+
+.navbar .divider-vertical {
+  height: 30px;
+  margin-top: 10px;
+  border-right: 1px solid #ffffff;
+}
+
+/* panel css */
+.panel > .panel-heading {
+  background-image: none;
+  color: #ffffff;
+  background-color: #231d49;
+  border-color: #000000;
+}
+
+.select2-results li > div:hover {
+color: #FFFFFF;
+background: #000000;
+}
+
+.panel {
+  border-color: #000000;
+}
+.panel-title {
+  font-size: 22px;
+}
+
+.panel > .panel-body {
+  background-image: none;
+  background-color: #e2e2e3;
+  border-color: #000000;
+}
+
+/* handsontable css */
+.handsontable table thead th {
+  background-color: #231d49;
+  color:white;
+}
+
+/* Button */
+/* fragment */
+.btn-fragment { 
+  background-color: rgba(51,122,183,0.95);
+  color: #ffffff;
+  border-color: #555555; 
+  transition: all .5s;
+} 
+ 
+.btn-fragment:hover, 
+.btn-fragment:focus {
+  color: #000000; 
+  background-color: rgba(51,122,183,0.4);
+  border-color: #555555; 
+} 
+
+.btn-fragment:active, 
+.btn-fragment.active, 
+.open .dropdown-toggle.btn-fragment { 
+  color: #000000; 
+  background-color: rgba(51,122,183,0.4);
+  border-color: #555555; 
+} 
+
+/* Class Font Options */
+.tick text {
+  font-family: Montserrat, sans-serif;
+  font-weight: 100;
+}
+
+label {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+}
+
+.filelabel {
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  overflow: scroll;
+}
+
+.barlabel {
+   font-family: Open Sans, sans-serif;
+   text-anchor: middle;
+   font-size: 16px;
+}
+
+.aminoacid {
+  font-family: 'Inconsolata', monospace;
+  text-anchor: middle;
+  alignment-baseline: central;
+  dominant-baseline: central;
+}
+
+.precursorstatscategory {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.precursorstatsdata {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.zeroline {
+  stroke-dasharray: 10, 5;
+  stroke: #A6A6A6;
+  fill: #A9A9A9;
+}
+
+/* D3 CSS */
+.chart .domain {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.xAnnotationLabel, 
+.yAnnotationLabel,
+.yQTLLabel,
+.yGeneLabel,
+.xLodLabel,
+.yLodLabel,
+.yAlleleLabel {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  text-anchor: middle;
+}
+
+.xAnnotationLabel {
+  font-style: italic;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.tick line { 
+  stroke: black
+}
+
+.line {
+  fill: none;
+  stroke-width: 2;
+}
+
+/* probably won't work tooltip */
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+  pointer-events:none !imporatant;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  pointer-events:none !imporatant;
+}
+
+.ui-select-bootstrap .ui-select-choices-row>span {
+  white-space: normal !important;
+}
+
+.ui-select-placeholder {
+  display:inline-block;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  width:95%;
+}
+
+.ui-select-match-text > span {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 40px;
+}
+
+.ui-select-toggle {
+  height: auto;
+}
+
+.ui-select-choices-row:hover {
+background-color: #3875d7;
+color: #fff;
+}
+
+div.valid-data i {
+  vertical-align:middle;  
+}
+
+/* unvisited link */
+a:link {
+  color: #1c9cbc;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+
+.pull-right {
+  float: right !important;
+  margin-top: 5px;
+}
+
+.table {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}

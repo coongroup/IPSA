@@ -1,7 +1,3 @@
-/* Welcome to the mess that is PeptideAnnotator.js */
-// TODO:
-// Make it work
-
 angular.module("IPSA.spectrum.controller", []);
 angular.module("IPSA.directive", []);
 
